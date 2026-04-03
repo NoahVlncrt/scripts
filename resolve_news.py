@@ -70,15 +70,25 @@ def resolve_google_url(google_url):
         return google_url
 
 def extract_content(url):
-    """Extracts the full text of an article using trafilatura."""
+    """Extracts the full text and lead image of an article."""
     try:
-        downloaded = trafilatura.fetch_url(url)
-        if downloaded:
-            content = trafilatura.extract(downloaded)
-            return content
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        }
+        response = requests.get(url, headers=headers, timeout=15)
+        if response.status_code == 200:
+            html = response.text
+            # Extract HTML content with formatting and images
+            content = trafilatura.extract(html, include_images=True, include_formatting=True, output_format='html')
+            
+            # Try to get a lead image from metadata
+            metadata = trafilatura.extract_metadata(html)
+            lead_image = getattr(metadata, 'image', None) if metadata else None
+            
+            return content, lead_image
     except Exception as e:
         print(f"Error extracting content from {url}: {e}")
-    return None
+    return None, None
 
 def main(feed_url, output_file):
     print(f"Fetching feed: {feed_url}")
@@ -114,22 +124,24 @@ def main(feed_url, output_file):
         
         # Check cache
         cache_entry = cache.get(entry.link)
-        if cache_entry and isinstance(cache_entry, dict):
+        if cache_entry and isinstance(cache_entry, dict) and cache_entry.get('content'):
             resolved_link = cache_entry.get('url')
             full_text = cache_entry.get('content')
+            lead_image = cache_entry.get('lead_image')
             print(f"Cache hit: {entry.link}")
         else:
             print(f"Resolving: {entry.link}")
             resolved_link = resolve_google_url(entry.link)
             print(f"Resolved to: {resolved_link}")
             
-            # Extract content if we have a new URL or forced update
-            full_text = extract_content(resolved_link)
+            # Extract content if we have a new URL
+            full_text, lead_image = extract_content(resolved_link)
             
-            # Update cache with both URL and content
+            # Update cache with URL, content, and lead image
             cache[entry.link] = {
                 'url': resolved_link,
                 'content': full_text,
+                'lead_image': lead_image,
                 'timestamp': time.time()
             }
             
@@ -141,8 +153,19 @@ def main(feed_url, output_file):
         item_link.text = resolved_link
         
         # Description (using full text if available, otherwise original summary)
+        # Prepend lead image if available
+        final_description = ""
+        if lead_image:
+            final_description += f'<img src="{lead_image}" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" />'
+        
+        if full_text:
+            final_description += full_text
+        else:
+            final_description += entry.get('summary', '')
+
         item_desc = etree.SubElement(item, "description")
-        item_desc.text = full_text if full_text else entry.get('summary', '')
+        # Use CDATA for HTML content
+        item_desc.text = etree.CDATA(final_description)
         
         # Source
         if 'source' in entry:
