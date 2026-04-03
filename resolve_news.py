@@ -10,6 +10,93 @@ import trafilatura
 
 CACHE_FILE = 'cache.json'
 
+NATIONAL_PUBLISHERS = {
+    'ABC News', 'AP News', 'Al Jazeera', 'BBC', 'CNBC', 'CNN', 'Fox News', 
+    'NASA (.gov)', 'NASA Science (.gov)', 'NBC News', 'NPR', 
+    'National Geographic', 'PBS', 'Reuters', 'Scientific American', 'Space', 
+    'The Guardian', 'The New York Times', 'The Washington Post', 'USA Today', 
+    'The Verge', 'Wired', 'Ars Technica', 'Axios', 'Bloomberg', 
+    'Wall Street Journal', 'The Atlantic', 'Forbes', 'Time', 'cbsnews.com',
+    'cbc.ca', 'CTV News', 'Financial Times', 'The New Yorker', 'Vox', 'The Hill',
+    'Politico', 'Popular Science', 'Live Science', 'The Economist', 'HuffPost', 
+    'Business Insider', 'Mashable', 'The Independent', 'The Boston Globe', 
+    'The Seattle Times', 'The Daily Beast', 'New York Post', 'CBS News', 
+    'Associated Press', 'Nature'
+}
+
+def is_national_publisher(entry):
+    """Checks if the entry is from a larger national publication."""
+    source = entry.get('source', {}).get('title', '').strip()
+    if not source:
+        # Try to extract from title "Title - Source"
+        if ' - ' in entry.title:
+            source = entry.title.split(' - ')[-1].strip()
+    
+    if not source:
+        return False
+    
+    source_lower = source.lower()
+    whitelist_lower = {p.lower() for p in NATIONAL_PUBLISHERS}
+    
+    # Direct match or any whitelist item contained in the source title
+    if source_lower in whitelist_lower:
+        return True
+    
+    for pub in whitelist_lower:
+        if pub in source_lower:
+            return True
+            
+    return False
+
+def clean_extracted_content(html_content):
+    """Post-processes extracted HTML to remove remaining ad or navigation text."""
+    if not html_content:
+        return None
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Patterns to remove (case-insensitive)
+    bad_patterns = [
+        "video ad feedback",
+        "video ad",
+        "advertisement",
+        "sign up for our newsletter",
+        "subscribe to",
+        "read more:",
+        "related stories",
+        "click here",
+        "supported by",
+        "follow us on",
+        "share this",
+        "loading...",
+        "please enable javascript",
+        "your browser does not support",
+        "all rights reserved",
+        "copyright",
+        "here’s what else you need to know",
+        "get up to speed and on with your day",
+        "shopping trends team",
+        "independent of the journalists",
+        "may earn a commission",
+        "subscribe to our",
+        "read the full story",
+    ]
+    
+    for element in soup.find_all(['p', 'div', 'span', 'h4', 'h5', 'h6', 'strong']):
+        text = element.get_text().strip().lower()
+        if not text:
+            continue
+        if any(p in text for p in bad_patterns):
+            # If it's a small element or specifically matches a pattern, remove it
+            if len(text) < 200: # Don't remove huge paragraphs by accident
+                element.decompose()
+            
+    # Remove empty elements
+    for element in soup.find_all():
+        if len(element.get_text(strip=True)) == 0 and element.name not in ['img', 'graphic']:
+            element.decompose()
+            
+    return str(soup)
+
 def load_cache():
     if os.path.exists(CACHE_FILE):
         try:
@@ -72,7 +159,13 @@ def extract_content(url):
         if response.status_code == 200:
             html = response.text
             # Extract HTML content with formatting and images
-            content = trafilatura.extract(html, include_images=True, include_formatting=True, output_format='html')
+            # include_links=False helps remove a lot of navigation text
+            content = trafilatura.extract(html, include_images=True, include_formatting=True, 
+                                          output_format='html', favor_precision=True,
+                                          include_links=False)
+            
+            # Post-process to remove remaining junk
+            content = clean_extracted_content(content)
             
             # Try to get a lead image from metadata
             metadata = trafilatura.extract_metadata(html)
@@ -105,9 +198,14 @@ def main(feed_url, output_file, use_cache=True):
     description = etree.SubElement(channel, "description")
     description.text = feed.channel.get('description', 'Resolved Google News RSS feed with full text')
 
-    # Limit to the most recent 25 entries
-    entries_to_process = feed.entries[:25]
-    print(f"Processing {len(entries_to_process)} entries (limited to 25)...")
+    # Filter for national publishers
+    all_entries = feed.entries
+    national_entries = [e for e in all_entries if is_national_publisher(e)]
+    print(f"Found {len(national_entries)} national entries out of {len(all_entries)} total.")
+
+    # Limit to the most recent 25 national entries
+    entries_to_process = national_entries[:25]
+    print(f"Processing {len(entries_to_process)} national entries (limited to 25)...")
     for entry in entries_to_process:
         # Check cache
         cache_entry = cache.get(entry.link)
