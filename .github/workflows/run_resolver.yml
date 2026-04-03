@@ -29,14 +29,16 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             python resolve_news.py --output resolved_news.xml --no-cache
+            python resolve_news.py --output resolved_25.xml --no-cache
           else
             python resolve_news.py --output resolved_news.xml
+            python resolve_news.py --output resolved_25.xml
           fi
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add resolved_news.xml cache.json
+          git add resolved_news.xml resolved_25.xml cache.json
           git commit -m "Update resolved Google News RSS and cache" || echo "No changes to commit"
           git push
