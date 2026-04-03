@@ -1,5 +1,5 @@
+from curl_cffi import requests
 import feedparser
-import requests
 import argparse
 from lxml import etree
 import time
@@ -31,18 +31,13 @@ def resolve_google_url(google_url):
     Resolves a Google News redirect URL to its final destination using the 2024/2025 batchexecute method.
     """
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        }
-        # 1. Fetch the intermediate page
-        response = requests.get(google_url, headers=headers, timeout=10)
+        # Use curl_cffi for resolving too, to be safe
+        response = requests.get(google_url, impersonate="chrome", timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
         
         # 2. Extract the 'data-p' attribute from c-wiz
         wiz_element = soup.select_one('c-wiz[data-p]')
         if not wiz_element:
-            # Fallback to simple response.url if we can't find the token
             return response.url
             
         data_p = wiz_element.get('data-p')
@@ -55,7 +50,7 @@ def resolve_google_url(google_url):
         
         # 4. Send the POST request to the decoder endpoint
         api_url = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
-        post_resp = requests.post(api_url, headers=headers, data=payload, timeout=10)
+        post_resp = requests.post(api_url, impersonate="chrome", data=payload, timeout=10)
         
         # 5. Parse the response
         cleaned_response = post_resp.text.replace(")]}'", "").strip()
@@ -70,12 +65,10 @@ def resolve_google_url(google_url):
         return google_url
 
 def extract_content(url):
-    """Extracts the full text and lead image of an article."""
+    """Extracts the full text and lead image of an article using curl_cffi for Cloudflare bypass."""
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        }
-        response = requests.get(url, headers=headers, timeout=15)
+        # impersonate="chrome" mimics a real browser TLS fingerprint
+        response = requests.get(url, impersonate="chrome", timeout=20)
         if response.status_code == 200:
             html = response.text
             # Extract HTML content with formatting and images
@@ -86,6 +79,8 @@ def extract_content(url):
             lead_image = getattr(metadata, 'image', None) if metadata else None
             
             return content, lead_image
+        else:
+            print(f"Failed to fetch {url}, status: {response.status_code}")
     except Exception as e:
         print(f"Error extracting content from {url}: {e}")
     return None, None

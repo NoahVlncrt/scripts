@@ -1,5 +1,5 @@
 feedparser
-requests
+curl_cffi
 lxml
 beautifulsoup4
 trafilatura
