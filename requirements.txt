@@ -1,3 +1,5 @@
 feedparser
 requests
 lxml
+beautifulsoup4
+trafilatura

@@ -3,26 +3,89 @@ import requests
 import argparse
 from lxml import etree
 import time
+import json
+import os
+from bs4 import BeautifulSoup
+import trafilatura
 
-def resolve_url(url):
-    """Resolves a Google News redirect URL to its final destination."""
+CACHE_FILE = 'cache.json'
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading cache: {e}")
+    return {}
+
+def save_cache(cache):
+    try:
+        with open(CACHE_FILE, 'w') as f:
+            json.dump(cache, f, indent=2)
+    except Exception as e:
+        print(f"Error saving cache: {e}")
+
+def resolve_google_url(google_url):
+    """
+    Resolves a Google News redirect URL to its final destination using the 2024/2025 batchexecute method.
+    """
     try:
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         }
-        # Use GET instead of HEAD because many news sites block HEAD requests
-        # We only need the final URL, so we can use stream=True to avoid downloading the whole body
-        with requests.get(url, allow_redirects=True, headers=headers, timeout=15, stream=True) as response:
+        # 1. Fetch the intermediate page
+        response = requests.get(google_url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # 2. Extract the 'data-p' attribute from c-wiz
+        wiz_element = soup.select_one('c-wiz[data-p]')
+        if not wiz_element:
+            # Fallback to simple response.url if we can't find the token
             return response.url
+            
+        data_p = wiz_element.get('data-p')
+        
+        # 3. Format the payload for the batchexecute API
+        obj = json.loads(data_p.replace('%.@.', '["garturlreq",'))
+        payload = {
+            'f.req': json.dumps([[['Fbv4je', json.dumps(obj[:-6] + obj[-2:]), 'null', 'generic']]])
+        }
+        
+        # 4. Send the POST request to the decoder endpoint
+        api_url = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+        post_resp = requests.post(api_url, headers=headers, data=payload, timeout=10)
+        
+        # 5. Parse the response
+        cleaned_response = post_resp.text.replace(")]}'", "").strip()
+        response_data = json.loads(cleaned_response)
+        
+        # The final URL is nested deep in the response array
+        article_url = json.loads(response_data[0][2])[1]
+        return article_url
+        
     except Exception as e:
-        print(f"Error resolving {url}: {e}")
-        return url
+        print(f"Error resolving {google_url}: {e}")
+        return google_url
+
+def extract_content(url):
+    """Extracts the full text of an article using trafilatura."""
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            content = trafilatura.extract(downloaded)
+            return content
+    except Exception as e:
+        print(f"Error extracting content from {url}: {e}")
+    return None
 
 def main(feed_url, output_file):
     print(f"Fetching feed: {feed_url}")
     feed = feedparser.parse(feed_url)
     
+    cache = load_cache()
+
     # Create the root element for the new XML
     root = etree.Element("rss", version="2.0")
     channel = etree.SubElement(root, "channel")
@@ -35,7 +98,7 @@ def main(feed_url, output_file):
     link.text = feed.channel.get('link', '')
     
     description = etree.SubElement(channel, "description")
-    description.text = feed.channel.get('description', 'Resolved Google News RSS feed')
+    description.text = feed.channel.get('description', 'Resolved Google News RSS feed with full text')
 
     print(f"Processing {len(feed.entries)} entries...")
     for entry in feed.entries:
@@ -49,15 +112,37 @@ def main(feed_url, output_file):
         item_pubdate = etree.SubElement(item, "pubDate")
         item_pubdate.text = entry.get('published', '')
         
-        # Resolved Link
-        print(f"Resolving: {entry.link}")
-        resolved_link = resolve_url(entry.link)
+        # Check cache
+        cache_entry = cache.get(entry.link)
+        if cache_entry and isinstance(cache_entry, dict):
+            resolved_link = cache_entry.get('url')
+            full_text = cache_entry.get('content')
+            print(f"Cache hit: {entry.link}")
+        else:
+            print(f"Resolving: {entry.link}")
+            resolved_link = resolve_google_url(entry.link)
+            print(f"Resolved to: {resolved_link}")
+            
+            # Extract content if we have a new URL or forced update
+            full_text = extract_content(resolved_link)
+            
+            # Update cache with both URL and content
+            cache[entry.link] = {
+                'url': resolved_link,
+                'content': full_text,
+                'timestamp': time.time()
+            }
+            
+            # Wait to avoid being rate-limited
+            time.sleep(1.0)
+        
+        # Item Link
         item_link = etree.SubElement(item, "link")
         item_link.text = resolved_link
         
-        # Description
+        # Description (using full text if available, otherwise original summary)
         item_desc = etree.SubElement(item, "description")
-        item_desc.text = entry.get('summary', '')
+        item_desc.text = full_text if full_text else entry.get('summary', '')
         
         # Source
         if 'source' in entry:
@@ -67,9 +152,8 @@ def main(feed_url, output_file):
         # Guid
         item_guid = etree.SubElement(item, "guid", isPermaLink="false")
         item_guid.text = entry.get('id', resolved_link)
-        
-        # Wait to avoid being rate-limited by destination servers
-        time.sleep(0.5)
+
+    save_cache(cache)
 
     # Write to file
     tree = etree.ElementTree(root)
@@ -77,7 +161,7 @@ def main(feed_url, output_file):
     print(f"Saved resolved feed to {output_file}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Resolve Google News RSS redirects.")
+    parser = argparse.ArgumentParser(description="Resolve Google News RSS redirects and extract content.")
     parser.add_argument("--url", default="https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en", help="Google News RSS URL")
     parser.add_argument("--output", default="resolved_news.xml", help="Output XML filename")
     
