@@ -85,11 +85,11 @@ def extract_content(url):
         print(f"Error extracting content from {url}: {e}")
     return None, None
 
-def main(feed_url, output_file):
+def main(feed_url, output_file, use_cache=True):
     print(f"Fetching feed: {feed_url}")
     feed = feedparser.parse(feed_url)
     
-    cache = load_cache()
+    cache = load_cache() if use_cache else {}
 
     # Create the root element for the new XML
     root = etree.Element("rss", version="2.0")
@@ -182,6 +182,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Resolve Google News RSS redirects and extract content.")
     parser.add_argument("--url", default="https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en", help="Google News RSS URL")
     parser.add_argument("--output", default="resolved_news.xml", help="Output XML filename")
+    parser.add_argument("--no-cache", action="store_true", help="Ignore any cached content and regenerate fresh")
     
     args = parser.parse_args()
-    main(args.url, args.output)
+    main(args.url, args.output, use_cache=not args.no_cache)

@@ -27,7 +27,11 @@ jobs:
 
       - name: Run resolver script
         run: |
-          python resolve_news.py --output resolved_news.xml
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            python resolve_news.py --output resolved_news.xml --no-cache
+          else
+            python resolve_news.py --output resolved_news.xml
+          fi
 
       - name: Commit and push changes
         run: |
