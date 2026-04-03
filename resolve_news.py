@@ -78,7 +78,7 @@ def main(feed_url, output_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Resolve Google News RSS redirects.")
-    parser.add_argument("--url", default="https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en", help="Google News RSS URL")
+    parser.add_argument("--url", default="https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en", help="Google News RSS URL")
     parser.add_argument("--output", default="resolved_news.xml", help="Output XML filename")
     
     args = parser.parse_args()
