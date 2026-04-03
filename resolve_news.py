@@ -105,18 +105,10 @@ def main(feed_url, output_file, use_cache=True):
     description = etree.SubElement(channel, "description")
     description.text = feed.channel.get('description', 'Resolved Google News RSS feed with full text')
 
-    print(f"Processing {len(feed.entries)} entries...")
-    for entry in feed.entries:
-        item = etree.SubElement(channel, "item")
-        
-        # Original Title
-        item_title = etree.SubElement(item, "title")
-        item_title.text = entry.title
-        
-        # Original PubDate
-        item_pubdate = etree.SubElement(item, "pubDate")
-        item_pubdate.text = entry.get('published', '')
-        
+    # Limit to the most recent 25 entries
+    entries_to_process = feed.entries[:25]
+    print(f"Processing {len(entries_to_process)} entries (limited to 25)...")
+    for entry in entries_to_process:
         # Check cache
         cache_entry = cache.get(entry.link)
         if cache_entry and isinstance(cache_entry, dict) and cache_entry.get('content'):
@@ -129,34 +121,47 @@ def main(feed_url, output_file, use_cache=True):
             resolved_link = resolve_google_url(entry.link)
             print(f"Resolved to: {resolved_link}")
             
-            # Extract content if we have a new URL
+            # Extract content
             full_text, lead_image = extract_content(resolved_link)
             
-            # Update cache with URL, content, and lead image
-            cache[entry.link] = {
-                'url': resolved_link,
-                'content': full_text,
-                'lead_image': lead_image,
-                'timestamp': time.time()
-            }
+            if full_text:
+                # Update cache
+                cache[entry.link] = {
+                    'url': resolved_link,
+                    'content': full_text,
+                    'lead_image': lead_image,
+                    'timestamp': time.time()
+                }
             
             # Wait to avoid being rate-limited
             time.sleep(1.0)
+
+        # Skip this entry if we couldn't get the full text or resolution failed
+        if not full_text:
+            print(f"Skipping {entry.link} due to missing content or resolution error.")
+            continue
+
+        item = etree.SubElement(channel, "item")
+        
+        # Original Title
+        item_title = etree.SubElement(item, "title")
+        item_title.text = entry.title
+        
+        # Original PubDate
+        item_pubdate = etree.SubElement(item, "pubDate")
+        item_pubdate.text = entry.get('published', '')
         
         # Item Link
         item_link = etree.SubElement(item, "link")
         item_link.text = resolved_link
         
-        # Description (using full text if available, otherwise original summary)
+        # Description (using full text if available)
         # Prepend lead image if available
         final_description = ""
         if lead_image:
             final_description += f'<img src="{lead_image}" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" />'
         
-        if full_text:
-            final_description += full_text
-        else:
-            final_description += entry.get('summary', '')
+        final_description += full_text
 
         item_desc = etree.SubElement(item, "description")
         # Use CDATA for HTML content
@@ -173,9 +178,10 @@ def main(feed_url, output_file, use_cache=True):
 
     save_cache(cache)
 
-    # Write to file
-    tree = etree.ElementTree(root)
-    tree.write(output_file, pretty_print=True, xml_declaration=True, encoding="utf-8")
+    # Write to file with explicit pretty printing
+    xml_data = etree.tostring(root, pretty_print=True, xml_declaration=True, encoding="utf-8")
+    with open(output_file, "wb") as f:
+        f.write(xml_data)
     print(f"Saved resolved feed to {output_file}")
 
 if __name__ == "__main__":
