@@ -41,6 +41,16 @@ You can add or modify searches by editing `searches.json`:
    ```
    This will process all searches defined in `searches.json` and generate the corresponding `.xml` files.
 
+## 🚀 Automation with GitHub Actions
+
+This project is fully automated! Using GitHub Actions, the resolver runs on a **set schedule** multiple times a day to ensure your RSS feeds are always fresh and up-to-date without you ever having to lift a finger.
+
+- **Set and Forget:** The pre-configured workflow handles everything—from fetching the latest news to extracting full text and updating your feeds.
+- **Auto-Commit:** Any new articles found are automatically committed and pushed back to your repository, so you can point your RSS reader at the raw XML URLs.
+- **Manual Trigger:** Want an update *right now*? You can manually trigger the workflow at any time from the "Actions" tab in your GitHub repository.
+
+To use this, just push this project to a GitHub repository, and the automation will take over!
+
 ## Credits & Tools
 - [curl_cffi](https://github.com/yifeikong/curl_cffi) - For browser-like TLS fingerprints.
 - [trafilatura](https://trafilatura.readthedocs.io/) - For high-quality web scraping and text extraction.
