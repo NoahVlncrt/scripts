@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Artemis II",
+    "url": "https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en",
+    "output": "artemis_ii.xml"
+  },
+  {
+    "name": "Artemis III",
+    "url": "https://news.google.com/rss/search?q=Artemis+III&hl=en-US&gl=US&ceid=US:en",
+    "output": "artemis_iii.xml"
+  }
+]

@@ -11,7 +11,7 @@ import trafilatura
 CACHE_FILE = 'cache.json'
 
 NATIONAL_PUBLISHERS = {
-    'ABC News', 'AP News', 'Al Jazeera', 'BBC', 'CNBC', 'CNN', 'Fox News', 
+    'ABC News', 'AP News', 'Al Jazeera', 'BBC', 'CNBC', 'CNN', 
     'NASA (.gov)', 'NASA Science (.gov)', 'NBC News', 'NPR', 
     'National Geographic', 'PBS', 'Reuters', 'Scientific American', 'Space', 
     'The Guardian', 'The New York Times', 'The Washington Post', 'USA Today', 
@@ -178,115 +178,141 @@ def extract_content(url):
         print(f"Error extracting content from {url}: {e}")
     return None, None
 
-def main(feed_url, output_file, use_cache=True):
-    print(f"Fetching feed: {feed_url}")
-    feed = feedparser.parse(feed_url)
-    
+def main(searches, use_cache=True):
     cache = load_cache() if use_cache else {}
 
-    # Create the root element for the new XML
-    root = etree.Element("rss", version="2.0")
-    channel = etree.SubElement(root, "channel")
-    
-    # Copy channel-level info
-    title = etree.SubElement(channel, "title")
-    title.text = feed.channel.get('title', 'Google News Resolved')
-    
-    link = etree.SubElement(channel, "link")
-    link.text = feed.channel.get('link', '')
-    
-    description = etree.SubElement(channel, "description")
-    description.text = feed.channel.get('description', 'Resolved Google News RSS feed with full text')
-
-    # Filter for national publishers
-    all_entries = feed.entries
-    national_entries = [e for e in all_entries if is_national_publisher(e)]
-    print(f"Found {len(national_entries)} national entries out of {len(all_entries)} total.")
-
-    # Limit to the most recent 25 national entries
-    entries_to_process = national_entries[:25]
-    print(f"Processing {len(entries_to_process)} national entries (limited to 25)...")
-    for entry in entries_to_process:
-        # Check cache
-        cache_entry = cache.get(entry.link)
-        if cache_entry and isinstance(cache_entry, dict) and cache_entry.get('content'):
-            resolved_link = cache_entry.get('url')
-            full_text = cache_entry.get('content')
-            lead_image = cache_entry.get('lead_image')
-            print(f"Cache hit: {entry.link}")
-        else:
-            print(f"Resolving: {entry.link}")
-            resolved_link = resolve_google_url(entry.link)
-            print(f"Resolved to: {resolved_link}")
-            
-            # Extract content
-            full_text, lead_image = extract_content(resolved_link)
-            
-            if full_text:
-                # Update cache
-                cache[entry.link] = {
-                    'url': resolved_link,
-                    'content': full_text,
-                    'lead_image': lead_image,
-                    'timestamp': time.time()
-                }
-            
-            # Wait to avoid being rate-limited
-            time.sleep(1.0)
-
-        # Skip this entry if we couldn't get the full text or resolution failed
-        if not full_text:
-            print(f"Skipping {entry.link} due to missing content or resolution error.")
+    for search in searches:
+        name = search.get('name', 'Unknown')
+        feed_url = search.get('url')
+        output_file = search.get('output', 'resolved_news.xml')
+        
+        if not feed_url:
+            print(f"Skipping search '{name}' due to missing URL.")
             continue
 
-        item = etree.SubElement(channel, "item")
+        print(f"\n--- Processing search: {name} ---")
+        print(f"Fetching feed: {feed_url}")
+        feed = feedparser.parse(feed_url)
         
-        # Original Title
-        item_title = etree.SubElement(item, "title")
-        item_title.text = entry.title
+        # Create the root element for the new XML
+        root = etree.Element("rss", version="2.0")
+        channel = etree.SubElement(root, "channel")
         
-        # Original PubDate
-        item_pubdate = etree.SubElement(item, "pubDate")
-        item_pubdate.text = entry.get('published', '')
+        # Copy channel-level info
+        title = etree.SubElement(channel, "title")
+        title.text = feed.channel.get('title', f"Google News Resolved - {name}")
         
-        # Item Link
-        item_link = etree.SubElement(item, "link")
-        item_link.text = resolved_link
+        link = etree.SubElement(channel, "link")
+        link.text = feed.channel.get('link', '')
         
-        # Description (using full text if available)
-        # Prepend lead image if available
-        final_description = ""
-        if lead_image:
-            final_description += f'<img src="{lead_image}" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" />'
-        
-        final_description += full_text
+        description = etree.SubElement(channel, "description")
+        description.text = feed.channel.get('description', f"Resolved Google News RSS feed for {name} with full text")
 
-        item_desc = etree.SubElement(item, "description")
-        # Use CDATA for HTML content
-        item_desc.text = etree.CDATA(final_description)
-        
-        # Source
-        if 'source' in entry:
-            source = etree.SubElement(item, "source", url=entry.source.get('href', ''))
-            source.text = entry.source.get('title', '')
+        # Filter for national publishers
+        all_entries = feed.entries
+        national_entries = [e for e in all_entries if is_national_publisher(e)]
+        print(f"Found {len(national_entries)} national entries out of {len(all_entries)} total.")
+
+        # Limit to the most recent 25 national entries
+        entries_to_process = national_entries[:25]
+        print(f"Processing {len(entries_to_process)} national entries (limited to 25)...")
+        for entry in entries_to_process:
+            # Check cache
+            cache_entry = cache.get(entry.link)
+            if cache_entry and isinstance(cache_entry, dict) and cache_entry.get('content'):
+                resolved_link = cache_entry.get('url')
+                full_text = cache_entry.get('content')
+                lead_image = cache_entry.get('lead_image')
+                print(f"Cache hit: {entry.link}")
+            else:
+                print(f"Resolving: {entry.link}")
+                resolved_link = resolve_google_url(entry.link)
+                print(f"Resolved to: {resolved_link}")
+                
+                # Extract content
+                full_text, lead_image = extract_content(resolved_link)
+                
+                if full_text:
+                    # Update cache
+                    cache[entry.link] = {
+                        'url': resolved_link,
+                        'content': full_text,
+                        'lead_image': lead_image,
+                        'timestamp': time.time()
+                    }
+                
+                # Wait to avoid being rate-limited
+                time.sleep(1.0)
+
+            # Skip this entry if we couldn't get the full text or resolution failed
+            if not full_text:
+                print(f"Skipping {entry.link} due to missing content or resolution error.")
+                continue
+
+            item = etree.SubElement(channel, "item")
             
-        # Guid
-        item_guid = etree.SubElement(item, "guid", isPermaLink="false")
-        item_guid.text = entry.get('id', resolved_link)
+            # Original Title
+            item_title = etree.SubElement(item, "title")
+            item_title.text = entry.title
+            
+            # Original PubDate
+            item_pubdate = etree.SubElement(item, "pubDate")
+            item_pubdate.text = entry.get('published', '')
+            
+            # Item Link
+            item_link = etree.SubElement(item, "link")
+            item_link.text = resolved_link
+            
+            # Description (using full text if available)
+            # Prepend lead image if available
+            final_description = ""
+            if lead_image:
+                final_description += f'<img src="{lead_image}" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" />'
+            
+            final_description += full_text
 
+            item_desc = etree.SubElement(item, "description")
+            # Use CDATA for HTML content
+            item_desc.text = etree.CDATA(final_description)
+            
+            # Source
+            if 'source' in entry:
+                source = etree.SubElement(item, "source", url=entry.source.get('href', ''))
+                source.text = entry.source.get('title', '')
+                
+            # Guid
+            item_guid = etree.SubElement(item, "guid", isPermaLink="false")
+            item_guid.text = entry.get('id', resolved_link)
+
+        # Write to file for EACH search
+        xml_data = etree.tostring(root, pretty_print=True, xml_declaration=True, encoding="utf-8")
+        with open(output_file, "wb") as f:
+            f.write(xml_data)
+        print(f"Saved resolved feed to {output_file}")
+
+    # Save cache once at the end
     save_cache(cache)
-
-    # Write to file with explicit pretty printing
-    xml_data = etree.tostring(root, pretty_print=True, xml_declaration=True, encoding="utf-8")
-    with open(output_file, "wb") as f:
-        f.write(xml_data)
-    print(f"Saved resolved feed to {output_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Resolve Google News RSS redirects and extract content.")
-    parser.add_argument("--url", default="https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en", help="Google News RSS URL")
-    parser.add_argument("--output", default="resolved_news.xml", help="Output XML filename")
+    parser.add_argument("--config", default="searches.json", help="Path to JSON configuration file with searches")
     parser.add_argument("--no-cache", action="store_true", help="Ignore any cached content and regenerate fresh")
     
     args = parser.parse_args()
-    main(args.url, args.output, use_cache=not args.no_cache)
+    
+    if os.path.exists(args.config):
+        try:
+            with open(args.config, 'r') as f:
+                searches_to_run = json.load(f)
+        except Exception as e:
+            print(f"Error reading config {args.config}: {e}")
+            exit(1)
+    else:
+        # Fallback to single default search if config doesn't exist
+        searches_to_run = [{
+            "name": "Artemis II",
+            "url": "https://news.google.com/rss/search?q=Artemis+II&hl=en-US&gl=US&ceid=US:en",
+            "output": "resolved_news.xml"
+        }]
+        
+    main(searches_to_run, use_cache=not args.no_cache)
