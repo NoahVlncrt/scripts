@@ -5,27 +5,62 @@
     <link>https://news.google.com/search?q=Artemis+III&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</link>
     <description>Google News</description>
     <item>
-      <title>Artemis III astronauts will beam 4k video from Orion to Earth using SpaceX Starlink lasers - Space</title>
-      <pubDate>Tue, 21 Jul 2026 17:00:00 GMT</pubDate>
-      <link>https://www.space.com/space-exploration/artemis/artemis-iii-astronauts-will-beam-4k-video-from-orion-to-earth-using-spacex-starlink-lasers</link>
-      <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/Jg33edDzrYki2w5sxBbnd5-2560-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+      <title>Artemis III Won’t Land on Moon: Orion to Dock With Both Landers in Orbit First - Tech Times</title>
+      <pubDate>Fri, 24 Jul 2026 18:56:10 GMT</pubDate>
+      <link>https://www.techtimes.com/articles/321524/20260724/artemis-iii-wont-land-moon-orion-dock-both-landers-orbit-first.htm</link>
+      <description><![CDATA[<img src="https://d.techtimes.com/en/full/469795/environmental-testing-blue-origins-blue-moon-mark.png" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
 <body>
-<graphic alt="A computer with a large wifi logo sits atop a reflective surface. To the left, in the distance, a streak of light arches into the sky." src="https://cdn.mos.cms.futurecdn.net/Jg33edDzrYki2w5sxBbnd5.jpg"></graphic>
-<p>Orion is getting an upgrade on Artemis III, and the astronauts aboard are getting WiFi (sort of).</p>
-<p>NASA is partnering with SpaceX to equip the <u>Orion spacecraft</u> for Artemis III with a pair of <u>Starlink</u> mini laser terminals, designed to operate on SpaceX's existing Starlink network. The two panels will be installed on Orion's exterior, and will augment the spacecraft's existing communications systems.</p>
-<p>The added capability is expected to provide a greater data capacity from Orion to NASA's mission control in Houston, which may include high-definition live video from orbit. The mission is currently scheduled for the second half of 2027, and will also include another sizable contribution from <u>SpaceX</u>: a Starship rocket.</p>
-<p>SpaceX currently operates more than 10,000 Starlink spacecraft in LEO, which provide satellite internet coverage across nearly the entire globe to commercially-available wireless terminals about the size of a laptop. Combined, those more than 10,000 and counting <u>satellites</u> are equipped with over 25,000 lasers currently in operation in LEO to maintain the network's interconnectedness, according to a <u>NASA update</u>.</p>
-<p>The company previously demonstrated the Starlink constellation's use as a communication relay network during the privately funded Fram2 mission that launched the first human into a polar orbit around <u>Earth</u> in 2025. SpaceX frequently utilizes its high-data capabilities to stream high-definition live views of its <u>Falcon 9</u> and Starship rocket launches from orbit.</p>
-<p>Artemis III is the third in a program of <u>NASA</u> missions with the goal of returning astronauts to <u>the moon</u> and establishing a permanent base on its surface. Artemis III is designed as a practice run for NASA's Orion capsule to rendezvous and dock with the program's commercial lunar lander vehicles, <u>Starship</u>, and Blue Origin's Blue Moon spacecraft, in <u>low Earth orbit</u> (LEO). That's a lot closer to home compared to the Artemis II mission that NASA launched in April of this year.</p>
-<p>Artemis II was Orion's first flight with astronauts onboard, and flew a 10-day mission around the far side of the moon. <u>NASA used laser communications during Artemis II</u> as well, using terminals on Orion and ground stations at NASA's Jet Propulsion Lab in California and White Sands Complex in New Mexico to transmit data loads too big for the agency's Near Space and Deep Space radio networks. With flight sticking to LEO during Artemis III, communication limitations become a lot easier to surmount.</p>
-<p>If all goes according to plan during Artemis III, NASA has scheduled the first Artemis moon landing on the following mission, Artemis IV. NASA is targeting 2028 to launch Artemis IV, and has selected Starship as the lunar lander that will return astronauts to the lunar surface.</p>
-<p>You must confirm your public display name before commenting</p>
-<p>Please logout and then login again, you will then be prompted to enter your display name.</p>
-<p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
+<graphic alt="Environmental testing Blue Origin’s Blue Moon Mark" src="https://d.techtimes.com/en/full/469795/environmental-testing-blue-origins-blue-moon-mark.png?w=836&amp;f=5d7ff177cdad8e192df9216677f44225"></graphic>
+<p>NASA's next crewed mission is heading to Earth orbit, not the Moon — and what it will attempt there has no real precedent in the history of human spaceflight. Artemis III, targeted for late 2027, will place four astronauts aboard an Orion capsule and send them to a circular parking orbit roughly 460 kilometers (286 miles) above Earth, where they will rendezvous and dock with test versions of both SpaceX's Starship and Blue Origin's Blue Moon landers, back-to-back, before any crew sets foot on the lunar surface. The first crewed Moon landing under the Artemis III mission overview is now assigned to Artemis IV, targeted for no earlier than 2028.</p>
+<p>For a sense of how unusual the dual-docking mission profile is: the last crewed spacecraft to rendezvous with two separate vehicles capable of supporting their own crews was the Soviet Soyuz T-15, which visited both the Salyut 7 space station and the Mir station in 1986. Artemis III will do it with three rockets from three different launch pads, in a tight sequence, using two separately developed commercial spacecraft — each with its own docking geometry, its own software, and its own flight control architecture, as outlined in this Artemis III dual rendezvous analysis.</p>
+<p>The SpaceX Starship that will serve as one of those targets is scheduled to attempt its thirteenth test flight from Starbase in Boca Chica, Texas this evening, with a launch window opening at 6:45 p.m. ET, according to live Starship Flight 13 launch coverage. Wednesday's attempt was scrubbed due to weather from Tropical Storm Bertha. If Flight 13 succeeds, it will mark the second flight of the Version 3 Starship — the same configuration NASA expects to dock with Orion and, after substantial further development and in-orbit refueling, carry astronauts to the Moon's south pole under Artemis IV, per the Starship V3 second flight preview.</p>
+<h3>Artemis III No Longer Lands on Moon — Here Is What Changed and Why</h3>
+<p>The restructuring of Artemis III dates to February 27, 2026, when NASA's February 2026 program announcement converted the mission from the program's first crewed lunar landing attempt into a low Earth orbit systems integration flight under Administrator Jared Isaacman. The logic was explicit: attempting a crewed Moon landing before the docking choreography between Orion and the commercial landers had ever been proven with a crew aboard created a sequencing of risk that NASA judged unacceptable. The consequences of an interface failure in lunar orbit — where crew rescue is not possible — are categorically more severe than in LEO, where the crew can return to Earth, as the CSIS Artemis risk assessment makes clear.</p>
+<p>A low Earth orbit profile also offers substantially more launch flexibility than a translunar trajectory. All three vehicles can reach the designated mission altitude in a single launch, with more available launch windows and better scrub recovery options than a lunar mission profile provides.</p>
+<p>"While this is a mission to Earth orbit, it is an important stepping stone to successfully landing on the Moon with Artemis IV," said Jeremy Parsons, NASA's Artemis program manager, in the NASA Artemis III mission plans. "Artemis III is one of the most highly complex missions NASA has undertaken."</p>
+<h3>Three Rockets, One Orbit: How the Launch Sequence Works</h3>
+<p>The complexity of Artemis III's architecture begins well before any docking occurs. Three of the world's most powerful rockets must lift off from separate launch pads in Florida in tight sequence, each targeting the same parking orbit above Earth.</p>
+<p>Blue Origin launches first. The company's New Glenn rocket carries a test version of the Blue Moon Mark 2 crew lander from Space Launch Complex-36 at Cape Canaveral Space Force Station. The Blue Moon test article is capable of remaining in orbit for up to 30 days, giving Blue Origin and NASA time to verify the lander's condition and systems functionality before committing the Artemis III crew to launch.</p>
+<p>Once Blue Moon's on-orbit checkout is complete, NASA's Space Launch System lifts off from Launch Complex-39B at Kennedy Space Center, carrying Orion and its four-person crew: Commander Randy Bresnik, Pilot Luca Parmitano, and Mission Specialists Frank Rubio and Andre Douglas, named in NASA's Artemis III crew announcement on June 9. Orion, acting as the chaser spacecraft, rendezvouses with Blue Moon and docks alongside the crew cabin. Two members of the crew, wearing orange Orion crew survival suits, will open the hatch and enter the Blue Moon test lander to evaluate its environmental control and life support systems. A suited spacesuit mass simulator — similar to the instrumented manikin that flew on the uncrewed Artemis I mission in 2022 — will already be aboard Blue Moon to provide real-time environmental data.</p>
+<p>After Orion and Blue Moon undock, SpaceX launches its Starship Version 3 test article from one of the two Starship towers SpaceX is currently constructing on Florida's Space Coast. Orion then re-approaches and docks nose-to-nose with Starship. Unlike the Blue Moon phase, astronauts will not enter the Starship during Artemis III — the vehicle does not yet have a crew-accessible cabin in this configuration. Instead, the crew will evaluate flight dynamics, communications, and the interoperability of Orion and Starship's systems from inside the Orion capsule.</p>
+<h3>What Is the Artemis III Software Handover and Why Does It Matter?</h3>
+<p>The most technically novel element of Artemis III's architecture is buried in a detail that received little initial coverage when NASA published it July 15: the mission involves two fundamentally different software control regimes, one for each docking phase.</p>
+<p>When Orion docks with the Blue Moon test lander, Orion's flight computer controls the entire integrated spacecraft stack. When Orion subsequently docks with Starship, Starship's onboard systems take control of the docked vehicles. Mid-mission transfer of control authority over a crewed spacecraft from one vehicle's software to a completely different vehicle's software has no precedent in the history of crewed spaceflight, according to the CSIS Artemis mission analysis.</p>
+<p>The significance is practical, not ceremonial. For Artemis IV to land astronauts on the Moon, Orion and whichever lander makes the descent must demonstrate that their flight software can operate as a single integrated stack, exchange commands reliably, and transfer control authority without a loss of vehicle awareness. Practicing that handoff in LEO — where the crew can return home if something goes wrong — is the entire reason this mission exists.</p>
+<p>SpaceX's docking capability for Starship was qualified in 2023 ground testing. Blue Origin conducted development ground testing on its pressurized docking system earlier this year. Artemis III will be the first time either docking system operates in the high-radiation, temperature-variable, microgravity environment of space with a crew depending on its performance.</p>
+<h3>Why Starship's Readiness Is Artemis III's Biggest Open Question</h3>
+<p>Even with the Artemis III mission architecture now defined in detail, the critical open question is whether SpaceX's Starship will be ready to fly the mission's second docking phase on schedule. Tonight's Starship Flight 13 test from Starbase — which SpaceX is expected to launch at 6:45 p.m. ET if weather cooperates, per live Starship Flight 13 launch coverage — is directly relevant to that question.</p>
+<p>Flight 13 will be the second test of the Version 3 Starship configuration. The first V3 flight, on May 22, ended with the Super Heavy booster suffering engine issues on descent and hitting the Gulf of Mexico hard rather than completing its planned splashdown, per Starship Flight 12 booster loss. Tonight's attempt follows an engine abort on July 16, when the countdown reached zero but multiple Raptor 3 engines failed to ignite; SpaceX subsequently replaced at least two engines and confirmed additional preflight testing before resuming, according to Starship Flight 13 July 16 abort.</p>
+<p>The stakes extend beyond the Artemis III schedule. NASA estimates that at least 15 Starship refueling launches — flights in which tanker versions of Starship transfer cryogenic propellant to the Artemis IV lander in orbit — will be required before Artemis IV can depart for the Moon. That propellant transfer capability has not yet been demonstrated in flight at any scale. The Artemis IV lunar landing is, in that sense, not one mission away from a working Starship — it is 15-plus successful tanker launches away.</p>
+<h3>Blue Origin's Launchpad Explosion and the Schedule Risk Picture</h3>
+<p>Blue Origin's path to Artemis III carries its own uncertainty. On May 28, 2026, a New Glenn launchpad explosion May 2026 engulfed the launchpad in a massive fireball and caused significant structural damage. No injuries were reported, but the blast destroyed Blue Origin's only Florida launch pad — the same pad scheduled to launch the Blue Moon test article for Artemis III.</p>
+<p>Depending on how long repairs take, some analysts initially projected Artemis III could slip into 2028, per the Artemis schedule risk analysis. Blue Origin CEO Dave Limp has stated publicly on the Blue Origin return-to-flight statement that the company expects New Glenn to return to flight before the end of 2026. NASA Administrator Isaacman confirmed at the Farnborough Airshow on July 20 that the agency is maintaining its 2027 schedule for Artemis III, per Reuters Farnborough Artemis schedule.</p>
+<p>"Plan A is launching on New Glenn, and they have a year to do that," Isaacman told reporters. An independent assessment from the Center for Strategic and International Studies' Clayton Swope, published in May 2026, noted that the revised Artemis architecture does not fully resolve whether either commercial lander will be operationally ready on the Artemis III timeline — and that NASA's Office of the Inspector General, in its 2026 report, flagged ongoing schedule delays and unmitigated crew safety risks in the Human Landing System program, according to the CSIS Artemis mission analysis.</p>
+<h3>What Can Be Seen at Kennedy Right Now</h3>
+<p>Assembly of the Artemis III flight hardware is visibly advancing. Technicians in the Vehicle Assembly Building at Kennedy Space Center stacked the twin solid rocket booster segments for the Space Launch System in July, beginning with the left-hand aft assembly on July 9, per NASA Artemis III hardware stacking. Engineers inside the Neil Armstrong Operations and Checkout Building completed installation of the Orion crew module's heat shield in mid-July — 186 individual Avcoat ablative blocks, each individually inspected, with design improvements incorporated following unexpected wear patterns observed on the Artemis I heat shield, according to the Artemis III hardware progress report.</p>
+<p>On July 22, L3Harris Technologies confirmed delivery of the four RS-25 main engines that will power Artemis III's SLS core stage to Michoud Assembly Facility in New Orleans. These engines are the last time shuttle-heritage RS-25s will fly on an SLS mission — every Artemis flight from V onward will use newly manufactured engines.</p>
+<h3>What Real-Time Docking Video From Orion Will Look Like</h3>
+<p>If and when Artemis III's two docking sequences execute as planned, the world will watch them in higher fidelity than any previous ship-to-ship rendezvous in space. On July 16, the NASA Starlink laser comms announcement confirmed NASA will install two SpaceX Starlink mini laser terminals on the exterior of Orion, enabling continuous high-definition video downlink during the mission.</p>
+<p>The terminals relay data using infrared laser light through SpaceX's inter-satellite laser mesh, allowing real-time 4K video to stream to Mission Control at Johnson Space Center in Houston even as Orion maneuvers through the dynamic orbital approaches required by the docking campaign. Traditional radio frequency relay satellites require more favorable geometry; the Starlink mesh routes around those constraints.</p>
+<p>The award builds on an earlier NASA investment in commercial relay services. The NASA Communications Services Project distributed a total of approximately $278.5 million across six American companies as part of a broader strategy to transition away from its own four-decade-old Tracking and Data Relay Satellite fleet, with SpaceX receiving approximately $69.95 million for high-rate data delivery demonstrations over optical links.</p>
+<h3>Why Artemis III's Architecture Will Outlast the Mission Itself</h3>
+<p>The orbital test flight Artemis III performs is not an end in itself. It is the proof-of-concept for a "dual launch campaign" architecture that every subsequent crewed lunar mission will depend on. In that model, the commercial lander launches separately from the crew and pre-positions itself in lunar orbit to await Orion. The lander must then survive the journey, complete its own systems checkouts, and be ready to dock when Orion arrives — a sequence with no direct crewed precedent.</p>
+<p>By practicing a simplified version of that sequence in LEO — where repair, rescue, and abort options all exist — NASA and its commercial partners will generate real flight data on the rendezvous profiles, software handshake protocols, and life support interoperability that Artemis IV will replicate at 380,000 kilometers (236,121 miles) from Earth rather than 460 kilometers (286 miles).</p>
+<p>If it works, the successful completion of Artemis III will mean the architecture for every crewed Moon mission through the end of the decade is built on demonstrated procedures rather than modeled assumptions. If it doesn't work — if either the launch sequencing fails, the docking software proves incompatible, or Blue Origin's New Glenn cannot make it back to the pad in time — the most optimistic 2028 lunar landing timeline will extend further. The dress rehearsal, in that sense, is also the test that decides whether the curtain rises on time.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Will Artemis III land on the Moon?</h3>
+<p>No. Artemis III has been restructured as a low Earth orbit mission. The four-person crew will orbit Earth at approximately 460 kilometers (286 miles) altitude for roughly two weeks, performing rendezvous and docking operations with test versions of SpaceX's Starship and Blue Origin's Blue Moon landers. The first crewed lunar landing under the Artemis program is now assigned to Artemis IV, targeted for no earlier than 2028.</p>
+<h3>What is the Artemis III docking sequence, and what makes it technically unprecedented?</h3>
+<p>Orion docks with the Blue Moon lander first — entering through a side port adjacent to the crew cabin — then undocks and docks nose-to-nose with the Starship test article. The technically unprecedented element is a mid-mission transfer of software control authority: during the Blue Moon phase, Orion's flight computer controls the combined spacecraft stack; during the Starship phase, Starship's onboard systems take over that role. This configuration — two different vehicles, two different software control regimes, one crew — has no prior crewed spaceflight equivalent.</p>
+<h3>Why does NASA need to land on the Moon before Starship is ready for crewed missions?</h3>
+<p>It doesn't — and that is the point. NASA estimates that Starship requires at least 15 in-orbit propellant transfer launches from tanker Starships before Artemis IV can depart for the Moon, in addition to successful crewed docking demonstrations. The Artemis III orbital test is specifically designed to validate docking procedures and software interoperability before any crew is committed to a trajectory where rescue is impossible. Artemis III exists because NASA chose not to bet the first lunar crew on hardware that has never docked with Orion in space.</p>
+<h3>What happens if the Blue Origin New Glenn launchpad isn't repaired in time for Artemis III?</h3>
+<p>Blue Origin's New Glenn rocket exploded during a static fire test on May 28, 2026, heavily damaging its only Florida launch pad. Blue Origin's leadership has stated the company expects to resume launches before the end of 2026. NASA has confirmed it is maintaining its 2027 Artemis III schedule. However, independent analysts at the Center for Strategic and International Studies and NASA's own Inspector General have flagged that commercial lander readiness remains a key schedule risk for both Artemis III and the 2028 lunar landing target.</p>
+
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
-      <guid isPermaLink="false">CBMi1AFBVV95cUxOVHMwclVIVmZiVVU2Z0hjSFFoYWprVmltY3BZakdzMlBJOXJhUlZsS05GSnhJX2VhSGNtcG1wMFpGSFY1LXNoVmF3MEhFcV96Ti02bFlqTXl4WDZwU1ppUTdWN2c1S1Y3aHl0VlhfRWlmQ2xhdDdXdWpCUzlSdS1NQjQ3QktlajJjMTBrUkdJNmJiLTY4dzBBbmdlLVFGRlE2VUlzRjUyOVRUdm9Ja2YyZ2JrZk1NWHd4QnhrQTJxN1RFOWt3ajlFaDBoOUR3cG1VT2IzNA</guid>
+      <source url="https://www.techtimes.com">Tech Times</source>
+      <guid isPermaLink="false">CBMiuAFBVV95cUxQY2NlX1c5ZFlnYUxMNVpkVTFnaTBaQ0xkZE1iYlBHdTVrYmNEVk9QUzdDQU9BcUMxdXAwNXBfTzdNTkk5bWw1ODI0NHl3eTJrX1B6bGZCQkQ0Y2J6SndEa3dBREt3RmdkUVFZUk1NOTBwZTQwdUlsTVk1UGNmTzR5dzRnaDRvTm5hS1RlOUJyaVl3MWNLUFAxTm5uUmMzSUJZUnBZUWZuVF95VmFqYUF2amVsa1dodmNI</guid>
     </item>
     <item>
       <title>NASA chief defends selection of all-male crew for Artemis III mission - CBS News</title>
@@ -87,6 +122,29 @@
       <guid isPermaLink="false">CBMiowFBVV95cUxOdktGaVcxMXJwRExGNGtxRGhfaWlPZFFLeEdzS3VNWVlrWVhfdFZRVUd5LWRPVjFoSlZYUDItUWlySjQ3WFFRdHFteHhPN2dYS3JjTEdfSnVNSlAwWWp6Vk9SOVdNWWdyUVpuQ1huVEtqUTJVQWhiMDN1THhHOTZfek9CcnNzTXRZT1dPZjBKeUN4Mm94U2w3b3BPZVVFMm9NYlJj</guid>
     </item>
     <item>
+      <title>Artemis III astronauts will beam 4k video from Orion to Earth using SpaceX Starlink lasers - space.com</title>
+      <pubDate>Tue, 21 Jul 2026 17:00:00 GMT</pubDate>
+      <link>https://www.space.com/space-exploration/artemis/artemis-iii-astronauts-will-beam-4k-video-from-orion-to-earth-using-spacex-starlink-lasers</link>
+      <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/Jg33edDzrYki2w5sxBbnd5-2560-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<graphic alt="A computer with a large wifi logo sits atop a reflective surface. To the left, in the distance, a streak of light arches into the sky." src="https://cdn.mos.cms.futurecdn.net/Jg33edDzrYki2w5sxBbnd5.jpg"></graphic>
+<p>Orion is getting an upgrade on Artemis III, and the astronauts aboard are getting WiFi (sort of).</p>
+<p>NASA is partnering with SpaceX to equip the <u>Orion spacecraft</u> for Artemis III with a pair of <u>Starlink</u> mini laser terminals, designed to operate on SpaceX's existing Starlink network. The two panels will be installed on Orion's exterior, and will augment the spacecraft's existing communications systems.</p>
+<p>The added capability is expected to provide a greater data capacity from Orion to NASA's mission control in Houston, which may include high-definition live video from orbit. The mission is currently scheduled for the second half of 2027, and will also include another sizable contribution from <u>SpaceX</u>: a Starship rocket.</p>
+<p>SpaceX currently operates more than 10,000 Starlink spacecraft in LEO, which provide satellite internet coverage across nearly the entire globe to commercially-available wireless terminals about the size of a laptop. Combined, those more than 10,000 and counting <u>satellites</u> are equipped with over 25,000 lasers currently in operation in LEO to maintain the network's interconnectedness, according to a <u>NASA update</u>.</p>
+<p>The company previously demonstrated the Starlink constellation's use as a communication relay network during the privately funded Fram2 mission that launched the first human into a polar orbit around <u>Earth</u> in 2025. SpaceX frequently utilizes its high-data capabilities to stream high-definition live views of its <u>Falcon 9</u> and Starship rocket launches from orbit.</p>
+<p>Artemis III is the third in a program of <u>NASA</u> missions with the goal of returning astronauts to <u>the moon</u> and establishing a permanent base on its surface. Artemis III is designed as a practice run for NASA's Orion capsule to rendezvous and dock with the program's commercial lunar lander vehicles, <u>Starship</u>, and Blue Origin's Blue Moon spacecraft, in <u>low Earth orbit</u> (LEO). That's a lot closer to home compared to the Artemis II mission that NASA launched in April of this year.</p>
+<p>Artemis II was Orion's first flight with astronauts onboard, and flew a 10-day mission around the far side of the moon. <u>NASA used laser communications during Artemis II</u> as well, using terminals on Orion and ground stations at NASA's Jet Propulsion Lab in California and White Sands Complex in New Mexico to transmit data loads too big for the agency's Near Space and Deep Space radio networks. With flight sticking to LEO during Artemis III, communication limitations become a lot easier to surmount.</p>
+<p>If all goes according to plan during Artemis III, NASA has scheduled the first Artemis moon landing on the following mission, Artemis IV. NASA is targeting 2028 to launch Artemis IV, and has selected Starship as the lunar lander that will return astronauts to the lunar surface.</p>
+<p>You must confirm your public display name before commenting</p>
+<p>Please logout and then login again, you will then be prompted to enter your display name.</p>
+<p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
+</body>
+</html>]]></description>
+      <source url="https://www.space.com">space.com</source>
+      <guid isPermaLink="false">CBMi1AFBVV95cUxOVHMwclVIVmZiVVU2Z0hjSFFoYWprVmltY3BZakdzMlBJOXJhUlZsS05GSnhJX2VhSGNtcG1wMFpGSFY1LXNoVmF3MEhFcV96Ti02bFlqTXl4WDZwU1ppUTdWN2c1S1Y3aHl0VlhfRWlmQ2xhdDdXdWpCUzlSdS1NQjQ3QktlajJjMTBrUkdJNmJiLTY4dzBBbmdlLVFGRlE2VUlzRjUyOVRUdm9Ja2YyZ2JrZk1NWHd4QnhrQTJxN1RFOWt3ajlFaDBoOUR3cG1VT2IzNA</guid>
+    </item>
+    <item>
       <title>We managed to glean some interesting details about the Artemis III mission - Ars Technica</title>
       <pubDate>Wed, 10 Jun 2026 07:00:00 GMT</pubDate>
       <link>https://arstechnica.com/space/2026/06/we-managed-to-glean-some-interesting-details-about-the-artemis-iii-mission/</link>
@@ -138,64 +196,43 @@
       <guid isPermaLink="false">CBMif0FVX3lxTE5CT0Uwc2lpUS16SVZFdzJoNEtXa05zcXFwVGpUY0FVTHJWNnlwRUJyVXdjcjE3eDdQTHBQTzRkYzJFY3lvZm9xWmppOTVqbzhDd1pnai1NMFVWWERZTmR6RXVYajk1RWlsWnQ5RkhYd1hRdjlOeV9sWlV4YkdqSHM</guid>
     </item>
     <item>
-      <title>NASA names 4 astronauts on the 'highly complex' Artemis III lunar training mission - NPR</title>
+      <title>NASA announces astronauts for its Artemis III mission to test new moon landers - NBC News</title>
       <pubDate>Tue, 09 Jun 2026 07:00:00 GMT</pubDate>
-      <link>https://www.npr.org/2026/06/09/nx-s1-5851860/nasa-artemis-iii-crew</link>
-      <description><![CDATA[<img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F22%2F424e65a6456faf03e7c690826bf6%2Fgettyimages-2280733619.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+      <link>https://www.nbcnews.com/science/space/nasa-artemis-iii-astronauts-announced-mission-rcna347223</link>
+      <description><![CDATA[<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260609-Artemis-III-Crew-Announcement-ew-1221p-4475da.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
 <body>
-<h1>NASA names 4 astronauts on the 'highly complex' Artemis III lunar training mission</h1>
-<graphic alt="NASA introduced the four astronauts scheduled to fly on next year's Artemis III mission. (From left to right) NASA commander Randy Bresnik, European Space Agency pilot Luca Parmitano, NASA mission specialist Frank Rubio, and NASA mission specialist Andre Douglas at a press conference announcing the crew at NASA's Johnson Space Center in Houston, Texas, on Tuesday." src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3810x2540+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2F70%2Fa91a05ae45a49060dbec13de9dc3%2Fgettyimages-2280120360.jpg"></graphic>
-<p>
-                NASA introduced the four astronauts scheduled to fly on next year's Artemis III mission. (From left to right) NASA commander Randy Bresnik, European Space Agency pilot Luca Parmitano, NASA mission specialists Frank Rubio and Andre Douglas at a press conference announcing the crew at NASA's Johnson Space Center in Houston, Texas, on Tuesday.
-                <strong>
-                    
-                    Ronaldo Schemidt/AFP via Getty Images
-                    
-                </strong>
-<strong>hide caption</strong></p>
-
-<strong>toggle caption</strong>
-<p>NASA named the international crew of four that will fly on its next Artemis mission as early as next year. It's a key test flight ahead of a human landing mission to the lunar surface that the agency calls "one of the most highly complex missions NASA has undertaken."</p>
-<p>The Artemis III mission, while vital to future moon missions, will remain closer to home in low-Earth orbit. There, it will demonstrate the Orion spacecraft's rendezvous and docking capabilities with two commercially designed and built lunar landers.</p>
-<p>NASA astronaut Randy Bresnik will command the mission. A member of the U.S. Marine Corps, Bresnik has flown to space twice and logged 149 days off the planet. European Space Agency astronaut Luca Parmitano, from Italy, will serve as the mission's pilot. Parmitano has also been to space twice, including one dangerous spacewalk that was cut short when he nearly drowned as his helmet filled up with water.</p>
-<p>NASA's Frank Rubio and Andre Douglas will serve as mission specialists. Rubio served in the U.S. Army and is a board-certified family physician and flight surgeon. He has flown to space once, to the International Space Station on a Russian Soyuz capsule. After engineers discovered the spacecraft was damaged, Rubio's stay was extended while awaiting a new ride, and he set the record for longest spaceflight by an American at 371 days.</p>
-<p>This will be the first spaceflight for Douglas. The Coast Guard reserve officer was selected as a NASA astronaut in 2021. He is a systems engineer with a doctorate from George Washington University. Douglas served as backup crew to Artemis II.</p>
-<p>"This mission is going to be fantastic," he said at the crew's announcement Tuesday from NASA's Johnson Space Center in Houston, Texas. "What an excellent crew. Got Artemis! Go NASA!"</p>
-<h3>Critical flight test</h3>
-<p>Artemis III is a crucial mission as NASA tests key pieces of hardware that will return humans to the lunar surface as early as 2028 — and for the first time since 1972.</p>
-<p>To accomplish that, the agency is relying on lunar landing vehicles that are designed and developed by private companies SpaceX and Blue Origin.</p>
-<p>Artemis III will test the ability of the Orion crew capsule to rendezvous and dock with those landers not near the moon, but instead in low-Earth orbit.</p>
-<p>"This gives our teams key information on systems the lunar lander crew will depend on in an environment close to home versus four plus days away around the moon," said NASA's Jeremy Parsons.</p>
-<p>The mission begins with the uncrewed launch of Blue Origin's Blue Moon lander, which can stay in orbit for 90 days. That gives NASA time to launch the crew in the Orion space capsule atop NASA's SLS rocket from the Kennedy Space Center in Florida.</p>
-<p>After launching, the crew will pilot the Orion spacecraft to catch up with the lander and dock to it. There it will remain for about two days, and the crew will open the hatch and test key elements of the lander — like its life support and control systems — before undocking.</p>
-<p>SpaceX will then launch its Starship into low-Earth orbit. Orion and the Artemis III crew will dock with that lander, spending about a day attached to that spacecraft.</p>
-<graphic alt="(L-R) Astronauts Randy Bresnik, Luca Parmitano of Italy and the European Space Agency, Frank Rubio and Andre Douglas stand together during the conclusion of the Artemis III crew reveal at the NASA Johnson Space Center Tuesday in Houston, Texas." src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F22%2F424e65a6456faf03e7c690826bf6%2Fgettyimages-2280733619.jpg"></graphic>
-<p>
-                (From left to right) Astronauts Randy Bresnik, Luca Parmitano of Italy and the European Space Agency, Frank Rubio and Andre Douglas stand together during the conclusion of the Artemis III crew reveal at the NASA Johnson Space Center Tuesday in Houston, Texas.
-                <strong>
-                    
-                    Brandon Bell/Getty Images
-                    
-                </strong>
-<strong>hide caption</strong></p>
-
-<strong>toggle caption</strong>
-<p>Then, Orion and its crew will come home, splashing down in the Pacific Ocean off California.</p>
-<h3>The path ahead</h3>
-<p>NASA administrator Jared Isaacman wants to launch this mission by the end of next year. But an accident last month at Blue Origin's launch facility at Cape Canaveral Space Force Station in Florida brings some uncertainty to that timeline.</p>
-<p>During a routine, prelaunch test, Blue Origin's New Glenn rocket exploded at its launch site, causing significant damage to the facility. Blue Origin's lunar lander for the Artemis III mission is scheduled to launch on New Glenn.</p>
-<p>"While we recognize there are questions about how Blue Origin's recent anomaly impacts our plans, setbacks are a learning opportunity," said Parsons. "We are confident that New Glenn will be ready for Artemis III."</p>
-<p>SpaceX is also working to develop its lander, completing a 12th test flight of the Starship system. The company has yet to launch Starship into orbit.</p>
-<p>As the two companies prepare their landers for the Artemis III test, the crew is working with the Artemis II astronauts to prepare. "The most important Artemis mission will always be the next Artemis mission," Bresnik said.</p>
-<p>At the crew announcement, the Artemis II astronauts handed over a baton — one that was carried during their mission around the moon and back — as a symbol of that step-by-step development that will help NASA achieve its ambitious goal of returning humans to the moon.</p>
-<p>"We've been carrying these batons around for way too long," said Artemis II commander Reid Wiseman. "So with that, the Artemis II crew hands you the baton. You got the controls."</p>
+<p>NASA on Tuesday named the four astronauts it plans to send on the Artemis III mission, the next major step in its return-to-the-moon program.</p>
+<p>Randy Bresnik, Luca Parmitano, Frank Rubio and Andre Douglas are expected to launch into Earth orbit next year, with the goal of testing out two commercially built lunar landers being developed to carry astronauts to the surface of the moon in 2028.Bresnik will be the mission’s commander, with Parmitano, an Italian astronaut with the European Space Agency,serving as the pilot. Douglas and Rubio will be mission specialists, and Bob Hines will train with the crew as a backup member. </p>
+<p>Elon Musk’s SpaceX and Jeff Bezos’ Blue Origin are racing to build the landers that Artemis III aims to test. Both companies said in updates Tuesday that they expect their landers to be ready.</p>
+<graphic alt="The Artemis III crew poses for an official portrait, from left, Andre Douglas, Luca Parmitano, Randy Bresnik, Frank Rubio." src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2026-06/260609-Artemis-III-Crew-Announcement-ew-1221p-4475da.jpg"></graphic>
+<p>“This test flight will enable us to prove we can carry out highly choreographed operations with our partners across hardware interfaces, software propulsion systems and life support elements with crew in the high-stakes space environment,” said Jeremy Parsons, NASA’s Artemis program manager.</p>
+<p>Bresnik, a Californian, has been on two missions to the International Space Station, most recently as commander of an expedition in 2017. A former U.S. Marine colonel, he was selected as a NASA astronaut in 2004. Bresnik has helped oversee development and testing of spacecraft for the Artemis program as an assistant to the chief of the Astronaut Office, which manages astronaut training and operations.</p>
+<p>Parmitano, a father of two, also served as commander of a space station expedition in 2019 — his second stint on the ISS. While there, he completed a total of six spacewalks and also performed the first live DJ set in orbit. Before becoming an astronaut, Parmitano was a test pilot for the Italian Air Force.</p>
+<p>For Rubio, a physician and father of four with 28 years of service in the U.S. Army, Artemis II would be his second trip to space. From 2022 to 2023, he spent 371 days on the space station, breaking the record for longest-duration space flight by an American, according to NASA.</p>
+<p>Artemis III will be Douglas’ first space flight. An engineer who previously worked on space exploration and robotics at Johns Hopkins University Applied Physics Lab, he became a NASA astronaut in 2022. It will be his first spaceflight.</p>
+<p>“My brain is going a mile a minute right now, but my heart, my heart, is so warm,” Douglas said during the NASA announcement.</p>
+<p>Hines, a former U.S. Air Force pilot who has spent 170 days in space during two previous missions, will train alongside the crew to step into any role, if needed.</p>
+<p>The Artemis III mission is expected to last about two weeks, Parsons said — roughly four days longer than the Artemis II mission around the moon earlier this year. It’s intended to be the Artemis program’s final testing mission. If it’s successful, NASA then plans to land a crew on the moon with the subsequent mission, Artemis IV.</p>
+<p>“Every aspect of Artemis III will give us insight into how to refine our plans for Artemis IV,” Parsons said. “This mission is deliberately designed to take calculated risks, so that future crews will be safer and ultimately successful when we put boots on the lunar surface.”</p>
+<p>Eventually, NASA’s Artemis program aims to establish a sustained human presence on the moon. The space agency announced plans this year to spend $20 billion to build a base on the lunar surface.</p>
+<p>Initially, NASA had planned for the Artemis III mission to land astronauts on the moon, but NASA Administrator Jared Isaacman overhauled the program this year to add missions and increase the pace of launches ahead of a moon landing attempt.</p>
+<p>So the plan for Artemis III crew is now to stay closer to Earth and test rendezvous and docking operations with the moon landers from SpaceX and Blue Origin. These maneuvers are essential because NASA’s moon-landing plan calls for one of these landers to meet up with its Orion spacecraft — the capsule that carried the Artemis II crew in April — while orbiting the moon. Two astronauts would then transfer to the lander, which would carry them down to the lunar surface. While there, the spacecraft would serve as their living quarters. To finish the mission, the lander would blast off the moon’s surface, then redock with Orion, which would take the crew back to Earth.</p>
+<p>If it all works out as planned, the U.S. could pull off its first moon landing in more than 50 years — and do so before China puts its own astronauts on the lunar surface, which the country plans to accomplish by 2030.</p>
+<p>Parsons said key elements of the Artemis III program are coming along nicely. A redesigned heat shield for NASA’s Orion spacecraft, for example, has been built and tested, he said. During the Artemis II mission, some critics were concerned about that heat shield because it had sustained damage during the uncrewed Artemis I mission.</p>
+<p>“Our improved heat shield has been fully inspected and is ready to be installed,” Parsons said.</p>
+<p>However, questions remain about whether Blue Origin will be readt to launch its lander for the Artemis III mission. The company recently suffered a major setback when one of its rockets exploded during an engine test. The fireball destroyed the New Glenn rocket — the system Blue Origin would use to launch its lunar lander into space — and caused extensive damage to the company’s only operational launch pad.</p>
+<p>On Tuesday, however, John Couluris, senior vice president of lunar permanence at Blue Origin, expressed optimism about the company’s timeline.</p>
+<p>“Manufacturing is well underway on the Artemis III Mark 2 lunar crew module, our storable reaction control system, our docking systems, and our environmental control and life support system. Our factories are running around-the-clock shifts in a responsible manner,” he said. “We expect to complete the vehicle for Artemis III and be ready for launch in 2027.”</p>
+<p>Just days before the Blue Origin explosion, NASA had awarded the company a contract to deliver payloads to the moon on an uncrewed mission later this year — the first in a series of robotic missions NASA is planning in preparation to land a crew. Through those missions, NASA intends to scout the moon’s south pole and test technologies that future Artemis astronauts could use there. Given the recent explosion, it’s unclear whether Blue Origin will be able to complete that mission as planned this year.</p>
+<p>For the Artemis III launch, NASA plans to use the same setup it did for Artemis II, sending the newly announced crew into orbit in its Orion spacecraft, which will lift off atop its Space Launch System rocket from Kennedy Space Center in Cape Canaveral, Florida.</p>
+<p>“Every single mission we will do after this will be more challenging and more complex,” Bresnik said, adding that the crew sees itself as the crucial link between the Artemis II flight and the ambitious goals for Artemis IV, “where we will again be the first to land humans on another celestial body.”</p>
 </body>
 </html>]]></description>
-      <source url="https://www.npr.org">NPR</source>
-      <guid isPermaLink="false">CBMidEFVX3lxTFBnQmFNbXlZbmJFSHlxdjByOXNCYXZSNUpZNUJBRWpmN2xraktWTmlzcWtZdGFPbFhoM3FheElLNXhtbkNrVldfMjBuekx4N1hCRDdlQnI5NkhaYkNLMXQwYi15R29ub0dGSGRFcmpWZ3BodWhw</guid>
+      <source url="https://www.nbcnews.com">NBC News</source>
+      <guid isPermaLink="false">CBMimgFBVV95cUxQbEJJcS1jeUN3MlJUakJ4QmItMGRiN3lzazdnbG9ZT2tVaHZWREFxdkQydlFfbHl0WXNOVEM1MVdjOTVzSTRXMm4zX3VCM2RIc2tZOU9ScDByZGpKcDZPbGFPOWNwaTFjbFM1c3NNNm1XRTRZQXU5cmZ0X214Q1BNY3BTMW1tSWxCb2dCaWF6OVJIVkdxa1ZFajNR</guid>
     </item>
     <item>
-      <title>Four astronauts, 3 spacecraft, 2 weeks in orbit: Artemis III will be NASA's most complicated mission ever - Space</title>
+      <title>Four astronauts, 3 spacecraft, 2 weeks in orbit: Artemis III will be NASA's most complicated mission ever - space.com</title>
       <pubDate>Mon, 20 Jul 2026 16:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/four-astronauts-3-spacecraft-2-weeks-in-orbit-artemis-iii-will-be-nasas-most-complicated-mission-ever</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/AMaxYJFskjUa4ZG5sffm9n-1179-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -230,8 +267,39 @@
 <p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
+      <source url="https://www.space.com">space.com</source>
       <guid isPermaLink="false">CBMi4wFBVV95cUxPLXFKM2lWNlhla0lpaWpWbkc2ckQ1SDdDLVpqNFVSMjhRNDhLR0NNazRnQW1mNHlLZmtIb2xJRkhjV0dnZmN2Zkwzd0twdmd5SkZuRE1CdWdJQ1JGX1RxWDdwTkR1ZF82M285Ym1URUtXMEpvQXpWang1alF5b1RvZU1IT3ZvLVpJVEdteEJMdVJPWWVpRWEwVUtydURoaUlfcDNpVjk4QlVGdFE2c185Y1M3ZUtRSFkxdk5fcWNLMjhZWmRHSHdGNDRxNFp3bS1FQXdSVjdvRG1sUmstcXBvel9ydw</guid>
+    </item>
+    <item>
+      <title>NASA Taps SpaceX’s Starlink to Deliver Artemis III Imagery from Orion - NASA (.gov)</title>
+      <pubDate>Thu, 16 Jul 2026 07:00:00 GMT</pubDate>
+      <link>https://www.nasa.gov/blogs/missions/2026/07/16/nasa-taps-spacexs-starlink-to-deliver-artemis-iii-imagery-from-orion/</link>
+      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/07/orion-earth-image.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>NASA Taps SpaceX’s Starlink to Deliver Artemis III Imagery from Orion</h1>
+<p>NASA has selected SpaceX to deliver laser communications capabilities for next year’s Artemis III mission, enabling the agency to provide a front row seat for viewers from the Orion spacecraft as four astronauts test rendezvous and docking capabilities between Orion and test versions of commercial human landing systems needed to return astronauts to the Moon in 2028.</p>
+<p>To supplement Orion’s existing communications system, NASA will install two of SpaceX’s Starlink mini laser terminals – the same laser crosslink technology that SpaceX developed for its Starlink constellation – on the exterior of the spacecraft to downlink 4K imagery and video to the Mission Control Center at NASA’s Johnson Space Center in Houston.</p>
+<p>Laser, or optical, communications systems use invisible infrared light to transmit more data in a single downlink than traditional radio frequency systems.</p>
+<p>NASA previously demonstrated an <u>optical communications system</u> during the Artemis II mission, successfully transmitting high-definition video, flight procedures, photos, engineering and science data, and voice communications from Orion to Earth over laser signals when the spacecraft had line of sight with ground terminals.</p>
+<p>SpaceX first demonstrated laser communications capabilities for NASA as part of a <u>funded Space Act Agreement</u> to develop and demonstrate commercial relay systems during the <u>Fram2</u> human spaceflight mission in 2025. The Starlink mini lasers that will be added to Orion are based on the more than 25,000 lasers currently operating on-orbit to interconnect the Starlink constellation. The company has utilized the Starlink satellite network for video and telemetry on its Starship flight tests, providing real-time data across all phases of flight. </p>
+<p>Facilitated through a partnership with the SCaN (Space Communications and Navigation) Division’s <u>Communications Services Project</u>, the Artemis III laser communications demonstration builds upon the agency’s existing agreement with SpaceX, advancing NASA’s broader strategy to commercialize satellite relay services for missions operating near-Earth. </p>
+</body>
+</html>]]></description>
+      <source url="https://www.nasa.gov">NASA (.gov)</source>
+      <guid isPermaLink="false">CBMitwFBVV95cUxQZDhEcmRqR19WVExkajRQdEp0V0RtMkpMNFJZNHNtS3VWQkFFY24xdWYzVU5vcWVtalFicHRNX1hSaGNWVjNXbkZTVVRBUEJJdFRpZkQ5c3JBaVdQNHAxQkhHWlloTU5yOFFiRjZuNDlzV0tYUzNsSm1GYzlPSjRNaWNvTEZHN1QzMkw0eXhlalVtWnMwczRzNTRKMEQxY2lZei1jZFNjS1Zxby1RVlhFRXRzTm4zYlU</guid>
+    </item>
+    <item>
+      <title>Artemis II crew at ESTEC - European Space Agency</title>
+      <pubDate>Mon, 20 Jul 2026 10:15:54 GMT</pubDate>
+      <link>https://www.esa.int/ESA_Multimedia/Videos/2026/07/Artemis_II_crew_at_ESTEC</link>
+      <description><![CDATA[<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/07/artemis_ii_crew_at_estec/27383126-1-eng-GB/Artemis_II_crew_at_ESTEC_pillars.png" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<p>The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission possible.</p>
+<p>The day included a visit to the Eagle mission control room, where ESA and Airbus engineers monitored the European Service Module around the clock throughout Artemis II. There, astronauts met some of the ESA specialists who had supported their flight from Earth.</p>
+</body>
+</html>]]></description>
+      <source url="https://www.esa.int">European Space Agency</source>
+      <guid isPermaLink="false">CBMif0FVX3lxTFBWSWtQRkNyNW95Ml8yVElGUDMwWDZLSXlxVk90ZGVPTXcxOG9ZRFBuZkhEdDdfV1JNQkhLUmZ4aUt3czM4dURuajhxeTlQV1BVaFBtdTE5cDU5aGw2QUpSak10Q2JWS0FDY0JEOHMxU2xTV2FwMEktSmdtaVBvQm8</guid>
     </item>
     <item>
       <title>How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings - NASA (.gov)</title>
@@ -273,25 +341,7 @@
       <guid isPermaLink="false">CBMigwJBVV95cUxPOXlqMzhIQzhTOHNnZFZrYVlRZHktUUFNeDhXSmlXWFgtWEE1Vnc5TWhocGJzZFl1eVB6ZUdIY2ZQSk9wazk1ajVkMmlNa0JVVUI3S2FiUFVRM0ZhbzdHdUNXMWJtMkUyRWRkUXNjaDJkb3ZGUE9JbWxydVdsMGxLYkt1UTFja1UtSjB4VG43OXFENXo4VkpGUEpkSFhKMHJfU0F1Y2FZdlFfbkI2RlRJbkRfdHBxLVFIZzBqZVRWcXR5emR1di1yY3c1WUcxUE5QUUdVa1F3QUt2NzdqaVJmTDFNWlU3ZFo3bW9lazg5N1N2X1A4S3VvaEVOWVBvSDkyMk8w</guid>
     </item>
     <item>
-      <title>NASA Taps SpaceX’s Starlink to Deliver Artemis III Imagery from Orion - NASA (.gov)</title>
-      <pubDate>Thu, 16 Jul 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/blogs/missions/2026/07/16/nasa-taps-spacexs-starlink-to-deliver-artemis-iii-imagery-from-orion/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/07/orion-earth-image.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<h1>NASA Taps SpaceX’s Starlink to Deliver Artemis III Imagery from Orion</h1>
-<p>NASA has selected SpaceX to deliver laser communications capabilities for next year’s Artemis III mission, enabling the agency to provide a front row seat for viewers from the Orion spacecraft as four astronauts test rendezvous and docking capabilities between Orion and test versions of commercial human landing systems needed to return astronauts to the Moon in 2028.</p>
-<p>To supplement Orion’s existing communications system, NASA will install two of SpaceX’s Starlink mini laser terminals – the same laser crosslink technology that SpaceX developed for its Starlink constellation – on the exterior of the spacecraft to downlink 4K imagery and video to the Mission Control Center at NASA’s Johnson Space Center in Houston.</p>
-<p>Laser, or optical, communications systems use invisible infrared light to transmit more data in a single downlink than traditional radio frequency systems.</p>
-<p>NASA previously demonstrated an <u>optical communications system</u> during the Artemis II mission, successfully transmitting high-definition video, flight procedures, photos, engineering and science data, and voice communications from Orion to Earth over laser signals when the spacecraft had line of sight with ground terminals.</p>
-<p>SpaceX first demonstrated laser communications capabilities for NASA as part of a <u>funded Space Act Agreement</u> to develop and demonstrate commercial relay systems during the <u>Fram2</u> human spaceflight mission in 2025. The Starlink mini lasers that will be added to Orion are based on the more than 25,000 lasers currently operating on-orbit to interconnect the Starlink constellation. The company has utilized the Starlink satellite network for video and telemetry on its Starship flight tests, providing real-time data across all phases of flight. </p>
-<p>Facilitated through a partnership with the SCaN (Space Communications and Navigation) Division’s <u>Communications Services Project</u>, the Artemis III laser communications demonstration builds upon the agency’s existing agreement with SpaceX, advancing NASA’s broader strategy to commercialize satellite relay services for missions operating near-Earth. </p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMitwFBVV95cUxQZDhEcmRqR19WVExkajRQdEp0V0RtMkpMNFJZNHNtS3VWQkFFY24xdWYzVU5vcWVtalFicHRNX1hSaGNWVjNXbkZTVVRBUEJJdFRpZkQ5c3JBaVdQNHAxQkhHWlloTU5yOFFiRjZuNDlzV0tYUzNsSm1GYzlPSjRNaWNvTEZHN1QzMkw0eXhlalVtWnMwczRzNTRKMEQxY2lZei1jZFNjS1Zxby1RVlhFRXRzTm4zYlU</guid>
-    </item>
-    <item>
-      <title>NASA begins stacking rocket ahead of 2027 Artemis III astronaut launch (photos) - Space</title>
+      <title>NASA begins stacking rocket ahead of 2027 Artemis III astronaut launch (photos) - space.com</title>
       <pubDate>Mon, 13 Jul 2026 07:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/nasa-begins-stacking-rocket-ahead-of-2027-artemis-iii-astronaut-launch-photos</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/P5LoHLcpVBkZk9Q7NdA3MB-2560-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -319,7 +369,7 @@
 <p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
+      <source url="https://www.space.com">space.com</source>
       <guid isPermaLink="false">CBMiwwFBVV95cUxNMk9aNTFZaGhBb19wbkoyRnlLalQ4Mll6ZlI0S3NSLWJjVXNpc05wZ3lZUWhHZ2lsTGhfZXU1Nkk5Tms5aDB0SG0xZ0h6TGg3eWRTaVlWaFFFNmRKbkh6Y2V2eFNZcF9lbnRFTVAtYUdLeEt2Rkx1WUw4VXhDLVB6WE4zMVJONmotN1ZDZlBlMHUtd2d0Q3pzTlRWbDJIeU5GZTM2TTlJeVNncm9wQ1B4YkpuQXhBSzlocEJ6M0ZvNWhKWk0</guid>
     </item>
     <item>
@@ -343,7 +393,7 @@
       <guid isPermaLink="false">CBMipAFBVV95cUxOTnBidG1hN3IyZjFvcFM4RGNaWEExOHZJWWpuTmt5N0Vua0pCdklBbW14VDNqbDNybDUwRzVFUGJsdVZhd2NqMmxMR0lpOWo2ZmpseGhEQnJvQWtzS2ZZN1VjSWtSLUthZnZCUV90c3dVOVBJTlhSMU9Nd2UyVjVZYUxIcEo0cW9MWmdLMUdxTVhSYTc1aUxqWGU2bWpTbXVWLUdldQ</guid>
     </item>
     <item>
-      <title>Should Artemis IV astronauts actually land near the moon's south pole? Artemis II pilot says the lunar equator might be better - Space</title>
+      <title>Should Artemis IV astronauts actually land near the moon's south pole? Artemis II pilot says the lunar equator might be better - space.com</title>
       <pubDate>Thu, 23 Jul 2026 12:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/should-artemis-iv-astronauts-actually-land-near-the-moons-south-pole-artemis-ii-pilot-says-the-lunar-equator-might-be-better</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/XiZw7XxXqJfAdtZuinETRb-1936-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -372,11 +422,11 @@
 <p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
+      <source url="https://www.space.com">space.com</source>
       <guid isPermaLink="false">CBMiggJBVV95cUxQTzJUdVFFd19kZ0RSZG42RlJ2NURGVlhOV0x6TkUxQzBNaGxoMmtPRmlrekd4MUNwVlpyaDdYTnZNbDFPUDFJT3Z6eW4xeHBfOU41VXM1LVVkNDg0bU5lLWRWNG5pYTlRTEhrYzNmLVZ6VHdIWDE2b0tkLXdMSDhQZjY3SE9ncFl4RzhUTkFkZWlEU2QwanI1VmVTUTZ4eTJsMmtWVnJIOUk3WDNCclhmOU5TLVUxOEpmSTlrUWtrNVFBWXBUdDVfejVSNjZxaTNKRGQxLTdLWmJDZGhhUlJNSFFqQWozTmV5c2diaHdwZkdXWkhRLWtKeGswZVFJVTNfOGc</guid>
     </item>
     <item>
-      <title>'Full steam ahead': NASA ramps up prep for Artemis III astronaut launch in 2027 - Space</title>
+      <title>'Full steam ahead': NASA ramps up prep for Artemis III astronaut launch in 2027 - space.com</title>
       <pubDate>Wed, 15 Jul 2026 07:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/full-steam-ahead-nasa-ramps-up-prep-for-artemis-iii-astronaut-launch-in-2027</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/uurTRgRr5UyUzUivZNtpf5-1920-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -413,11 +463,41 @@
 <p>Josh Dinner is Space.com's Spaceflight Staff Writer. He is a writer and photographer with a passion for science and space exploration, and has been working the space beat since 2016. Josh has covered the evolution of NASA's commercial spaceflight partnerships and crewed missions from the Space Coast, NASA science missions and more. He also enjoys building 1:144-scale model rockets and spacecraft. Find some of Josh's launch photography on Instagram, and follow him on X, where he mostly posts in haiku.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
+      <source url="https://www.space.com">space.com</source>
       <guid isPermaLink="false">CBMiwgFBVV95cUxNejFBRU9uMWltRllaVTlMWmZJWVRQSHFiZ1lvc3BaOUhQaUlYdGNBSGFqOEp5VjQwMkF6NVc5VUFROUl4QjY5U3JlUjRPRHMwQ080TGoyckZabWVtX0poaWwyTy1hUC1nLVR2VjZSRDhFTmlZRmtTdFdXb3dOMjJKQ3RtZ21KUmdaTktmQmJBUEdwU0lQci1KTkhxbENIa3FkT0x1SkVwVzRYb3Z3dDI5OHk0TDhfcDVMbl9FbVpsUDdudw</guid>
     </item>
     <item>
-      <title>Artemis II was an incredible reminder of our shared humanity just when we needed it most (op-ed) - Space</title>
+      <title>NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis - NASA (.gov)</title>
+      <pubDate>Fri, 24 Jul 2026 15:30:57 GMT</pubDate>
+      <link>https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/</link>
+      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/07/bo.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<graphic src="https://www.nasa.gov/wp-content/uploads/2026/07/bo.jpg?w=2048"></graphic>
+<p>NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Mississippi.</p>
+<p>The annex to a reimbursable Space Act Agreement signed earlier this month highlights NASA’s commitment to working alongside commercial partners toward Artemis missions in 2027 and beyond.</p>
+<p>“Stennis continues to be a hub for the commercial space industry,” said Sen. Roger Wicker. “Mississippi warmly welcomes Blue Origin’s return to the coast and to our legendary rocket testing facilities.”</p>
+<p>“The success of Artemis II has roots at NASA Stennis, and I’m excited about the prospect of Blue Origin establishing a rigorous test program in Mississippi as part of future American crewed missions to the Moon and beyond. I hope its use of B-2 test stand becomes a long-term arrangement that broadens our state’s contribution to space exploration. I will certainly do what I can to make that a reality,” said Sen. Cindy Hyde-Smith.</p>
+<p>“Mississippi continues to play a vital role in America’s space program, and this agreement between NASA and Blue Origin is another major win for Stennis Space Center. The world-class capabilities at the B-2 test stand will help advance the next generation of rocket propulsion while supporting high-skilled jobs and strengthening our nation’s leadership in space exploration. I look forward to seeing the innovation that comes from this partnership,” said Rep. Mike Ezell.</p>
+<p>Testing, targeted to begin this fall, directly supports NASA’s work to achieve the national goal of landing American astronauts on the surface of the Moon and building a Moon Base near the lunar South Pole. These efforts aim to strengthen American leadership in space, unlock scientific discovery, drive innovation with industry, and prepare for human missions to Mars.</p>
+<p>“Winning the new space race means moving faster and working alongside a strong commercial industry. Supporting Blue Origin at NASA’s Stennis Space Center puts world-class American infrastructure to work advancing the capabilities needed to return astronauts to the Moon, establish a sustained lunar presence, and prepare for Mars. Partnerships like this strengthen our industrial base and help ensure the United States remains the world’s leader in space,” said NASA Administrator Jared Isaacman.</p>
+<p>Building on the successful Artemis II flight from April, Artemis III is a highly choreographed, multi-launch campaign that will require four astronauts to test rendezvous and docking capabilities of NASA’s Orion spacecraft with commercial human landing systems from Blue Origin and SpaceX in low Earth orbit.</p>
+<p>In addition, Blue Origin’s New Glenn will be used to launch missions that will land on the Moon.</p>
+<p>“We are proud to partner with NASA and build on our shared commitment to returning America to the Moon and our broader mission to build a road to space for the benefit of Earth,” said Blue Origin CEO Dave Limp. “Stennis helped take Americans to the Moon, and through this partnership, it will help take us back.”</p>
+<p>In May, NASA announced the first three Moon Base missions to begin building sustained operations, including an award to Blue Origin to launch a robotic mission this fall. The company’s Blue Moon Mark 1 Endurance lander will deliver NASA payloads to the lunar South Pole’s Shackleton Connecting Ridge, demonstrating capabilities that reduce risk for astronauts to land on the Moon during Artemis IV and V in 2028.</p>
+<p>To support upcoming testing at Stennis, NASA will provide the engineers, equipment, and building services needed to design, build, and install parts that will prepare the B-2 for second stage testing of the rocket named in honor of the late NASA astronaut John Glenn, the first American to orbit Earth. The rocket’s second stage is powered by two BE‑3 engines that use liquid oxygen and liquid hydrogen propellants, with each engine generating 200,000 pounds of thrust in vacuum.</p>
+<p>In addition to providing hands‑on technical support, NASA also will assist Blue Origin’s test operations by providing dedicated workspace and sharing agency expertise and lessons learned from propulsion testing conducted at the test stand.</p>
+<p>Blue Origin will work toward second stage rocket testing on a stand with a history of testing rocket stages for Moon missions dating back to the 1960s. The agency constructed the stand to test the Saturn V rocket stages that carried humans to the Moon during the Apollo Program. More recently, NASA conducted a Green Run test series of the SLS core stage on the stand before the Artemis I test flight.</p>
+<p>For more information about NASA’s Artemis program, visit:</p>
+<p>-end-</p>
+<p>Camille Gallo / Cheryl WarnerHeadquarters, Washington202-358-1600camille.m.gallo@nasa.gov / cheryl.m.warner@nasa.gov</p>
+<p>Sallie BilboStennis Space Center, Bay St. Louis, Mississippi228-342-6512sallie.n.bilbo@nasa.gov</p>
+</body>
+</html>]]></description>
+      <source url="https://www.nasa.gov">NASA (.gov)</source>
+      <guid isPermaLink="false">CBMipgFBVV95cUxQV3JoTFFYRGM5RHo2a3dkYW9TMjRQc29mMzNsendkVV90QnlGaGI0dV9OLTA1R2JoVWxFbGhkMVJGVDdsQ2pLRHZYcHlVNThBQ2twMmxOTW9FMlBLbjZiTjhmRDJwM0JlMWF2dUp1MkxuWVBQRDlHT1lXNmxkbUpSNTFOLXo4Wm5qQmdrVlZDdWJYTE1lVjRDclE2N2laOEVBcjd2V3pR</guid>
+    </item>
+    <item>
+      <title>Artemis II was an incredible reminder of our shared humanity just when we needed it most (op-ed) - space.com</title>
       <pubDate>Mon, 20 Jul 2026 15:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/artemis-ii-was-an-incredible-reminder-of-our-shared-humanity-just-when-we-needed-it-most-op-ed</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/sfRzeAtz3vcje3Xvua9NY6-2000-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -448,26 +528,8 @@
 <p>Aparna Venkatesan is an astronomer and dark-sky advocate in the Department of Physics and Astronomy at University of San Francisco. She works actively on space policy projects and has co-created STEM partnerships with Indigenous communities for almost 25 years. Dr. Venkatesan recently coined the term <i>noctalgia</i> with Dr. John Barentine to express “sky grief” for the accelerating loss of the home environment of our shared skies.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">Space</source>
+      <source url="https://www.space.com">space.com</source>
       <guid isPermaLink="false">CBMi2gFBVV95cUxOUTNxRkpyalVaZTRyQXhQajJ3aFZKbTVBTm5aWXVRUDFMUlMyYzI4NVJ0MW1XWTZWT1A4TzVXNWRvUUFGQUs3bjZnYXpiQW1kUlMtaVlJeExPZ2hLRUplLVcyZm9mMG9Mc3RNWWNLNGNwMjZNR3dpNmZWUjdUSlY5QmhaMENEekQtMjJpbEFaUVdhVHZsM0liVzA3bHhtUHJDeEk2QmJfekNzd29jQ1hhenBTT25FbWE3OUhfTTZmd2VqQUZJcE9vdU9yQWdqUW9aVDk3TDdiYUdsZw</guid>
-    </item>
-    <item>
-      <title>Artemis III Mission to feature live 4K video powered by Starlink lasers - SpaceQ</title>
-      <pubDate>Wed, 22 Jul 2026 17:06:30 GMT</pubDate>
-      <link>https://spaceq.ca/artemis-iii-mission-to-feature-live-4k-video-powered-by-starlink-lasers/</link>
-      <description><![CDATA[<img src="https://spaceq.ca/wp-content/uploads/2026/07/NASA-07-06-26-artemis3-composite-crop.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>NASA has tapped SpaceX to upgrade the communication capabilities of the Artemis III mission scheduled for next year. NASA will install two Starlink mini laser terminals on the exterior of the Orion spacecraft. This hardware will allow astronauts to send 4K video and high-resolution imagery back to the Mission Control Center in Houston.</p>
-<p>For the public, this means unprecedented access to the mission. During the 2027 flight, four astronauts will test how Orion approaches and docks with the commercial lunar landing systems required to return humans to the Moon in 2028. Viewers on Earth will be able to watch these tests unfold in real-time detail.</p>
-<p>The integrated Starlink terminals use optical communications. Instead of relying on traditional radio waves, this system uses invisible infrared light. Shifting to optical wavelengths allows the equipment to handle much higher frequencies. This change vastly expands the available bandwidth, letting the spacecraft send large amounts of data and complex telemetry back to Earth far faster than legacy radio systems.</p>
-<p>According to the a NASA update, the agency aims to “provide a front row seat for viewers from the Orion spacecraft” as the astronauts carry out their objectives. The new hardware will supplement the existing radio communication systems onboard Orion.</p>
-<p>This is not the first time NASA has used light to talk to spacecraft. The agency successfully tested a similar laser system during the Artemis II mission. That test proved the equipment could send high-definition video, photos, and voice communications when the spacecraft had a direct, unobstructed line of sight with ground receivers on Earth.</p>
-<p>SpaceX brings relevant experience to the project. The company demonstrated its laser technology for NASA during a 2025 spaceflight. The new hardware outfitting the Orion capsule for its low-Earth orbit demonstration flight is based on the same technology powering the more than 25,000 laser links currently connecting the Starlink internet satellites in orbit. SpaceX has already used this network to stream live video during its own Starship rocket tests.</p>
-<p>The integration of these terminals is part of the Communications Services Project run by NASA’s Space Communications and Navigation division. This partnership helps NASA shift toward using commercial satellite services for missions close to Earth, freeing up government resources for deep space exploration.</p>
-</body>
-</html>]]></description>
-      <source url="https://spaceq.ca">SpaceQ</source>
-      <guid isPermaLink="false">CBMilAFBVV95cUxNLUFmSXhVVmVRTFF6QV9WS3BFcHA0dEpYZnZvZjFzUHV4MUhjeTYzZ1lEZkx3NWV6VFkzZGQwWmN0dlI1Uk5Jby14bEIwOElyWnB4SE83WG5OdS1Lb3VCYWVIRkM1ejV2TTlvLWhhRE9SdENyNFBjQm5FVDB6ZU4wbzBKYU1aVzF2ZUwtRHFBSFpSZzJh</guid>
     </item>
     <item>
       <title>NASA Outlines Preliminary Artemis III Mission Plans - NASA (.gov)</title>
@@ -489,63 +551,6 @@
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMiogFBVV95cUxPNk00eTJkY3hOV2Y0OWNSN1J1bVNQNl8zN1ByWlM5bzFCTmJqbXVFR2N1Z1N1MGVlSGRDQTlWTDdiTlZjbmluS2hZbGxkN21EMTNlNEhicXoxOFlUdERYSVhDb1BNUk93bEs4aWNDWXNocDRlallKd2ltMnVuekhmWjJlMmZpV29CZTctTklxRU03aTdoTkpiY29ob29ROEt5MEE</guid>
-    </item>
-    <item>
-      <title>Shuttle-Era Engines Make Final Flight: RS-25s Delivered for Artemis III - Tech Times</title>
-      <pubDate>Thu, 23 Jul 2026 15:47:01 GMT</pubDate>
-      <link>https://www.techtimes.com/articles/321404/20260723/shuttle-era-engines-make-final-flight-rs-25s-delivered-artemis-iii.htm</link>
-      <description><![CDATA[<img src="https://d.techtimes.com/en/full/469662/nasa-conducted-long-duration-hot-fire-rs-25.png" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<graphic alt="NASA conducted long duration hot fire RS-25" src="https://d.techtimes.com/en/full/469662/nasa-conducted-long-duration-hot-fire-rs-25.png?w=836&amp;f=a5fd99704eb13127fb211afb1ff69279"></graphic>
-<p>The last four rocket engines ever to fly with shuttle-era hardware at their core have arrived at NASA's Michoud Assembly Facility in New Orleans — and they are headed for the Moon program, not a museum.</p>
-<p>L3Harris Technologies announced on July 22, 2026 that it completed delivery of four RS-25 main engines to Michoud, where they will be bolted vertically to the core stage of the Space Launch System (SLS) rocket for Artemis III. The delivery closes the shuttle-heritage chapter of American human spaceflight propulsion: every SLS launch from Artemis V onward will use newly manufactured engines built with modern additive manufacturing techniques, not hardware reclaimed from the shuttle program.</p>
-<h3>These Four Engines Already Have a History</h3>
-<p>The engines are not new. They carried astronauts and cargo across 36 Space Shuttle missions — a collective record that includes International Space Station assembly flights and the October 1998 return to space of Project Mercury astronaut and former Senator John Glenn aboard STS-95. Their serial numbers — E2048, E2052, E2054, and E2057 — trace back to a manufacturing era when each engine was expected to fly again and again, be refurbished, and fly again.</p>
-<p>Reflight is what L3Harris did. For the first four Artemis missions, the company upgraded the engines with modern digital controllers and new thermal insulation rated for the more extreme environment of the SLS rocket, which runs the engines hotter than the shuttle ever did. During the shuttle program, the most demanding RS-25 operating condition called for 104.5 percent of the engine's original rated power level. SLS runs them at 109 percent. Together, four engines generating that output will produce more than 2 million pounds of thrust to send the Orion spacecraft and crew into orbit during Artemis III.</p>
-<h3>A New Way to Bolt an Engine to a Rocket</h3>
-<p>Beyond the engines themselves, the Artemis III integration introduces a procedural first. For all prior SLS missions, technicians installed the RS-25 engines while the core stage sat horizontally. For Artemis III, NASA and Boeing will integrate the engines with the core stage standing upright — the same orientation the rocket will hold on the launch pad.</p>
-<p>The change is practical: a vertical stage gives technicians better access to each engine's mounting points, harnesses, and plumbing, and it eliminates a rotation step that previously required the assembled stage to be rotated before it could be stacked with the rest of the vehicle. L3Harris said the method will both simplify and accelerate the installation process.</p>
-<p>Once integration is complete, Boeing and NASA technicians will conduct final checkout of the engine gimbaling systems — the mechanical actuators that let the engines steer the rocket by swiveling up to 8.5 degrees in any direction — before the 212-foot-tall (64.6-meter) core stage is loaded onto the Pegasus barge for delivery to Kennedy Space Center in Florida.</p>
-<h3>What Artemis III Will — and Will Not — Do</h3>
-<p>There is a common misconception about Artemis III worth correcting directly: it is not a lunar landing mission.</p>
-<p>NASA redesignated Artemis III in February 2026. What was originally planned as the first crewed Moon landing since Apollo 17 in December 1972 is now a crewed test flight in low Earth orbit. The mission will launch four astronauts — commander Randy Bresnik, European Space Agency pilot Luca Parmitano, and NASA mission specialists Frank Rubio and Andre Douglas — aboard Orion on SLS, circularize in LEO using Orion's European Service Module for propulsion, and then conduct rendezvous and docking demonstrations with test versions of one or both commercial lunar landers: SpaceX's Starship Human Landing System and Blue Origin's Blue Moon Mark 2.</p>
-<p>NASA Administrator Jared Isaacman described the restructured mission as analogous to Apollo 9 — the 1969 Earth-orbit test of the Lunar Module that de-risked the Apollo 11 landing. The logic is the same: validate the docking interface, the suits, and the lander systems while still within rescue range of Earth before flying crew into deep space and attempting a surface landing.</p>
-<p>The first crewed lunar landing of the Artemis program now belongs to Artemis IV, which NASA is targeting for early 2028. That mission, if successful, will be the first time a human being has stood on the lunar surface since the Apollo 17 crew departed the Taurus-Littrow valley in December 1972 — a gap that will be 55 years.</p>
-<p>After NASA's Artemis II crew — Reid Wiseman, Victor Glover, Christina Koch, and Canadian Space Agency astronaut Jeremy Hansen — completed a nearly 10-day journey around the Moon and splashed down in the Pacific Ocean off San Diego on April 10, 2026, NASA Associate Administrator Amit Kshatriya said the program had crossed a threshold. "The path to the lunar surface is open, but the work ahead is greater than the work behind us," Kshatriya said.</p>
-<p>The RS-25 delivery is the most recent piece of hardware evidence that NASA intends to walk that path on schedule.</p>
-<h3>Why the Shuttle Hardware Is Running Out on Purpose</h3>
-<p>That Artemis III uses the last shuttle-heritage RS-25 engines is not an accident or a supply constraint — it is the plan.</p>
-<p>The original 16 RS-25 engines salvaged from the Space Shuttle program were always intended to cover the first four Artemis missions and no more. Unlike on the shuttle, where the engines were carefully removed after each flight, refurbished, and re-certified for reuse, the RS-25 engines on SLS are expendable: they ride the rocket up, detach with the core stage over the Atlantic Ocean roughly eight minutes after liftoff, and are lost to the sea. The shuttle-era stock runs out when Artemis IV launches.</p>
-<p>That is where L3Harris's new-production RS-25 comes in.</p>
-<h3>How Additive Manufacturing Changed the RS-25 — and What It Costs to Save 30 Percent</h3>
-<p>The new engines maintain what aerospace engineers call "form, fit, and function" parity with the shuttle-era hardware: they bolt to the same mounting points, run the same propellants through the same flow architecture, and produce the same vacuum specific impulse as the engines they replace. But the way their components are built is fundamentally different.</p>
-<p>The most dramatic changes involve additive manufacturing — 3D printing for flight-critical hardware. On the heritage RS-25, the pogo accumulator assembly (a beachball-sized shock absorber that regulates liquid oxygen flow to prevent destabilizing vibrations during flight) was built from dozens of separate pieces and joined by more than 100 welds. On the new-production engine, the same component is printed as a single integrated structure. NASA reported that eliminating those welds cut that component's manufacturing cost by nearly 35 percent and reduced its production time by more than 80 percent.</p>
-<p>The nozzle jacket saw an even more dramatic redesign. On the Space Shuttle Main Engine, the nozzle jacket required 37 individual components to be fabricated, fitted, and welded together. The new-production version assembles the same jacket from four pieces, using a hot isostatic pressing (HIP) bonding process borrowed from the RS-68 engine program. The main combustion chamber — the heart of the engine, where liquid hydrogen and liquid oxygen combust at temperatures reaching 6,000 degrees Fahrenheit (3,316 degrees Celsius) under 3,000 pounds per square inch of pressure — is now built using the same HIP-bonded liner/jacket process.</p>
-<p>Across the entire engine, the rigid propellant ducts are now produced using selective laser melting (SLM), an additive process that allows complex duct geometries to be printed directly rather than bent and welded from sheet stock.</p>
-<p>The aggregate effect of these changes: L3Harris confirmed the new engines are targeting a 30 percent cost reduction compared with the shuttle-era Space Shuttle Main Engine. That is a meaningful number for a program that NASA's Office of Inspector General found was running billions over budget.</p>
-<p>The performance simultaneously goes up. Beginning with Artemis V, all four RS-25 engines on each SLS launch will run at 111 percent of original rated power — two percentage points higher than the Artemis I-IV configuration, and roughly six percentage points above the maximum typical operating level during shuttle operations.</p>
-<p>The first of the new-production engines, serial number 20001, completed its full-duration hot-fire acceptance test on June 20, 2025, at the Fred Haise Test Stand at Stennis Space Center in Mississippi. Test teams fired the engine for 500 seconds — the same duration as an actual SLS launch sequence — and ran it up to the 111 percent power level. The second new-production engine, serial 20002, completed a similar acceptance test in November 2025.</p>
-<p>L3Harris is targeting a production rate of four engines per year from its Stennis facility — the rate needed to support the annual SLS launch cadence Kristin Houston, President of Space Propulsion and Power Systems at L3Harris, referenced after the Artemis III delivery.</p>
-<h3>What Happens at Michoud Now</h3>
-<p>With all four RS-25 engines for Artemis III at Michoud, Boeing will begin mechanical installation and alignment against the engine section of the SLS core stage. That section has been integrated with the core stage tank structures since April 2026, when the upper portion of the core stage was rolled out of Michoud and barged to Kennedy Space Center.</p>
-<p>Following structural integration and engine gimbaling system checkout, the completed core stage will be loaded onto the Pegasus barge — NASA's dedicated heavy transport vessel — for a sea voyage along the Gulf of Mexico and up to Kennedy Space Center. There, it will be stacked in the Vehicle Assembly Building with the solid rocket boosters and upper stage components already being prepared for the Artemis III stack.</p>
-<p>Launch countdown simulations at Kennedy began in July 2026, and solid rocket booster segments have been mounted to the mobile launcher. The Artemis III Orion spacecraft has an internal readiness target of January 2028, which means the late-2027 launch window — while achievable — remains aggressive.</p>
-<p>"This delivery keeps Artemis III on track for launch in 2027," L3Harris's Houston said, "and supports NASA's transition to an annual launch cadence that will enable regular missions to the Moon."</p>
-<p>The engines that once helped build the International Space Station and carried John Glenn back to orbit are now pointed, for the last time, at something entirely new.</p>
-<h2>Frequently Asked Questions</h2>
-<h3>Is Artemis III going to land on the Moon?</h3>
-<p>No. NASA restructured Artemis III in February 2026. It is now an Earth-orbit test mission in which the four-person Artemis III crew — commander Randy Bresnik, ESA pilot Luca Parmitano, and NASA mission specialists Frank Rubio and Andre Douglas — will rendezvous and dock with test versions of SpaceX's Starship Human Landing System and Blue Origin's Blue Moon lander in low Earth orbit. The first crewed Moon landing is now the objective of Artemis IV, targeted for early 2028.</p>
-<h3>What is the difference between the old shuttle-era RS-25 engines and the new ones being built for Artemis V and beyond?</h3>
-<p>The new-production RS-25 engines use the same fundamental staged-combustion design and flow architecture as the shuttle-era engines, but key components are built using additive manufacturing (3D printing) rather than traditional fabrication. The nozzle jacket went from 37 pieces to 4. The pogo accumulator — a liquid oxygen shock absorber — is now printed as a single unit, eliminating more than 100 welds and cutting that component's cost by roughly 35 percent. Overall, L3Harris says the new engines cost 30 percent less than the shuttle-era units. They also run at a higher power level: 111 percent of the original rated thrust, versus 109 percent for Artemis I-IV engines, and about 104.5 percent at the end of the Space Shuttle program.</p>
-<h3>Why are the RS-25 engines on the Space Launch System not reused the way they were on the Space Shuttle?</h3>
-<p>The Space Shuttle's RS-25 engines were designed to be removed from the main engines after each launch, refurbished, and re-certified for the next mission. On SLS, the core stage — including its four RS-25 engines — separates from the rocket about eight minutes after liftoff and falls into the ocean. Recovering and refurbishing them would cost more than building new ones at the production rates required for an annual launch cadence. The trade-off was evaluated by NASA and deemed acceptable: the new-production engines cost 30 percent less per unit, so the economics of building fresh engines each mission are better than the economics of the shuttle's refurbishment pipeline at the volumes NASA needs.</p>
-<h3>When will Artemis III launch, and what will it prove for the Moon landing that follows?</h3>
-<p>NASA and L3Harris are targeting a late-2027 launch for Artemis III. The mission is designed to validate that Orion can successfully rendezvous and dock with commercial lunar landers — systems from SpaceX and Blue Origin that have never before docked with a crewed NASA spacecraft. That demonstration in the safety of Earth orbit is intended to de-risk Artemis IV, which NASA is targeting for early 2028 as the first crewed attempt to land on the lunar south pole since the Apollo program ended.</p>
-
-</body>
-</html>]]></description>
-      <source url="https://www.techtimes.com">Tech Times</source>
-      <guid isPermaLink="false">CBMivgFBVV95cUxOaDBoV01rQ2kwZm9rRThLdHVDNF9HVEJxWTVDaTYyZzhvLVpuREp2QjNsempSZzVfdjFtdkJ1YldhY2ZHZDd0UDFiTDVUQXN3cGM2RWIxXzlLRGE5QnN2Wi1qMjlkdWZuNGtsX2prUjhlTWdDbFNjTHVpNTBGTk9ic1VjVkIwRmVxMHh6SWdKbUh0ZTdzMi1tQV94RkYzZGtIWDhMejZvWUk1Q2IyaElrRXdxazRCdGpEbzRHWW1R</guid>
     </item>
     <item>
       <title>NASA reveals Artemis III astronaut crew - Axios</title>
@@ -609,6 +614,63 @@
       <guid isPermaLink="false">CBMigwFBVV95cUxPLUpQS3VIdEFwdzhKQTFOXzF5MXNyM2xxSFdKMUgtbV9TdU11R2kzamJNTzkxWVRkNDNCZXprT2VWd1hCZ0ZnNFk4OElncVBSNm9HeUs5cVBWRVJ3XzFvbWtkXzVNcElTQ2d3TmtIaUxpZmlWZC1OTlMxc3hVY0xfTXBHdw</guid>
     </item>
     <item>
+      <title>Shuttle-Era Engines Make Final Flight: RS-25s Delivered for Artemis III - Tech Times</title>
+      <pubDate>Thu, 23 Jul 2026 15:47:01 GMT</pubDate>
+      <link>https://www.techtimes.com/articles/321404/20260723/shuttle-era-engines-make-final-flight-rs-25s-delivered-artemis-iii.htm</link>
+      <description><![CDATA[<img src="https://d.techtimes.com/en/full/469662/nasa-conducted-long-duration-hot-fire-rs-25.png" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<graphic alt="NASA conducted long duration hot fire RS-25" src="https://d.techtimes.com/en/full/469662/nasa-conducted-long-duration-hot-fire-rs-25.png?w=836&amp;f=a5fd99704eb13127fb211afb1ff69279"></graphic>
+<p>The last four rocket engines ever to fly with shuttle-era hardware at their core have arrived at NASA's Michoud Assembly Facility in New Orleans — and they are headed for the Moon program, not a museum.</p>
+<p>L3Harris Technologies announced on July 22, 2026 that it completed delivery of four RS-25 main engines to Michoud, where they will be bolted vertically to the core stage of the Space Launch System (SLS) rocket for Artemis III. The delivery closes the shuttle-heritage chapter of American human spaceflight propulsion: every SLS launch from Artemis V onward will use newly manufactured engines built with modern additive manufacturing techniques, not hardware reclaimed from the shuttle program.</p>
+<h3>These Four Engines Already Have a History</h3>
+<p>The engines are not new. They carried astronauts and cargo across 36 Space Shuttle missions — a collective record that includes International Space Station assembly flights and the October 1998 return to space of Project Mercury astronaut and former Senator John Glenn aboard STS-95. Their serial numbers — E2048, E2052, E2054, and E2057 — trace back to a manufacturing era when each engine was expected to fly again and again, be refurbished, and fly again.</p>
+<p>Reflight is what L3Harris did. For the first four Artemis missions, the company upgraded the engines with modern digital controllers and new thermal insulation rated for the more extreme environment of the SLS rocket, which runs the engines hotter than the shuttle ever did. During the shuttle program, the most demanding RS-25 operating condition called for 104.5 percent of the engine's original rated power level. SLS runs them at 109 percent. Together, four engines generating that output will produce more than 2 million pounds of thrust to send the Orion spacecraft and crew into orbit during Artemis III.</p>
+<h3>A New Way to Bolt an Engine to a Rocket</h3>
+<p>Beyond the engines themselves, the Artemis III integration introduces a procedural first. For all prior SLS missions, technicians installed the RS-25 engines while the core stage sat horizontally. For Artemis III, NASA and Boeing will integrate the engines with the core stage standing upright — the same orientation the rocket will hold on the launch pad.</p>
+<p>The change is practical: a vertical stage gives technicians better access to each engine's mounting points, harnesses, and plumbing, and it eliminates a rotation step that previously required the assembled stage to be rotated before it could be stacked with the rest of the vehicle. L3Harris said the method will both simplify and accelerate the installation process.</p>
+<p>Once integration is complete, Boeing and NASA technicians will conduct final checkout of the engine gimbaling systems — the mechanical actuators that let the engines steer the rocket by swiveling up to 8.5 degrees in any direction — before the 212-foot-tall (64.6-meter) core stage is loaded onto the Pegasus barge for delivery to Kennedy Space Center in Florida.</p>
+<h3>What Artemis III Will — and Will Not — Do</h3>
+<p>There is a common misconception about Artemis III worth correcting directly: it is not a lunar landing mission.</p>
+<p>NASA redesignated Artemis III in February 2026. What was originally planned as the first crewed Moon landing since Apollo 17 in December 1972 is now a crewed test flight in low Earth orbit. The mission will launch four astronauts — commander Randy Bresnik, European Space Agency pilot Luca Parmitano, and NASA mission specialists Frank Rubio and Andre Douglas — aboard Orion on SLS, circularize in LEO using Orion's European Service Module for propulsion, and then conduct rendezvous and docking demonstrations with test versions of one or both commercial lunar landers: SpaceX's Starship Human Landing System and Blue Origin's Blue Moon Mark 2.</p>
+<p>NASA Administrator Jared Isaacman described the restructured mission as analogous to Apollo 9 — the 1969 Earth-orbit test of the Lunar Module that de-risked the Apollo 11 landing. The logic is the same: validate the docking interface, the suits, and the lander systems while still within rescue range of Earth before flying crew into deep space and attempting a surface landing.</p>
+<p>The first crewed lunar landing of the Artemis program now belongs to Artemis IV, which NASA is targeting for early 2028. That mission, if successful, will be the first time a human being has stood on the lunar surface since the Apollo 17 crew departed the Taurus-Littrow valley in December 1972 — a gap that will be 55 years.</p>
+<p>After NASA's Artemis II crew — Reid Wiseman, Victor Glover, Christina Koch, and Canadian Space Agency astronaut Jeremy Hansen — completed a nearly 10-day journey around the Moon and splashed down in the Pacific Ocean off San Diego on April 10, 2026, NASA Associate Administrator Amit Kshatriya said the program had crossed a threshold. "The path to the lunar surface is open, but the work ahead is greater than the work behind us," Kshatriya said.</p>
+<p>The RS-25 delivery is the most recent piece of hardware evidence that NASA intends to walk that path on schedule.</p>
+<h3>Why the Shuttle Hardware Is Running Out on Purpose</h3>
+<p>That Artemis III uses the last shuttle-heritage RS-25 engines is not an accident or a supply constraint — it is the plan.</p>
+<p>The original 16 RS-25 engines salvaged from the Space Shuttle program were always intended to cover the first four Artemis missions and no more. Unlike on the shuttle, where the engines were carefully removed after each flight, refurbished, and re-certified for reuse, the RS-25 engines on SLS are expendable: they ride the rocket up, detach with the core stage over the Atlantic Ocean roughly eight minutes after liftoff, and are lost to the sea. The shuttle-era stock runs out when Artemis IV launches.</p>
+<p>That is where L3Harris's new-production RS-25 comes in.</p>
+<h3>How Additive Manufacturing Changed the RS-25 — and What It Costs to Save 30 Percent</h3>
+<p>The new engines maintain what aerospace engineers call "form, fit, and function" parity with the shuttle-era hardware: they bolt to the same mounting points, run the same propellants through the same flow architecture, and produce the same vacuum specific impulse as the engines they replace. But the way their components are built is fundamentally different.</p>
+<p>The most dramatic changes involve additive manufacturing — 3D printing for flight-critical hardware. On the heritage RS-25, the pogo accumulator assembly (a beachball-sized shock absorber that regulates liquid oxygen flow to prevent destabilizing vibrations during flight) was built from dozens of separate pieces and joined by more than 100 welds. On the new-production engine, the same component is printed as a single integrated structure. NASA reported that eliminating those welds cut that component's manufacturing cost by nearly 35 percent and reduced its production time by more than 80 percent.</p>
+<p>The nozzle jacket saw an even more dramatic redesign. On the Space Shuttle Main Engine, the nozzle jacket required 37 individual components to be fabricated, fitted, and welded together. The new-production version assembles the same jacket from four pieces, using a hot isostatic pressing (HIP) bonding process borrowed from the RS-68 engine program. The main combustion chamber — the heart of the engine, where liquid hydrogen and liquid oxygen combust at temperatures reaching 6,000 degrees Fahrenheit (3,316 degrees Celsius) under 3,000 pounds per square inch of pressure — is now built using the same HIP-bonded liner/jacket process.</p>
+<p>Across the entire engine, the rigid propellant ducts are now produced using selective laser melting (SLM), an additive process that allows complex duct geometries to be printed directly rather than bent and welded from sheet stock.</p>
+<p>The aggregate effect of these changes: L3Harris confirmed the new engines are targeting a 30 percent cost reduction compared with the shuttle-era Space Shuttle Main Engine. That is a meaningful number for a program that NASA's Office of Inspector General found was running billions over budget.</p>
+<p>The performance simultaneously goes up. Beginning with Artemis V, all four RS-25 engines on each SLS launch will run at 111 percent of original rated power — two percentage points higher than the Artemis I-IV configuration, and roughly six percentage points above the maximum typical operating level during shuttle operations.</p>
+<p>The first of the new-production engines, serial number 20001, completed its full-duration hot-fire acceptance test on June 20, 2025, at the Fred Haise Test Stand at Stennis Space Center in Mississippi. Test teams fired the engine for 500 seconds — the same duration as an actual SLS launch sequence — and ran it up to the 111 percent power level. The second new-production engine, serial 20002, completed a similar acceptance test in November 2025.</p>
+<p>L3Harris is targeting a production rate of four engines per year from its Stennis facility — the rate needed to support the annual SLS launch cadence Kristin Houston, President of Space Propulsion and Power Systems at L3Harris, referenced after the Artemis III delivery.</p>
+<h3>What Happens at Michoud Now</h3>
+<p>With all four RS-25 engines for Artemis III at Michoud, Boeing will begin mechanical installation and alignment against the engine section of the SLS core stage. That section has been integrated with the core stage tank structures since April 2026, when the upper portion of the core stage was rolled out of Michoud and barged to Kennedy Space Center.</p>
+<p>Following structural integration and engine gimbaling system checkout, the completed core stage will be loaded onto the Pegasus barge — NASA's dedicated heavy transport vessel — for a sea voyage along the Gulf of Mexico and up to Kennedy Space Center. There, it will be stacked in the Vehicle Assembly Building with the solid rocket boosters and upper stage components already being prepared for the Artemis III stack.</p>
+<p>Launch countdown simulations at Kennedy began in July 2026, and solid rocket booster segments have been mounted to the mobile launcher. The Artemis III Orion spacecraft has an internal readiness target of January 2028, which means the late-2027 launch window — while achievable — remains aggressive.</p>
+<p>"This delivery keeps Artemis III on track for launch in 2027," L3Harris's Houston said, "and supports NASA's transition to an annual launch cadence that will enable regular missions to the Moon."</p>
+<p>The engines that once helped build the International Space Station and carried John Glenn back to orbit are now pointed, for the last time, at something entirely new.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Is Artemis III going to land on the Moon?</h3>
+<p>No. NASA restructured Artemis III in February 2026. It is now an Earth-orbit test mission in which the four-person Artemis III crew — commander Randy Bresnik, ESA pilot Luca Parmitano, and NASA mission specialists Frank Rubio and Andre Douglas — will rendezvous and dock with test versions of SpaceX's Starship Human Landing System and Blue Origin's Blue Moon lander in low Earth orbit. The first crewed Moon landing is now the objective of Artemis IV, targeted for early 2028.</p>
+<h3>What is the difference between the old shuttle-era RS-25 engines and the new ones being built for Artemis V and beyond?</h3>
+<p>The new-production RS-25 engines use the same fundamental staged-combustion design and flow architecture as the shuttle-era engines, but key components are built using additive manufacturing (3D printing) rather than traditional fabrication. The nozzle jacket went from 37 pieces to 4. The pogo accumulator — a liquid oxygen shock absorber — is now printed as a single unit, eliminating more than 100 welds and cutting that component's cost by roughly 35 percent. Overall, L3Harris says the new engines cost 30 percent less than the shuttle-era units. They also run at a higher power level: 111 percent of the original rated thrust, versus 109 percent for Artemis I-IV engines, and about 104.5 percent at the end of the Space Shuttle program.</p>
+<h3>Why are the RS-25 engines on the Space Launch System not reused the way they were on the Space Shuttle?</h3>
+<p>The Space Shuttle's RS-25 engines were designed to be removed from the main engines after each launch, refurbished, and re-certified for the next mission. On SLS, the core stage — including its four RS-25 engines — separates from the rocket about eight minutes after liftoff and falls into the ocean. Recovering and refurbishing them would cost more than building new ones at the production rates required for an annual launch cadence. The trade-off was evaluated by NASA and deemed acceptable: the new-production engines cost 30 percent less per unit, so the economics of building fresh engines each mission are better than the economics of the shuttle's refurbishment pipeline at the volumes NASA needs.</p>
+<h3>When will Artemis III launch, and what will it prove for the Moon landing that follows?</h3>
+<p>NASA and L3Harris are targeting a late-2027 launch for Artemis III. The mission is designed to validate that Orion can successfully rendezvous and dock with commercial lunar landers — systems from SpaceX and Blue Origin that have never before docked with a crewed NASA spacecraft. That demonstration in the safety of Earth orbit is intended to de-risk Artemis IV, which NASA is targeting for early 2028 as the first crewed attempt to land on the lunar south pole since the Apollo program ended.</p>
+
+</body>
+</html>]]></description>
+      <source url="https://www.techtimes.com">Tech Times</source>
+      <guid isPermaLink="false">CBMivgFBVV95cUxOaDBoV01rQ2kwZm9rRThLdHVDNF9HVEJxWTVDaTYyZzhvLVpuREp2QjNsempSZzVfdjFtdkJ1YldhY2ZHZDd0UDFiTDVUQXN3cGM2RWIxXzlLRGE5QnN2Wi1qMjlkdWZuNGtsX2prUjhlTWdDbFNjTHVpNTBGTk9ic1VjVkIwRmVxMHh6SWdKbUh0ZTdzMi1tQV94RkYzZGtIWDhMejZvWUk1Q2IyaElrRXdxazRCdGpEbzRHWW1R</guid>
+    </item>
+    <item>
       <title>Artemis III Crew Announced - NASA (.gov)</title>
       <pubDate>Tue, 09 Jun 2026 07:00:00 GMT</pubDate>
       <link>https://www.nasa.gov/image-article/artemis-iii-crew-announced/</link>
@@ -641,42 +703,6 @@
 </html>]]></description>
       <source url="https://www.kennedyspacecenter.com">Kennedy Space Center Visitor Complex</source>
       <guid isPermaLink="false">CBMiiwFBVV95cUxOYnE2YnVhNkc0M3ZraWc3LVJteDBEb25XekNtZWQwdDVaVFBLSTQyeFRUQWV0ZE1lRUVLSW1UU3RYaVI2cnkzWkFwUnRWeTkwY0JIRFlPazV3dk5lVnFsRHhwQlFQenlPQjMxLUhqNUVGdnBNd2ZzRHgyYkRfMkMtdElJVndfVHNzUk9z</guid>
-    </item>
-    <item>
-      <title>Three Americans and a European Named Crew of Artemis III - Space Policy Online</title>
-      <pubDate>Tue, 09 Jun 2026 07:00:00 GMT</pubDate>
-      <link>https://spacepolicyonline.com/news/three-americans-and-a-european-named-crew-of-artemis-iii/</link>
-      <description><![CDATA[<html>
-<body><div id="container">
-<p id="text">
-        Please wait while your request is being verified...
-      </p>
-</div>
-</body>
-</html>]]></description>
-      <source url="https://spacepolicyonline.com">Space Policy Online</source>
-      <guid isPermaLink="false">CBMilwFBVV95cUxQVWNNMWdPTHhvUWd2bmpTeVNQV1lNWnNGU0pTaWRUeXBFMElCcGRpRllSbUlSYnNzbWppWExSVnAxbjREbEFzVldOaGtWZGllWjhDdDBjUjZfS2FLWU9iczdweGVqTzlQbmlkdWpsdTE5Wm54MTgyd3ctX2tqY0thZlpVM1g1cXU2NzcwQTF2eTRCQ0tQWGxv</guid>
-    </item>
-    <item>
-      <title>NASA to Announce Artemis III Crew, Provide Mission Progress Update - NASA (.gov)</title>
-      <pubDate>Tue, 26 May 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/news-release/nasa-to-announce-artemis-iii-crew-provide-mission-progress-update/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2025/09/cropped-nasa-meatball-1.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>NASA will provide an update on the agency’s Artemis III mission and announce the astronauts assigned to the test flight during a live event at 11 a.m. EDT on Tuesday, June 9, at the agency’s Johnson Space Center in Houston.</p>
-<p>The event will stream on NASA+ and on the agency’s YouTube channel. Learn how to watch NASA content through a variety of online platforms, including social media.</p>
-<p>Following the event, the Artemis III crew will be available for limited in-person and virtual interviews.</p>
-<p>Interview requests must be submitted to the NASA Johnson newsroom by 5 p.m. on Thursday, June 4. International media interested in attending must contact the NASA Johnson newsroom at jsccommu@mail.nasa.gov by 5 p.m., Thursday, May 28. U.S. media must contact the newsroom by 5 p.m., June 4. Registered media will receive confirmation and additional event details by email. NASA’s media accreditation policy is available online.</p>
-<p>Artemis III will launch four astronauts from NASA’s Kennedy Space Center in Florida aboard the Orion spacecraft on the SLS (Space Launch System) rocket. The mission will test critical rendezvous and docking capabilities between Orion and commercial human landing systems needed to deliver astronauts to the lunar surface. Building on the successful Artemis II crewed test flight in April, Artemis III will pave the way for future surface missions.</p>
-<p>As part of the Golden Age of innovation and exploration, NASA will send Artemis astronauts on increasingly complex missions to explore more of the Moon for scientific discovery, economic benefits, establish an enduring human presence on the lunar surface, and to build on our foundation for the first crewed missions to Mars.</p>
-<p>Learn more about NASA’s Artemis program:</p>
-<p>-end-</p>
-<p>Rachel Kraft Headquarters, Washington202-358-1600rachel.h.kraft@nasa.gov  </p>
-<p>Anna SchneiderJohnson Space Center, Houston281-483-5111anna.c.schneider@nasa.gov</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMiogFBVV95cUxPbUVFMkI1emtEYVlJT1dReFNEeTJPWmVqZkI3dWVXbFlSZDFxeW01cWxTcVMtMTd4UHAyRjROSndMcngtZXVCbEE1dHRWcm9kanhFLTlJVkQxOHFfUWd6T1o5dmlWMDFqMFk1bGpZb2M5TGtVZFJyMXFMcHJRenNxekJwRFNMcEc0RWJjQ0RQdE1zYnlVdy1hQ05TdEpfTUcyOXc</guid>
     </item>
   </channel>
 </rss>
