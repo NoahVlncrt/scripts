@@ -31,47 +31,112 @@
       <guid isPermaLink="false">CBMilgFBVV95cUxNZDEzQkhTcVhWV09ZYkQxYTZnYjVTdVV0R2tqWGhub1JoSHFpNmVuN0dacnVtNGRKbjVLeUhnSDlGZkhiNi1iNG41dXE1RlIzM0w5MjYwUVBjY1EzaDBzbk1Kd0hidEdqVXVqUW1ka0J4Qk5HZlh6cWIzQkZsY19KS3ZCLTBHc2ltX09BNlctdV9lMTY0NUE</guid>
     </item>
     <item>
-      <title>Artemis II commander and pilot become NASA's first astronaut emeriti - collectspace.com</title>
-      <pubDate>Wed, 09 Sep 2026 22:18:54 GMT</pubDate>
-      <link>http://www.collectspace.com/news/news-090926a-artemis-ii-wiseman-glover-astronauts-emeritus.html</link>
-      <description><![CDATA[<img src="https://www.collectspace.com/images/news-090926a-fb.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+      <title>Winners of NASA HRP’s Artemis II Data Methodology Challenge - NASA (.gov)</title>
+      <pubDate>Fri, 11 Sep 2026 15:00:42 GMT</pubDate>
+      <link>https://www.nasa.gov/hrp/winners-of-nasa-hrps-artemis-ii-data-methodology-challenge/</link>
+      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body><h2><strong>Winners of NASA HRP’s Artemis II Data Methodology Challenge</strong></h2>
+<graphic alt="The full Moon rises behind NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft, on Sunday, Feb. 1, 2026, at NASA’s Kennedy Space Center. The Artemis II test flight, which launched in April 20206, took three NASA astronauts and one CSA (Canadian Space Agency) astronaut, around the Moon and back to Earth. Photo Credit: (NASA/John Kraus)" src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg?w=2048"></graphic><p>NASA’s Human Research Program has selected 10 winning projects for the Artemis II Human Research Data Methodology Challenge, a public competition that sought better ways of drawing rigorous conclusions from the small, information-dense datasets that define human spaceflight research.</p><p>Each crew member on missions like Artemis II are measured across multiple physiological variables over time, and with only four people on board each mission, data is limited. The challenge asked entrants to design methodologies that extract trustworthy, decision-ready insight from exactly this kind of small-sample, high-dimensional data.</p><p>Below are the winners, listed by their final placing. Placings reflect not only the technical rigor of each methodology, but how directly each submission responded to the challenge and how well each submission’s approach matched the real needs of NASA’s Human Research Program. Where entries were closely matched, the edge went to entrants who engaged most fully with the problem and whose methods translate most readily to the Human Research Program’s work. Project approach summaries were pulled from submission materials.</p><h1><strong>Praniil Nagaraj (1st place)</strong></h1>
+<p><strong>Project Theme: </strong>Transfer-Calibrated Normative Modeling</p><p><strong>Affiliation: </strong>Purdue University</p><p><strong>Project Approach: </strong>“This project treats the Artemis II challenge – four astronauts measured across hundreds of features over time – as a high-resolution case series rather than a failed population study, applying a stack of proven small-sample, high-dimensional methods (variance-borrowing empirical-Bayes tests, exact permutation inference, shrinkage-based multivariate scoring, and Gaussian-process recovery modeling) on a common calibrated scale. We demonstrate it on real four-person spaceflight data from SpaceX’s Inspiration4 mission crew, recovering a coherent acute inflammatory signature and per-crew recovery trajectories – with automated quality control that catches assay drift rather than misreading it as biology.”</p><h1><strong><strong>Estrella (Star) Perez (2nd place)</strong></strong></h1>
+<p><strong>Estrella (Star) Perez (2nd place)</strong></p><p><strong>Project Theme: </strong>STELLAR (Systematic Trajectory Estimation via Layered Longitudinal Analysis and Regression)</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“STELLAR is a three-layer Bayesian pipeline designed to extract meaningful signal from the kind of data NASA’s Human Research Program collects on missions like Artemis II: small crews, high-dimensional measurements, multiple biological systems tracked together over time. It combines multi-omics factor analysis v2, Bayesian hierarchical modeling, and Gaussian Process regression, with two purpose-built diagnostic metrics: the Physiological Data Diversity Index (PDDI) and Physiological Complexity Index (PCI), to characterize dataset diversity and physiological complexity. The methodology is built specifically for the small-sample reality of human spaceflight research, where traditional statistical approaches often fall short.”</p><h1><strong><strong><strong>Waste Parrot Technologies (3rd place)</strong></strong></strong></h1>
+<strong>Waste Parrot Technologies (3rd place)</strong><p><i>Team member: Naseem Khan</i></p><p><strong>Project Theme: </strong>Unified Hierarchical Bayesian Spine</p><p><strong>Affiliation: </strong>Waste Parrot Technologies</p><p><strong>Project Approach:</strong> “Waste Parrot Technologies developed a unified hierarchical Bayesian framework for extracting reliable insight from small-sample, high-dimensional spaceflight health data. The approach condenses large numbers of correlated biomarkers into a small set of interpretable signals and models each astronaut individually rather than averaging across the crew, recovering patterns that conventional methods miss with only four subjects. We demonstrated it end-to-end on public proxy data for two Artemis II studies, Immune Biomarkers and ARCHeR, producing calibrated early-warning flags for unusual physiological readings, designed for real mission constraints such as far-side communication blackout.”</p><h1><strong><strong><strong><strong>OJ Ochiai (4th place)</strong></strong></strong></strong></h1>
+<strong>OJ Ochiai (4th place)</strong><p><strong>Project Theme: </strong>Bayesian N-of-1 with Dynamic Borrowing</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach:</strong> “This project applies Bayesian hierarchical N-of-1 modeling with dynamic borrowing to the Artemis II problem of extracting rigorous inference from only four astronauts across many measurements. Applied unchanged to SpaceX’s Inspiration4 mission (the only existing real n=4 spaceflight cohort), the model independently recovers textbook spaceflight physiology from serum and urinary biomarkers — demonstrating that a single small-sample framework can honestly quantify what four astronauts’ worth of high-dimensional data can, and cannot, support.”</p><h1><strong><strong><strong><strong><strong>Ismael AL-Hadhrami (5th place)</strong></strong></strong></strong></strong></h1>
+<strong>Ismael AL-Hadhrami (5th place)</strong><p><strong>Project Theme: </strong>Dynamic Empirical-Bayes Counterfactual</p><p><strong>Affiliation: </strong>University of Virginia</p><p><strong>Project Approach:</strong> “I developed a Dynamic Empirical-Bayes Bayesian Counterfactual Simulation Framework to analyze small-sample, high-dimensional astronaut health data from NASA’s Spaceflight Standard Measures program. The methodology leverages proxy cohorts, empirical priors, Bayesian borrowing, and robust longitudinal analysis to identify meaningful physiological changes while overcoming small sample sizes. This framework provides a scalable and interpretable approach for supporting evidence-based decisions in NASA’s Human Research Program.”</p><h1><strong><strong><strong><strong><strong><strong>Ivan Lavlinski (6th place)</strong></strong></strong></strong></strong></strong></h1>
+<strong>Ivan Lavlinski (6th place)</strong><p><strong>Project Theme: </strong>Bayesian State-Space Decision Layer</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“My project is a hierarchical Bayesian framework for tracking the health of the Artemis II crew, built for a hard case: only four astronauts, each measured across dozens of physiological systems, the exact setting where standard statistics break down. It combines 43 established methods, organized in four layers and drawing on twelve public datasets, into a single system a flight surgeon can act on. I tested the whole thing on real spaceflight data from SpaceX’s Inspiration4 mission, and it runs the same way whether the mission lasts ten days or the several months it takes to reach Mars.”</p><h1><strong><strong><strong><strong><strong><strong><strong>Aaron Krasinski (7th place)</strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Aaron Krasinski (7th place)</strong><p><strong>Project Theme:</strong> Mechanism-Constrained AI for Vision Risk (SANS)</p><p><strong>Affiliation: </strong>Massachusetts Institute of Technology</p><p><strong>Project Approach: </strong>“I designed a multi-task deep learning model that simultaneously predicts SANS from longitudinal bed rest MRI data and regresses six quantitative biomarkers characterizing glymphatic dysfunction. This kind of approach could let researchers take tools traditionally suited to large-sample data and use them to extract meaningful, biologically grounded insight into the pathology of conditions that affect only a small minority of the population, such as SANS.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong>Vision One (8th place)</strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Vision One (8th place)</strong><p><i>Team members: Sushanta Khadka, Arpan Bom, Pranisha Karki</i></p><p><strong>Project Theme:</strong> Integrated Health Monitoring</p><p><strong>Affiliation: </strong>Vision One</p><p><strong>Project Approach: </strong>“Vision One developed an Integrated Bayesian Multi-Modal Longitudinal Physiological Analysis Framework to help NASA extract meaningful insights from the Artemis II human research dataset despite having only four astronauts. By combining physiological, cognitive, immune, sleep, activity, imaging, and environmental data into a unified analytical framework, our approach enables personalized health monitoring, early detection of fatigue and stress, and supports future Artemis, Gateway, lunar surface, and Mars exploration missions.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ashlei Lewis (9th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Ashlei Lewis (9th place)</strong><p><strong>Project Theme:</strong> Integrated Multi-Study Health Profiling</p><p><strong>Affiliation: </strong>Neuroviu</p><p><strong>Project Approach: </strong>“This project uses a hierarchical Bayesian multi-block factor analysis to model each Artemis II astronaut individually while leveraging reference data from the International Space Station, SpaceX’s Inspiration4 mission, and terrestrial analog missions to improve statistical reliability. The approach is designed for extremely small, high-dimensional datasets, enabling personalized mission-stress profiling, uncertainty estimation, and detection of integrated physiological and behavioral changes without relying on traditional group-based statistical tests. Validation on the PhysioNet MMASH dataset demonstrated a reproducible end-to-end pipeline suitable for deep-space human research.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Carm Hermosilla (10th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Carm Hermosilla (10th place)</strong><p><strong>Project Theme:</strong> Akasi (Interactive Data Interface)</p><p><strong>Affiliation: </strong>University of California, Irvine</p><p><strong>Project Approach: </strong>“Akasi is intended to be a visual aid to modeling &amp; analyzing, with interactive graphs via the Streamlit web app service. With preprocessing tools &amp; a solid framework, further physiological data can be incorporated smoothly into Akasi, with the intention to model &amp; analyze trends between different datasets.”</p><p>Videos detailing the winning methodologies can be found here.</p><p>Winners are also invited to attend the Human Research Program’s 2027 Investigators’ Workshop (2027 IWS), which will take place in late January 2027 in Galveston, Texas.</p><p><pre>____</pre></p><p><strong>NASA’s Human Research Program</strong></p><p>NASA’s Human Research Program pursues methods and technologies to support safe, productive human space travel. Through science conducted in laboratories, ground-based analogs, commercial missions, the International Space Station and Artemis missions, the program scrutinizes how spaceflight affects human bodies and behaviors. Such research drives the program’s quest to innovate ways that keep astronauts healthy and mission ready as human space exploration expands to the Moon, Mars, and beyond.</p></body>
+</html>]]></description>
+      <source url="https://www.nasa.gov">NASA (.gov)</source>
+      <guid isPermaLink="false">CBMijAFBVV95cUxQaEoxSzJoY0ZMQUozMmt0ek5DcUtKMlJsMXhsYXpuMkNuM05Sb2NSQ3NzUFVHelIxTzl6Q3RrQkcyN2p3Vk5YcGs2UXZnT3lHN2hSaXJENjBBenFaVEgyd3RfSEdaZUFTcXZDeHo2aDVWM09zb0VVSlVJeFNWelM3MXI0WS0xUG04UFNsag</guid>
+    </item>
+    <item>
+      <title>Artemis II crew will lose communication with mission control during reentry. Here's why - ABC News - Breaking News, Latest News and Videos</title>
+      <pubDate>Fri, 11 Sep 2026 08:07:17 GMT</pubDate>
+      <link>https://abcnews.com/Technology/orion-lose-communication-mission-control-reentry/story?id=131877958</link>
+      <description><![CDATA[<img src="https://i.abcnewsfe.com/a/eedd9cbe-0add-47c6-aeb8-01ab171ff300/artemis-reentry-ht-gmh-260409_1775767778061_hpMain_16x9.jpg?w=1600" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
 <body>
-<row>
-<cell valign="top"><div style="line-height:0px;">September 9, 2026<p> — The commander and pilot of NASA's historic Artemis II mission have gained a new distinction five months after splashing down from the moon — by not fully retiring from the space agency.
-Reid Wiseman and Victor Glover are the first astronauts to join NASA's emeritus program, enabling them to continue to support the work being done at Johnson Space Center in Houston. They will remain available to train and mentor the current workforce, while still being able to pursue employment and opportunities outside of NASA.
-"I have asked NASA when talking about it to not use the term 'retire' as much, but technically emeritus is a retirement program," said Glover in an interview with collectSPACE on Wednesday (Sept. 9). "It's something we have typically done for scientists when they have groundbreaking research and they want to go back to academia to teach or to research and publish."
-In his case, Glover has accepted a full-time administrative leadership position at his alma mater, California Polytechnic State University (Cal Poly) in San Luis Obispo, helping shape the school's long-term strategies. Concurrently, he has committed to NASA to be available to convey his knowledge of the Orion spacecraft and its systems, among other expertise, to future Artemis missions.
-"You can be paid or you can be a gratis service, which is compensation waived, and that's what I'm doing," said Glover. "So I'm not going to be paid for it, but I'll be able to voluntarily be an advisor or a consultant providing insight into what living in Orion is like."
-Glover will be issued an access badge and plans to be present at the training simulation runs and has hopes to be a part of establishing a new initiative, the United States Space Academy, serving both NASA and the U.S. Space Force.
-"I want to work on that as they start building its foundation because that signals exactly what I care about: building the future of the technical workforce leaders," he said. "So this is really amazing timing."
-According to NASA, Wiseman also plans to use his emeritus status to continue sharing his spaceflight experience with his now former colleagues ahead of the Artemis III mission targeted for no earlier than mid-2027. The Artemis III crew will test Orion's rendezvous and docking capabilities with commercial human landing systems in low Earth orbit.
-Space between active and former
-Historically, when astronauts wanted to join private industry, run for public office or return to military service, they retired from NASA. If they wanted to remain at the space agency, but were no longer eligible for a flight assignment either temporarily or permanently, they were categorized as management astronauts.
-There have been other exceptions, though.
-Mercury astronaut Scott Carpenter took a leave from NASA to briefly become an aquanaut. From August to September 1965, he lived on the ocean floor in the Navy's SEALAB II. He then returned to the space agency, though due in part to an arm injury he sustained while away, he worked in management positions until he resigned in 1967.
-Edward Gibson, who flew on the third and last Skylab mission in 1974, resigned from NASA after returning to Earth. Three years later, he returned to the astronaut office as chief of the scientist-astronaut candidates. He had hoped to fly another mission, but ultimately retired from the agency again in 1982.
-Similarly, Tony England was selected as a scientist-astronaut in 1967, but left five years later due to the lack of available flight assignments. England returned as a mission specialist in 1979 and flew on STS-51F, a 1985 Spacelab mission aboard the space shuttle Challenger. He retired from NASA for the second time in 1988.
-Anna Lee Fisher, one of NASA's first six female astronauts and the first mother to fly in space, took an extended leave from 1989 to 1995 to raise her family. The leave was decided on a year-to-year basis. Like Carpenter, Fisher did not fly into space again after her return, but oversaw design and development of hardware for the International Space Station and Orion spacecraft before retiring in 2017.
-Other astronauts, such as Sally Ride and Neil Armstrong, continued to serve the space agency long after their retirement from the corps by volunteering their time to be on blue ribbon committees that investigated the loss of two space shuttles and the future direction of the space program.
-What separates what Wiseman and Glover are doing from what other astronauts have done is the formality of the service.
-"Being an astronaut is already a lifelong commitment and when you're a former [astronaut] you're always one of us, always a part of this small community of people who have flown off the planet, but this is a new way for us to continue to execute that lifelong commitment," said Glover.
-Glover (and Wiseman) will need to re-apply for emeritus status for every year they want to remain in service.
-"For as long as NASA can use my services, I will provide," he said. "I love the leaders and my colleagues are some amazing people. I will always want to work with them and serve them. So I hope they never make me go fully retired."
-End of Artemis II
-What has retired — or rather, come to a close — is the Artemis II mission that saw Wiseman, Glover, Christina Koch and Jeremy Hansen fly by the moon and travel farther into space than anyone else in history. The last of the mission's post-flight activities were completed last week.
-"The training, pre-flight testing, the 10-day mission and then the post-flight [public appearances] and debriefs and the medical review and all of that — it's all wrapped up," Glover told collectSPACE. "Of course, we're going to continue to analyze the pictures and the science and make changes to the Artemis III and IV missions based on what we've learned, but Artemis II is a wrap. It's the agency's to learn and grow from, but Artemis II is done."
-Prior to Wednesday's emeritus announcement, Hansen announced that he was stepping away from his full-time role at the Canadian Space Agency (CSA) to pursue new professional opportunities. He was also transitioning to serve as a reservist within the Royal Canadian Air Force.
-Glover timed his departure with his retirement from the U.S. Navy, a move that Wiseman had done before the Artemis II mission.
-That leaves only Koch as an active NASA astronaut. She has not publicly said as of yet what her post-Artemis II plans are with regards to staying with the agency.
-In addition to Artemis II, both Wiseman and Glover lived and worked on the International Space Station, the former by way of a Russian Soyuz spacecraft and the latter as the pilot on SpaceX's first operational Dragon flight under NASA's commercial crew program. Wiseman also served as chief of the astronaut office from 2020 to 2022.
-Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a total of 174 days, 9 hours and 33 minutes in space, while Glover tallied 176 days, 8 hours and 1 minute.</p></div></cell>
-
-<cell valign="top" width="300"><graphic border="0" height="450" src="../images/news-090926a.jpg" width="300"></graphic><div align="left" style="line-height:0px;">Artemis II commander Reid Wiseman (left) and pilot Victor Glover, seen here in March 2026, have become NASA's first astronauts to join its emeritus program, than retire outright. (NASA/Kim Shiflett)</div><graphic border="0" height="450" src="../images/news-090926b.jpg" width="300"></graphic><div align="left" style="line-height:0px;">Artemis II commander Reid Wiseman (at left) hands off the baton to Artemis III commander Randy Bresnik as their crewmates look on at the Johnson Space Center in Houston on June 9, 2026. (NASA)</div><graphic border="0" height="450" src="../images/news-090926c.jpg" width="300"></graphic><div align="left" style="line-height:0px;">Artemis II commander Reid Wiseman and pilot Victor Glover have hung up spacesuits but as emeriti, not their access to remain active in training and advising moon-bound crews. (NASA/Joel Kowsky)</div><graphic border="0" height="200" src="../images/news-090926d.jpg" width="300"></graphic><div align="left" style="line-height:0px;">One of Artemis II astronauts' last activities as a crew during their post-flight period was a visit to Marshall Space Flight Center in Huntsville, Alabama on Sept. 1, 2026. (NASA/Brandon Hancock)</div></cell>
-</row>
+<h1>Artemis II crew will lose communication with mission control during reentry. Here's why</h1>
+<p>The spacecraft is scheduled to splash down Friday off the California coast.</p>
+<p>Following their historic lunar flyby, the Artemis II crew is nearing the end of their 10-day mission, which will conclude Friday with the most intense phase of any astronaut's journey: reentry into Earth's atmosphere, followed by splashdown.</p>
+<p>This is the critical moment where the spacecraft proves it can safely carry its crew back home. But when reentry begins, the world will need to wait about six minutes for that proof -- the length of time that Mission Control will lose communication with the Artemis II crew.</p>
+<p>
+<strong>Watch live coverage as the Artemis II crew returns to Earth beginning at 7 p.m. ET on ABC News Live, Disney+ and Hulu with special coverage beginning at 7:30 p.m ET on ABC. </strong>
+</p>
+<graphic src="https://i.abcnewsfe.com/a/eedd9cbe-0add-47c6-aeb8-01ab171ff300/artemis-reentry-ht-gmh-260409_1775767778061_hpMain.jpg"></graphic>
+<p>Unlike the 40-minute loss of communications experienced when the Orion crew module passed behind the moon, which physically blocked radio signals from reaching the spacecraft, loss of communication during reentry results from Orion's passage through Earth's atmosphere.</p>
+<h2>What happens when reentry begins</h2>
+<p>Orion will be falling to Earth at over 24,000 mph when it encounters the atmosphere. As the atmosphere thickens, friction will slow the spacecraft. It will also create a lot of heat – up to 5,000 degrees Fahrenheit, which is more than twice as hot as lava from a volcano – turning Orion into a fireball.</p>
+<p>It will take Orion about 13 minutes to travel the 400,000 feet from space to splashdown off the coast of San Diego, Calif.</p>
+<p>“Everything's different,” retired NASA astronaut Barry "Butch" Wilmore told ABC News. “The speeds are much, much greater coming back from deep space.”</p>
+<p>Together, the friction and compression of the atmosphere as Orion falls creates a plasma bubble that will engulf the spacecraft, according to NASA. It's that engulfing plasma that doesn't allow radio signals in or out.</p>
+<graphic src="https://i.abcnewsfe.com/a/01bdd804-2afa-4441-869b-51bd7e83fa4d/artemis-10-ht-gmh-260406_1775480433562_hpMain_4x3.jpg"></graphic>
+<p>Within seconds, the Artemis II crew will lose communication with ground controllers as what NASA calls a “planned six-minute blackout period” begins.</p>
+<h2>
+<strong>What’s happening inside Orion?</strong>
+</h2>
+<p>“You know the blackout’s coming,” said Wilmore, who experienced reentry from space three times during his time as an astronaut. “Because of that, you just go press through just like your normal processes, you’re monitoring. There’s not a lot you can do.”</p>
+<p>Everyone inside the spacecraft is laser-focused on monitoring the onboard systems during their descent through the atmosphere, according to Wilmore, who added that astronauts train for “all types of failures,” so their mindset is just to concentrate on the jobs at hand.</p>
+<p>“You can’t let apprehension involve you in those time frames,” Wilmore told ABC News. “You have to focus on your task, whatever that might be, and you have to perform because if you don’t, the consequences are pretty dire.”</p>
+<h2><strong>When </strong>the <strong>signal steps out, the heat shield steps in</strong></h2>
+<p>Those six minutes of radio silence are also when Orion’s heat shield, located on the underside of the spacecraft, does its most critical work, protecting Orion and its crew from the intense temperatures of reentry. Onboard maneuvering jets ensure Orion maintains the orientation required to keep the heat shield pointed toward Earth during reentry.</p>
+<graphic src="https://i.abcnewsfe.com/a/e696165b-57a2-4456-a000-6707bd205947/earth-window-ht-jt-260404_1775324718904_hpMain_4x3.jpg"></graphic>
+<p>After Orion completes its passage through the outer atmosphere and emerges from its communications blackout, it will still be traveling too fast for it to survive the splashdown into the Pacific. That's when a series of specially designed parachutes will deploy, slowing Orion's speed to a far safer 20 mph at the time of splashdown.</p>
+<p>Orion is scheduled for splashdown at 5:07 p.m. PT/8:07 p.m. ET Friday, April 10, at a site off the coast of San Diego.</p>
 </body>
 </html>]]></description>
-      <source url="http://www.collectspace.com">collectspace.com</source>
-      <guid isPermaLink="false">CBMinAFBVV95cUxONEtUOXl5WEhBLVhkRTRwc1NUb29zU0RkQkpZRDhoR3ZrQWd1TGlLZTBXNmlObmlMdDlTTmRjZTJLXzB0VzJiWjFrQ3FhbVFFSjBnSFh5c2F6VkY5T1UxZFl4UjZPTmVIdkJqdUZpQVJjeVJOaU1CdjJFTDhkWnZES1RqakNybG8zbk04dnhLdXNyUE1QLWpVZFdNT1Q</guid>
+      <source url="https://abcnews.com">ABC News - Breaking News, Latest News and Videos</source>
+      <guid isPermaLink="false">CBMinwFBVV95cUxPN2EtVkVIcVFxMTNxYldYYnNkYnpTY1RPYkU2bER6RWQzZW9KX0FHRzhpMllNQjhPcmR1TzZNX251Qkw3Vkl6c3cxcGF6akVPd3FKY3VpZ3dNc1lOMEpSMC1GZnR6dkdqQ0hXYlNTU2Jnc0FJRFVrS3pNZ2J5Y2ZlS01IUlFGSFBWaUFncno4M1hPX0JNODd0X1dQcjMxMDjSAaQBQVVfeXFMTnRxR1ZXZjViUk53a1Fpdm1OSjh6Ukd2dmREaVNRZ1RWY2RSbkY0NzVKa2NKSGpqZVRJcjdLaXdRVnJrTmgwVkR6YnB0VHJOejFZU0dLNUdxd3JBT3NMWXpRWV9EZWxxeXEySXQwelREZDRLZm51YU1vb01RRnVTcno1d21sT2RrSzduMktRa1pwRHdVeFIwSHA0NXlxaUlib0paS0E</guid>
+    </item>
+    <item>
+      <title>What to know about NASA's Artemis II moon mission including how to watch, who are the astronauts - ABC News - Breaking News, Latest News and Videos</title>
+      <pubDate>Thu, 10 Sep 2026 12:49:05 GMT</pubDate>
+      <link>https://abcnews.com/Technology/nasas-artemis-ii-moon-mission-including-watch-astronauts/story?id=131536973</link>
+      <description><![CDATA[<img src="https://i.abcnewsfe.com/a/83b76d63-66e9-4fc7-aa5f-4e247cc5fc3b/artemis-2-ap-gmh-260330_1774877723283_hpMain_16x9.jpg?w=1600" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>What to know about NASA's Artemis II moon mission including how to watch, who are the astronauts</h1>
+<p>The mission will send four astronauts on a 10-day trip around the moon.</p>
+<p>As early as Wednesday, Artemis II will make history, taking astronauts around the moon for the first time in more than 50 years.</p>
+<p>The four-person crew will launch from NASA's Kennedy Space Center on Merritt Island, Florida, for a 10-day journey.</p>
+<p>The trip will pave the way for future Artemis missions that could eventually see astronauts set foot on the moon and the building of a permanent lunar base.</p>
+<p>Here's what you need to know about the upcoming Artemis II mission, including how long it will take, who the astronauts are and how to watch.</p>
+<p>
+<strong>How long will the mission take?</strong>
+</p>
+<p>Artemis II will take the four astronauts on a 685,000 mile, 10-day journey around the moon, also known as a lunar fly-by.</p>
+<p>April 1 is the first launch opportunity date with a window between 6:24 p.m. ET and 8:24 p.m. ET and potential backup dates between April 2 and April 6.</p>
+<p>The weather forecast on Wednesday shows an 80% chance of favorable weather conditions, according to NASA. Primary weather concerns include cloud coverage and potential for high winds on the ground.</p>
+<graphic src="https://i.abcnewsfe.com/a/c9bb13a3-8ed4-4805-a82d-1aeb2a75a9f7/artemis-3-ht-gmh-260330_1774877724279_hpMain.jpg"></graphic>
+<p>Day 1 will be the launch with Day 2 through Day 4 being outbound transit, or the spacecraft heading towards the moon.</p>
+<p>Day 5 will be the lunar flyby. The spacecraft will pass within approximately 4,700 miles beyond the far side of the moon. This would be further than any humans have ever traveled in deep space.</p>
+<p>Meanwhile, Day 6 through Day 10 will see the return of the astronauts and re-entry into Earth's atmosphere.</p>
+<p>
+<strong>Who are the astronauts who will be onboard?</strong>
+</p>
+<p>The Artemis II crew will be made up of four astronauts: Victor Glover, Christina Hammock Koch and Reid Wiseman of NASA and Jeremy Hansen of the Canadian Space Agency.</p>
+<p>Koch will be the first woman and Glover will be the first person of color to travel to the moon.</p>
+<graphic src="https://i.abcnewsfe.com/a/9bae657a-2f8e-4a08-9b62-ad6a90251b6c/artemis-4-epa-gmh-260330_1774878296733_hpMain.jpg"></graphic>
+<p>Wiseman is mission commander, responsible for the overall execution, safety and success of the mission.</p>
+<p>Glover is the pilot, with responsibility for operating the spacecraft. Koch and Hansen are mission specialists, responsible for conducting scientific experiments, operating specialized equipment and performing spacewalks.</p>
+<p>
+<strong>How are the astronauts getting to space?</strong>
+</p>
+<p>Astronauts will be using NASA's newest spacecraft, Orion, for the lunar flyby.</p>
+<p>This is the first crewed Orion mission. An uncrewed Orion was tested during Artemis I in November 2022, sending the spacecraft as close as 60 miles from the moon, and then 40,000 miles above the moon when orbiting over its dark side.</p>
+<p>Orion will ascend atop the Space Launch System rocket. According to NASA, this is currently the only rocket that can send Orion, astronauts and cargo directly to the moon in a single launch.</p>
+<graphic src="https://i.abcnewsfe.com/a/3e5fad60-bda1-4853-b812-44cde4090359/artemis-1-ht-gmh-260330_1774877723867_hpMain.jpg"></graphic>
+<p>
+<strong>How to watch the Artemis II mission</strong>
+</p>
+<p>ABC News will have live coverage of NASA's Artemis II mission, including a live blog for the duration of the mission, and major milestones such as the launch and splashdown broadcast on ABC News Live and streaming on Disney+ and Hulu.</p>
+<p>NASA will begin streaming live views from the launch pad in its YouTube channel, which will continue through launch.</p>
+<p>The launch can also be viewed on NASA's social media platforms include Facebook, twitch and X as well as NASA+, the agency's streaming service.</p>
+<p>NASA's YouTube channel will also offer continuous live low-resolution video from cameras onboard the Orion spacecraft.</p>
+</body>
+</html>]]></description>
+      <source url="https://abcnews.com">ABC News - Breaking News, Latest News and Videos</source>
+      <guid isPermaLink="false">CBMiqgFBVV95cUxQLTExWmUxaHJxUUdNZUZNY0N1UGNBVFgzd21LQWRCNTg0MUlqeXBBMUNDY3IwSGw3MFVOdFRhMG5OUkFEZFJDMTRyXzM3RGVYRGpGbDktcUo2TDl5X0ExLUUxeEFSS0p2a2VUOGQydmhjWnZmV0FxQTFCeFJTejVqbUxjNWt6bkVma1ZnNHBRdDQ0LTlwQWFLNTY1b21mTmZwYlVtUFdvTzA3Z9IBrwFBVV95cUxNS3ViVmV3Q1pZbDE2M0RLdmM3YUVsRlh5a0otMUFtVXBPR1NmLWlYOTNCZ3lndE1KbU5lbEhMUzZjSTdnN3FWVU9EYlhrMGpjM0dIXzVEVzdxRlZjX3dWMzRjUG9jYjB0UnpWT0tlTjUweFl6OG5TTU1FdWI3NDhZclA0cVl5cDdBakctQXdIdjZsWWRJZDZYWmd4REx6NXoxTS0xbjZ2VTdqb0pLMU44</guid>
     </item>
     <item>
       <title>Artemis II Crew at NASA Marshall - NASA (.gov)</title>
@@ -87,6 +152,47 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMid0FVX3lxTE54UGhueEdYZVQzNzZ0SlczaHpIaWlsYU8tZkdOQVlpY016YXh4cXhyMlhIZ2ZyXy1OUktuaW5CQXBmWkdzdV9CaGJkcjVhQ2Y3SWVkZkxmZXRfZUFYWUk0OGtmTksxak1jMjU2QjF4a0E1Q2FJTzRz</guid>
+    </item>
+    <item>
+      <title>Trump establishes US space academy as Artemis II crew receives Space Medal of Honor - ABC News - Breaking News, Latest News and Videos</title>
+      <pubDate>Thu, 10 Sep 2026 19:37:09 GMT</pubDate>
+      <link>https://abcnews.com/US/artemis-ii-crew-receivecongressional-space-medal-honor-friday/story?id=136026865</link>
+      <description><![CDATA[<img src="https://i.abcnewsfe.com/a/a399eb17-ed78-4dd8-a8db-7729a4c7c98f/donald-trump-12-gty-gmh-260828_1787937444902_hpMain_16x9.jpg?w=1600" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>Trump establishes US space academy as Artemis II crew receives Space Medal of Honor</h1>
+<p>Reid Wiseman, Victor Glover, Christina Koch and Jeremy Hansen were honored.</p>
+<p>President Donald Trump on Friday bestowed the Congressional Space Medal of Honor on the Artemis II crew, marking their historic achievement during a ceremony at Johnson Space Center in Houston.</p>
+<p>The crew -- NASA astronauts Reid Wiseman, Victor Glover and Christina Koch and Canadian Space Agency astronaut Jeremy Hansen -- traveled farther into deep space than anyone else in history during their trip around the Moon in April. What they learned during their test flight will help NASA return astronauts to the lunar surface as early as 2028.</p>
+<p>"We gather here on these storied grounds to celebrate the immense courage and service of four intrepid space heroes whose sense of daring and adventure led them further from Earth than anyone has ever traveled before," Trump said.</p>
+<graphic src="https://i.abcnewsfe.com/a/ebc1f0ee-2f32-4a17-9800-c77cd4c73a26/artemis-1-ap-gmh-260828_1787936240350_hpMain.jpg"></graphic>
+<p>Joined at the event by NASA Administrator Jared Isaacman, the president told a story about being in an important meeting with "the biggest people in the country, maybe some of the biggest people in the world" when someone asked to watch the Artemis II mission.</p>
+<p>"You would, really? Right in the middle of our meeting. You want to watch?" Trump recalled saying at the time. He said they had a television set pulled up for the group to watch, adding that "everybody was spellbound."</p>
+<p>The president used Friday's occasion to sign an executive order establishing the U.S. Space Academy, a national academy similar to the service academies for the armed forces, such as West Point and the Air Force Academy.</p>
+<graphic src="https://i.abcnewsfe.com/a/a399eb17-ed78-4dd8-a8db-7729a4c7c98f/donald-trump-12-gty-gmh-260828_1787937444902_hpMain.jpg"></graphic>
+<p>"It will serve both the United States Space Force as well as NASA and the civilian spaceflight industry, and it'll attract, train and graduate the very best of our nation," Trump said.</p>
+<p>A location for the new academy will be chosen shortly, according to the president.</p>
+<p>During the ceremony, the president personally placed the medal around the necks of each astronaut as they were recognized for their work during the mission.</p>
+<graphic src="https://i.abcnewsfe.com/a/0cbd4389-2ccf-4e14-b713-0cecd4ec4f5d/donald-trump-11-rt-gmh-260828_1787937443543_hpMain.jpg"></graphic>
+<p>After receiving his medal, an emotional Wiseman, the commander of the Artemis II mission, spoke about the scale of the joint effort the mission required.</p>
+<p>"We wear these four medals, and we are going to wear them with pride. But please know, it is not pride for ourselves that we feel, and I truly mean that," he said. "It is pride for the grit that our families had when we left this planet. It is pride for that team, this NASA team, that sent us on this mission. And it is pride for the international community that stood alongside us, got this vehicle ready, operated and cheered us on."</p>
+<graphic src="https://i.abcnewsfe.com/a/d07f59fb-babb-4f60-9b7d-c58ddf28d89e/donald-trump-13-gty-gmh-260828_1787937444007_hpMain.jpg"></graphic>
+<p>Glover, the Artemis II pilot, then presented Trump with an official NASA blue flight jacket, saying the crew wanted to make good on its promise to him when they were in the Oval Office.</p>
+<p>"To the Artemis crew II, you stand here incredibly deserving of this recognition. Thank you for showing us the moon again, for showing the world your humanity and for passing your knowledge and the baton to the astronauts who will follow in your very accomplished footsteps. There are no finer humans we could have sent as our ambassadors to the stars," NASA's Isaacman said during the event.</p>
+<graphic alt="PHOTO: President Donald Trump awards the Congressional Space Medal of Honor to Jeremy Hansen of the Canadian Space Agency during a ceremony honoring Artemis II crew members at NASA's Johnson Space Center, August 28, 2026 in Houston, Texas. " src="https://i.abcnewsfe.com/a/5014e44a-8e19-4010-974c-a4aec17b56e3/donald-trump-10-gty-gmh-260828_1787936931830_hpMain.jpg"></graphic>
+<p>With NASA's astronaut corps seated on stage, Apollo 17 astronaut and former Sen. Harrison Schmitt, a Republican from New Mexico, kicked off the event by speaking about his 1972 mission -- the last mission of the Apollo program.</p>
+<p>"Apollo 17's success, as the success of all the other missions was owed to the patriotic dedication, the courage, the competence of young men and women, young men and women, who designed and built and managed and trained and planned each of the Mercury, Gemini and Apollo missions. It was an extraordinary privilege for me to be part of that."</p>
+<graphic src="https://i.abcnewsfe.com/a/2270c009-1090-4a77-83e6-29c3c8777523/donald-trump-9-rt-gmh-260828_1787936932262_hpMain.jpg"></graphic>
+<p>NASA Deputy Administrator Matt Anderson said Apollo pioneers like Schmitt "handed the baton" to the men and women working on the space shuttle program, which built the International Space Station.</p>
+<p>"Early this year, the Artemis II crew added their names to that history. They carried humanity around the world, around the moon, for the first time in more than 50 years. Demonstrated that America is ready to return and paved the way for those who will follow," Anderson said.</p>
+<p>He also spoke about what's at stake for NASA and the U.S. space program in the years to come.</p>
+<p>"The second space race has begun, and right now, America is on the shot clock. Our national security, the prestige of our nation and the dreams of millions of Americans are riding on our ability to get the job done."</p>
+<graphic src="https://i.abcnewsfe.com/a/652713d7-7fcd-4a5e-921f-69c8307c4253/donald-trump-19-rt-gmh-260828_1787940588202_hpMain.jpg"></graphic>
+<p>Congress authorized the granting of the Congressional Space Medal of Honor in 1969, proclaiming that "The President may award, and present in the name of Congress, a medal of appropriate design, which shall be known as the Congressional Space Medal of Honor, to any astronaut who in the performance of his duties has distinguished himself by exceptionally meritorious efforts and contributions to the welfare of the Nation and of mankind."</p>
+<p>Since then, only 34 astronauts have received the honor, including the Artemis II crew. The first recipients of the award in 1978 included Neil Armstrong, Frank Borman, Pete Conrad, John Glenn, Virgil "Gus" Grissom and Alan Shepard.</p>
+</body>
+</html>]]></description>
+      <source url="https://abcnews.com">ABC News - Breaking News, Latest News and Videos</source>
+      <guid isPermaLink="false">CBMipgFBVV95cUxQNGVuSno3dW1WaWV3b1pKMGtIak1XZXFhS3NfOW5HdXozN0VzcDhSNGVMNWNLQVprMUhraW5xY3NsM0xMVGNyWHJ6YURKU01rNFdhTkhwcUlRcER2TWZKV19WNnJ3N0hyZjhJTzdfbjZPMUxXSjhCMmJlSi1TZ2VJV2g4d2VPN0doNEFVRTF6bW5XM0JsYVRROFM0aG04T2RQaWRvb0ZR0gGrAUFVX3lxTFBjR3p4ci1zZ3FqZ3k3Smh3akZ0bEVKc2tvclA1UGFiRnRmUlZmcExzeEY1b3BoRHFuSWRmemgyVDdrRXBjX2FDbGNoZ1BiamZqNmp5TU9CckJWRW4xMFZsR3lYalUxWWpmeWpzY2xvTmE4cDV1MjNDYzh5R3RKLTE1amM3YzEybldhcV9ybExxQ28xaHQyTVZ0TFVMMzNrT0Y5VmJEeXAzc0JCOA</guid>
     </item>
     <item>
       <title>President Honors NASA’s Artemis II Crew with Highest US Space Award - NASA (.gov)</title>
@@ -117,6 +223,22 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
       <guid isPermaLink="false">CBMiowFBVV95cUxQZ0l3SzgwQVRoRlIzWHgwZWZUeUk1dnp2N3RCYV9jU3JwMVd2TWpzMW9SaWd3NWU3aDVUOWZGUUNRYkZrRGFCcUZ2NlcwYmtucVlJcml6YWVoVGUtdU9pZ2h5UzJlZnFWNGM5Y1FhaVR5cjJfVU5NOUI1ajgxMk5wbG81RDdnQUNOWUpUU2tmcHlpZGZVVGRMSGYtWVFOb3hWNUhv</guid>
     </item>
     <item>
+      <title>Around the Moon and Beyond: A Conversation with NASA’s Artemis II Commander Reid Wiseman - Inside Outer Space</title>
+      <pubDate>Thu, 10 Sep 2026 15:57:59 GMT</pubDate>
+      <link>https://www.leonarddavid.com/around-the-moon-and-beyond-a-conversation-with-nasas-artemis-ii-commander-reid-wiseman/</link>
+      <description><![CDATA[<html>
+<body>
+<graphic src="https://www.LeonardDavid.com/wp-content/uploads/2026/09/Wiseman-final-350x229.jpg"></graphic>
+<p>Reid Wiseman, commander of NASA’s Artemis II mission, speaking at the National Book Festival.Image credit: Library of Congress/Shawn Miller</p>
+<p>Reid Wiseman, commander of NASA’s Artemis II mission in April, led humanity’s first crewed voyage beyond low Earth orbit in 53 years — a nearly 10-day journey that looped around the moon and back. He told a standing room only audience at the National Book Festival on August 22 about what it looked and like inside the spacecraft.</p>
+<p>For the video, go to:</p>
+
+</body>
+</html>]]></description>
+      <source url="https://www.leonarddavid.com">Inside Outer Space</source>
+      <guid isPermaLink="false">CBMitwFBVV95cUxQd05ZTW5sdVEyckNqeFZEV203dmRRQzA4MEwyeVIwU25mRElUMWowTVFXYlhfMTMtZnctSFBaSkEwR3FwNVVadnpIQU96eldYTzNEY3RBbWpTeVFFQndCOURxQ183cWhwZGhrT0cxazJhVDF0bUdadUNfSWJBaWotdTBIbFdGY1ZCaDlWdVZ5alFWb29zS3dlWnR6cUlSazIxYU5DQjRSeTJaNEtaX0JqMDh3U2l4cGc</guid>
+    </item>
+    <item>
       <title>NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor - NASA (.gov)</title>
       <pubDate>Fri, 21 Aug 2026 07:00:00 GMT</pubDate>
       <link>https://www.nasa.gov/news-release/nasas-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor/</link>
@@ -134,22 +256,6 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMiqgFBVV95cUxQTENWcEdmdFlBaktIRE1uMHp4VlF4RGdKLVRIWThITDNkUl80SUkzLUc1a3ljTGlSTlNyLVc1NjVhUVY3TnJOeTVWMnFDNlFDbjVqT2tWcUlPU3E3ZW9Wc0tzX0VlUTk1TUoyVlhRVTJ6TTZVUzg1c1pueXMxenNaSXB0NXZqZEh5S1lJenpQTE5sSnpDaGkyU01jd0wtMkdDY1otb1V5MU53Zw</guid>
-    </item>
-    <item>
-      <title>NASA’s Artemis II Crew Receives Congressional Space Medal of Honor - NASA (.gov)</title>
-      <pubDate>Fri, 28 Aug 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/08/20260828-120552-jk1-3999-1.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>From left to right: NASA astronauts Victor Glover and Christina Koch, CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronaut Reid Wiseman receive the Congressional Space Medal of Honor from President Donald J. Trump on Aug. 28, 2026, for their service during the Artemis II mission.</p>
-<p>The Congressional Space Medal of Honor was authorized by Congress in 1969 to recognize an astronaut who in the performance of duties has distinguished himself or herself by exceptionally brave and meritorious efforts, and contributions to the welfare of the nation and humanity. There now are 34 recipients of the award since the beginning of the space program, including the crews of Apollo 1, Challenger, and Columbia who received the award posthumously.</p>
-<p>
-<i>Image credit: NASA/John Kraus</i>
-</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMiowFBVV95cUxQT2NLNFNsTGxWX0h0LXVqRjJTdVprMWhEaTdkSy12QVZ5bnZWczBINm5uTEhWOUhYV08wdU01X2F1U3EwallYZzdyS09EbHlUcmh5TGNpdUJ4emhTZFRBeWplZWdoYVZnMjM1QWM4cUdoS3ozeWpPQU9kQldzTzhkZFlNcGpSSENobFhuT1EtTTZhYlZ2Y0pXNWdmSnpFTFZSOFZV</guid>
     </item>
     <item>
       <title>Victor Glover, Artemis II astronaut, joins Cal Poly in leadership role - USA Today</title>
@@ -195,7 +301,17 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
       <guid isPermaLink="false">CBMi3gFBVV95cUxNTnZoMmgwRml2WVA3NUV0Z2liM3RjQUpXZkEtbENUc2FsOHdMajgwUWdjTHJ1YUU5VndrU25Cb2dyVUE0dWxkLXNuV1VGS2VQLTRmdkFBbjNiNXFSUmpKdThvWE9QbVAwcHhVUlZqWTFORVFfRWdidnhIMHJWeVYyVVBvby1wcUtGa0gzZmZPQl8yR1NINHUyV1o4bllGMXFJdUtSeUxNOWNXNS1QbjE5SW42QmRKdkdFeXdZTi1neFdtTDhBLW9KbE5NNmxDVThWc0t3RVlPdkd0a0s5TUE</guid>
     </item>
     <item>
-      <title>Artemis II pilot thanks NASA for letting him fly Orion by hand: 'I'm still blown away by that trust' - space.com</title>
+      <title>Reid Wiseman, Maryland native who led Artemis II mission, retires to NASA emeritus status - CBS News</title>
+      <pubDate>Thu, 10 Sep 2026 17:14:00 GMT</pubDate>
+      <link>https://www.cbsnews.com/baltimore/news/reid-wiseman-astronaut-retires-nasa-emeritus-baltimore-maryland/</link>
+      <description><![CDATA[<img src="https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/02/a382ffc7-96c2-44fe-896a-a2cb4659c3d1/thumbnail/1200x630/26d7c115c86ddd4419915c73e4d33c1d/untitled-design-2026-04-01t215927-218.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body><p>Astronaut Reid Wiseman, a Baltimore County native, is retiring from his current role with the National Aeronautics and Space Administration (NASA) and transitioning to the agency's emeritus status, NASA officials announced Thursday.</p><p>Wiseman notably</p>of NASA's recent , leading a four-person crew on a 10-day journey around the moon before splashing down off the coast of San Diego. They made history by flying farther in space than anyone had before.<p>"There is no better place to work, and there are no better people to work with, than those in this agency," Wiseman said in a statement with Thursday's announcement. "NASA gave me tremendous responsibility, supported me through two space missions, and my time as chief astronaut, and was always there for my family when we needed it most. I'm thrilled to continue serving future missions and programs through the emeritus program."</p><p>NASA said Wiseman's fellow Artemis crew member, Victor Glover, is also transitioning to an emeritus role this month.</p><p>"I've had the privilege of knowing Reid and Victor for years, and both exemplify the leadership, character, and commitment that define NASA at its best." said NASA Administrator Jared Isaacman. "Reid commanded Artemis II after previously spending 165 days aboard the International Space Station, while Victor brought his experience as a naval aviator, test pilot, and Crew-1 astronaut to his role as pilot. Together, they took on one of the most challenging missions in human spaceflight and helped return America to the lunar environment."</p><h2>What is NASA emeritus status?</h2><p>The agency said Wiseman and Glover will have emeritus status at the Johnson Space Center in Houston.</p><p>In an emeritus role, "individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their time to train and mentor the current workforce," according to the news release.</p><p>"This allows the agency to maintain access to top talent in a specialized consultant role, while simultaneously providing the individual with the flexibility to pursue other opportunities," the release added.</p><p>Wiseman will specifically share his expertise for NASA's upcoming Artemis III mission, and Glover will support aerospace, leadership and public service projects within and outside the agency.</p><p>"As Reid and Victor transition to emeritus status, I'm grateful they will continue sharing what they learned with our astronauts, flight controllers, and engineers as we prepare for Artemis III in 2027 and the missions that follow," Isaacman said.</p><h2>Who is Reid Wiseman?</h2><p>Wiseman grew up in Cockeysville and graduated from Dulaney High School in Timonium before earning a Bachelor of Science from Rensselaer Polytechnic Institute in New York and then a Master of Science in Systems Engineering from the Johns Hopkins University in Baltimore.</p><p>The Baltimore County Council</p>following the successful Artemis mission.<p>"The really important thing for me on this mission was to try to connect with all of humanity on Earth," he said at the time. "Our mission is Artemis II, but on our patch, we made it look like 'ALL,' Artemis II, because we really wanted to go for all and by all."</p><p>The 27-year Navy veteran made two deployments to the Middle East and was at sea when he was chosen for astronaut training. He was selected by NASA in 2009 and served as flight engineer on board the International Space Station for Expedition 41 from May through November 2014.</p><p>"During the 165-day mission, Reid and his crewmates completed over 300 scientific experiments in areas such as human physiology, medicine, physical science, Earth science and astrophysics," his bio says. "This was Reid's first spaceflight, which also included almost 13 hours as lead spacewalker during two trips outside the orbital complex. Reid also fostered a strong social media presence throughout his mission by sharing the raw emotions of spaceflight as seen through the eyes of a rookie flier."</p><p>Wiseman later served as chief of the astronaut office from 2020 through 2022.</p><p>He and his late wife, Carroll, have two children and he "considers his time as an only parent as his greatest challenge and the most rewarding phase of his life," according to his bio.</p></body>
+</html>]]></description>
+      <source url="https://www.cbsnews.com">CBS News</source>
+      <guid isPermaLink="false">CBMipgFBVV95cUxOWmxlMFJoeUgxM3pvQUUxWXdhODBkQzFBU2hPVW9tM3pZSHVvdDVwOXU3aExfb3o3OUJmRXVPMkktNk1ta3lmcWxLd2tpT1FKMmtpUDNHS25qT3Q2bVg4R2M3LXdfMmFhVzZnRkZTcnR1al9TZFoxRjFFR295YXRHUHZpTmszcF9NZi1EalhvNlE0TjRBSW5PVWFaalNvWnBTOHUxWXZ3</guid>
+    </item>
+    <item>
+      <title>Artemis II pilot thanks NASA for letting him fly Orion by hand: 'I'm still blown away by that trust' - Space</title>
       <pubDate>Sun, 16 Aug 2026 07:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/artemis-ii-pilot-thanks-nasa-for-letting-him-fly-orion-by-hand-im-still-blown-away-by-that-trust</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/d68ZCtNmYub9gdgYPHaygT-2000-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -243,40 +359,32 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
 <p>Leonard David is an award-winning space journalist who has been reporting on space activities for more than 50 years. Currently writing as Space.com's Space Insider Columnist among his other projects, Leonard has authored numerous books on space exploration, Mars missions and more, with his latest being "Moon Rush: The New Space Race" published in 2019 by National Geographic. He also wrote "Mars: Our Future on the Red Planet" released in 2016 by National Geographic. Leonard has served as a correspondent for SpaceNews, Scientific American and Aerospace America for the AIAA. He has received many awards, including the first Ordway Award for Sustained Excellence in Spaceflight History in 2015 at the AAS Wernher von Braun Memorial Symposium. You can find out Leonard's latest project at his website and on Twitter.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">space.com</source>
+      <source url="https://www.space.com">Space</source>
       <guid isPermaLink="false">CBMi3AFBVV95cUxPTWpxZ0duTDFZSTI3U1lnU0R6M0JuNk8zMkx2YkFXeWgyZlJoTHlPUExEclhRQ1dNRTBiTk9MZXI1c0dOS0RDeC1lUEVneW1YREV4QmlCSkEtaGRrdmVORVgxSnBudDR5dTR3R19wSWM2TzU0UDVvRkJReEZDMVpQQ2ZmZUVZQ0c5Q3JJa0dka0wtQkI1U2xwNkloTV9uLTNTVFd6LUg1T2RWNFVfd01wR0VZdjNfOEh3R3ZrQmpsSjhRSkJXWTFKR0J3bFhZUlpWS3Bmc3NndmZuek9a</guid>
     </item>
     <item>
-      <title>Two Artemis II crew are hanging up their astronaut suits at NASA after historic mission - The Independent</title>
-      <pubDate>Wed, 09 Sep 2026 16:21:00 GMT</pubDate>
-      <link>https://www.independent.co.uk/space/artemis-2-crew-astronauts-reid-wiseman-victor-glover-b3047442.html</link>
-      <description><![CDATA[<img src="https://static.independent.co.uk/2026/09/09/16/07/GettyImages-2269801959.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>Two NASA astronauts who guided the Artemis II lunar mission earlier this year are retiring from active spaceflight.</p>
-<p>NASA announced Wednesday that commander Reid Wiseman and pilot Victor Glover will step down from active duty to become emeritus astronauts, supporting the lunar exploration program moving forward.</p>
-<p>Glover has taken a leadership role at his alma mater, California Polytechnic State University, while Wiseman’s future plans remain undisclosed. The pair flew around the moon in April alongside two crewmates, setting a new human distance record.</p>
-<p>Artemis II crewmate Jeremy Hansen retired from the Canadian Space Agency in July, leaving Christina Koch as the only active astronaut from the mission.</p>
-<graphic alt="Artemis II Pilot Victor Glover (left) and Commander Reid Wiseman, participate in a Congressional Space Medal of Honor ceremony at NASA's Johnson Space Center" src="https://static.independent.co.uk/2026/09/09/16/NASA_Artemis_Astronauts_59159.jpg"></graphic>
-<p>In their emeritus roles, Wiseman and Glover will voluntarily mentor NASA personnel and pass along knowledge for future lunar missions, a novel strategy for applying flight expertise.</p>
-<p>"Together, they took on one of the most challenging missions in human spaceflight and helped return America to the lunar environment," NASA Administrator Jared Isaacman said in a statement. "I’m grateful they will continue sharing what they learned."</p>
-<p>Cal Poly stated Glover will shape long-term strategy and inspire students in science and engineering. His role in San Luis Obispo began Sept. 1, coinciding with his Navy retirement.</p>
-<p>In an interview with <i>The Associated Press</i>, Glover emphasized, "this is not a leaving ... for me, this is opening the aperture, not closing it down."</p>
-<p>"I want to keep talking about how faith and science work together in my life," Glover remarked. "That’s not NASA’s mission, but I can still help NASA from the sidelines."</p>
-<graphic alt="With Artemis II crewmate Jeremy Hansen retiring from the Canadian Space Agency in July, Christina Koch is left as the only active astronaut from the mission" src="https://static.independent.co.uk/2026/09/09/16/42/GettyImages-1255959843.jpg"></graphic>
-<p>Rather than waiting to command a moon landing, Glover chose to leave spaceflight behind to focus on youth outreach and spend time with his wife and four daughters—three of whom attend Cal Poly, where his eldest graduated.</p>
-<p>Wiseman’s transition takes effect this month. Selected as an astronaut in 2009, the retired Navy captain spent over five months aboard the International Space Station in 2014 and later served as chief astronaut.</p>
-<p>After graduating Cal Poly in 1999, Glover served as a Navy test pilot before NASA selected him in 2013. He piloted SpaceX’s second operational crew flight, spending nearly six months on the space station in 2020 and 2021.</p>
-<p>Glover’s eloquent observations stood out during the lunar journey.</p>
-<p>Describing Earth as an oasis amidst "a whole bunch of nothing, this thing we call the universe," he reflected: "This is an opportunity for us to remember where we are, who we are, and that we are the same thing and that we’ve got to get through this together."</p>
-<p>Wiseman also shared a poignant moment when the crew asked to name a lunar crater after his late wife, Carroll, who died of cancer in 2020.</p>
-<p>Last month, President Donald Trump presented the Artemis II crew with the Congressional Space Medal of Honor at NASA’s Johnson Space Center in Houston.</p>
-</body>
+      <title>2 Artemis astronauts to step down after NASA moon mission. See photos - USA Today</title>
+      <pubDate>Thu, 10 Sep 2026 14:59:00 GMT</pubDate>
+      <link>https://www.usatoday.com/picture-gallery/tech/space/2026/09/10/reid-wiseman-victor-glover-artemis-ii-photos/91687982007/</link>
+      <description><![CDATA[<img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/10/PBRE/91688071007-20260327-t-193005-z-2130037818-rc-27-dkaoaxvi-rtrmadp-3-spacemoonartemis.JPG?crop=6499,3656,x0,y0&width=3200&height=1801&format=pjpg&auto=webp" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body><p>SPACE</p><p>Artemis</p><h1>2 Artemis astronauts to step down after NASA moon mission. See photos</h1><p>Updated Sept. 10, 2026, 10:59 a.m. ET</p><p>NASA astronauts Reid Wiseman and Victor Glover are all smiles March 27 during a press conference at the Kennedy Space Center ahead of the Artemis II launch in Cape Canaveral, Florida.Five months after returning fromthe historic mission, the two astronauts are stepping down at NASA.</p>Joe Skipper/Reuters<p>Five months after returning fromthe historic mission, the two astronauts are stepping down at NASA.</p><p>NASA astronauts Reid Wiseman and Victor Glover fist bump next to NASA astronaut Christina Koch and CSA (Canadian Space Agency) astronaut Jeremy Hansen during a March 27 media event at the Kennedy Space Center ahead of the Artemis II launch.Now that both the astronauts have transitioned to an emeritus role at NASA, they'll serve as consultants to the space agency while pursuing other professional opportunites.</p>Joe Skipper/Reuters<p>Now that both the astronauts have transitioned to an emeritus role at NASA, they'll serve as consultants to the space agency while pursuing other professional opportunites.</p><p>With the Artemis II launch imminent, NASA astronauts Reid Wiseman and Victor Glover walk to board the astronaut van April 1 for their drive to launch pad 39B at the Kennedy Space Center in Cape Canaveral, Florida.It was the second spaceflight for both of them, and may be their last now that they're hanging up their spacesuits at NASA. One other astronaut on the mission, the Canadian Space Agency's Jeremy Hansen, also previously announced that he was stepping down as a CSA astronaut.</p>Steve Nesius/Reuters<p>It was the second spaceflight for both of them, and may be their last now that they're hanging up their spacesuits at NASA. One other astronaut on the mission, the Canadian Space Agency's Jeremy Hansen, also previously announced that he was stepping down as a CSA astronaut.</p><graphic alt="Artemis II Commander Reid Wiseman sends a heart of loved ones as the crew leaves crew quarters at the Kennedy Space Center on April 1 while headed to Pad 39B for launch on an 10-day rendezvous with the moon. During the mission, the four-person crew flew farther from Earth than any human ever had while seeing sights of the moon's far side never seen in person." src="/gcdn/authoring/authoring-images/2026/04/01/PBRE/89424890007-crb-040126-artemis-8.jpg?width=660&amp;height=431&amp;fit=crop&amp;format=pjpg&amp;auto=webp"></graphic><p>Artemis II Commander Reid Wiseman sends a heart of loved ones as the crew leaves crew quarters at the Kennedy Space Center on April 1 while headed to Pad 39B for launch on an 10-day rendezvous with the moon.During the mission, the four-person crew flew farther from Earth than any human ever had while seeing sights of the moon's far side never seen in person.</p>Craig Bailey, FLORIDA TODAY<p>During the mission, the four-person crew flew farther from Earth than any human ever had while seeing sights of the moon's far side never seen in person.</p><graphic alt="Artemis II Pilot Victor Glover blows kisses to his family as the crew leaves crew quarters April 1 at Kennedy Space Center before the launch of the mission. Glover has already announced on social media that he has accepted a full-time administrative leadership position at his alma mater, California Polytechnic State University in San Luis Obispo." src="/gcdn/authoring/authoring-images/2026/04/01/PBRE/89424637007-crb-040126-artemis-6.jpg?width=510&amp;height=660&amp;fit=crop&amp;format=pjpg&amp;auto=webp"></graphic><p>Artemis II Pilot Victor Glover blows kisses to his family as the crew leaves crew quarters April 1 at Kennedy Space Center before the launch of the mission.Glover has already announced on social media that he has accepted a full-time administrative leadership position at his alma mater, California Polytechnic State University in San Luis Obispo.</p>Craig Bailey, FLORIDA TODAY<p>Glover has already announced on social media that he has accepted a full-time administrative leadership position at his alma mater, California Polytechnic State University in San Luis Obispo.</p><graphic alt="NASA astronaut and Artemis II Commander Reid Wiseman peers out of one of the Orion spacecraft's main cabin windows, looking back at Earth, as the crew travels towards the moon. The test mission set the stage for a future moon landing as early as 2028 during Artemis IV. But first, NASA will conduct a test mission of the lunar landers during Artemis III in 2027." src="/gcdn/authoring/authoring-images/2026/04/07/USAT/89504122007-artemis-cellphone-photos-04.jpg?width=495&amp;height=660&amp;fit=crop&amp;format=pjpg&amp;auto=webp"></graphic><p>NASA astronaut and Artemis II Commander Reid Wiseman peers out of one of the Orion spacecraft's main cabin windows, looking back at Earth, as the crew travels towards the moon.The test mission set the stage for a future moon landing as early as 2028 during Artemis IV. But first, NASA will conduct a test mission of the lunar landers during Artemis III in 2027.</p>NASA<p>The test mission set the stage for a future moon landing as early as 2028 during Artemis IV. But first, NASA will conduct a test mission of the lunar landers during Artemis III in 2027.</p><p>NASA astronaut and Artemis II pilot Victor Glover is pictured April 6 in the Orion spacecraft during the Artemis II lunar flyby.NASA has plans for a long-term presence on the moon, made possible by a $20 billion lunar base where rotating crews of astronauts can live and work. From there, it's onward to Mars.</p>NASA Handout Via Reuters<p>NASA has plans for a long-term presence on the moon, made possible by a $20 billion lunar base where rotating crews of astronauts can live and work. From there, it's onward to Mars.</p><p>NASA astronaut and Artemis II Commander Reid Wiseman takes a moment to gaze out at the moon from the Orion spacecraft during the seven-hour lunar observation period April 6.</p>NASA Handout Via Reuters<p>NASA astronauts Victor Glover and Commander Reid Wiseman prepare for their April 6 journey around the far side of the moon with Canadian Space Agency (CSA) astronaut Jeremy Hansen (far right) by configuring their camera equipment for use through the Orion spacecraft's window.</p>NASA Handout, Via Reuters<p>NASA astronaut Victor Glover pumps his fists on the flight deck of the U.S. Navy's USS John P. Murtha after returning to Earth with the crew of the Artemis II moon mission. The astronauts splashed down April 10 in the Pacific Ocean off the coast of California.</p>U.S. Navy/Mass Communication Specialist 2nd Class August Clawson/Handout Via Reuters<p>NASA astronaut Reid Wiseman celebrated upon arrival April 10 to the flight deck of USS John P. Murtha after he and three fellow crewmates were extracted from their Artemis II mission's Orion spacecraft after splashdown, in the Pacific Ocean off the coast of California.</p>NASA/Bill Ingalls, Handout Via Reuters<p>NASA astronauts Victor Glover and Christina Koch sit on a Navy MH-60 Seahawk from Helicopter Sea Combat Squadron 23 on the flight deck of USS John P. Murtha after they and crewmates Canadian Space Agency astronaut Jeremy Hansen and NASA astronaut Reid Wiseman were extracted from their Orion spacecraft after splashdown, April 10 in the Pacific Ocean off the coast of California.</p>NASA/Bill Ingalls, USA TODAY Network Via Reuters Connect<p>NASA Artemis II pilot Victor Glover holds his chest as his fellow crew members sing happy birthday to him April 30 shortly after ringing the closing bell of the Nasdaq market session in Times Square.</p>Bill Ingalls/NASA/Handout Via Reuters<p>NASA astronaut Victor Glover prepares to throw the first pitch June 12 ahead of a baseball game between the Tampa Bay Rays and Los Angeles Angels at Angel Stadium in Anaheim, California.</p>William Liang-Imagn Images Via Reuters Connect<p>NASA Astronauts Reid Wiseman and Victor Glover make an appearance on the pitch before Netherlands faces Sweden in a June 20 match during the FIFA World Cup.</p>Phil Noble/Reuters<p>NASA Astronauts Reid Wiseman and Victor Glover make an appearance on the pitch before Netherlands faces Sweden in a June 20 match during the FIFA World Cup.</p>Pedro Nunes/Reuters<p>NASA's Artemis II crew members Victor Glover and Reid Wiseman attend a press conference July 13 during the Artemis II crew post-flight visit to the European Space Agency's European Space Research and Technology Centre (ESTEC) in Noordwijk, Netherlands,</p>Nicolas Economou/Reuters<p>NASA's Artemis II crew members Victor Glover and Reid Wiseman attend a press conference July 13 during the Artemis II crew post-flight visit to the European Space Agency's European Space Research and Technology Centre (ESTEC) in Noordwijk, Netherlands,</p>Nicolas Economou/Reuters<p>NASA's Artemis II crew members Victor Glover and Reid Wiseman attend a press conference July 13 during the Artemis II crew post-flight visit to the European Space Agency's European Space Research and Technology Centre (ESTEC) in Noordwijk, Netherlands,</p>Nicolas Economou/Reuters<p>NASA astronauts Reid Wiseman and Victor Glover shake hands during a Congressional Space Medal of Honor presentation Aug. 28 at NASA's Johnson Space Center in Houston, Texas. Also pictured is NASA astronaut Christina Koch.</p>Kylie Cooper/Reuters<p>U.S. President Donald Trump presents NASA astronaut Reid Wiseman with a medal during a Congressional Space Medal of Honor presentation Aug. 28 to the Artemis II crew at NASA's Johnson Space Center in Houston, Texas.</p>Kylie Cooper/Reuters<p>NASA astronaut Victor Glover and U.S. President Donald Trump shake hands April 28 after he presented Trump with a jacket during a Congressional Space Medal of Honor presentation to the Artemis II crew at NASA's Johnson Space Center in Houston, Texas.</p>Kylie Cooper/Reuters<p>Featured Weekly Ad</p></body>
 </html>]]></description>
-      <source url="https://www.independent.co.uk">The Independent</source>
-      <guid isPermaLink="false">CBMipAFBVV95cUxOSTJsUFczRkw4RkwxbGktUGJydGF6dzFVSnRFVlFDcGlmUDJSS2Y3QjhOTWY4SjJ6MUpYdFRtNzgzWmJNZDVGV0g4T2JqSHZfczgza19Zd2c5WnNRN2dFbWhTWm1vWjRDMUllR0RKQnd5cGZkUVUzNjI2ZkZnNllKaW8tZHdWQjRsSXR0TkxMN2pxLXYwaGx4ZUtRcWNnRkVsZTdkdA</guid>
+      <source url="https://www.usatoday.com">USA Today</source>
+      <guid isPermaLink="false">CBMivAFBVV95cUxNRF9NWDgtdElxWTdUU0wwMGRMYWR0VU5CX3Y3TW0waEUySTktUWg3LXpKeGI3N2tTNXFpWk1UZDRlZ2lHWk9WRm1FUEsyWElKOHJNRHF2Q29vbWF6a0NTS1lvNkNjOWpyLVRUQmtlSVkxT2wxaHk3NXl6Q1Z2bmZWeEs0a2NJVExEb01rU2lXdF9rUkE0X2l5ZTlYR0s2c1d4UjdJUzZiTjAxa3BfNXF1cFlVREdBTEZsWVFudw</guid>
     </item>
     <item>
-      <title>President Trump gives Artemis II moon astronauts the Congressional Space Medal of Honor - space.com</title>
+      <title>Artemis II moonshot commander and pilot hang up their astronaut suits at NASA - 23ABC News Bakersfield</title>
+      <pubDate>Thu, 10 Sep 2026 17:40:45 GMT</pubDate>
+      <link>https://www.turnto23.com/videos/video-kero/artemis-ii-moonshot-commander-and-pilot-hang-up-their-astronaut-suits-at-nasa</link>
+      <description><![CDATA[<img src="https://ewscripps.brightspotcdn.com/dims4/default/33d429a/2147483647/strip/true/crop/1280x672+0+24/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcf.cdn.uplynk.com%2Fause1%2Fslices%2Fd84%2Fe63aadb6928b4cd6ab0dec6fb3cddabd%2Fd84d89acb58b4512b1feeea280447e95%2Fposter_435a3cf9a53b4ecbbdef8824f88f3a93.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body><h1>Artemis II moonshot commander and pilot hang up their astronaut suits at NASA</h1><p>Live Stream Schedule</p>
+</body>
+</html>]]></description>
+      <source url="https://www.turnto23.com">23ABC News Bakersfield</source>
+      <guid isPermaLink="false">CBMivAFBVV95cUxQcGc3V0NxMkYzdTQ2bUtRTGdRZXREQ2t2ZnlzbGlFRFZLeVFiSm5Kc1hkV0QzWlRrekJpMmVtdzF1WklqZlNEVXpDQWNBUHhUNGNwZWFkN0pSMUx0cXpzdHZTRHYzWnQ2MzREN2VpbjFCak5jZzZoLUlmVEFjdnNBdDk1NVdxZ0RHNlZrdTdibmVuQjdCOTdDUk45N2xIakJxS0NxS2hJNUYzTjRlSmpSV1dJdUdfemFoMGZZSQ</guid>
+    </item>
+    <item>
+      <title>President Trump gives Artemis II moon astronauts the Congressional Space Medal of Honor - Space</title>
       <pubDate>Fri, 28 Aug 2026 07:00:00 GMT</pubDate>
       <link>https://www.space.com/space-exploration/artemis/trump-gives-artemis-ii-moon-astronauts-congressional-space-medal-of-honor</link>
       <description><![CDATA[<img src="https://cdn.mos.cms.futurecdn.net/eTbXiNPcir5FT8FyXvYMJm-2560-80.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
@@ -306,7 +414,7 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
 <p>Michael Wall is the Spaceflight and Tech Editor for Space.com and joined the team in 2010. He primarily covers human and robotic spaceflight, military space, and exoplanets, but has been known to dabble in the space art beat. His book about the search for alien life, "Out There," was published on Nov. 13, 2018. Before becoming a science writer, Michael worked as a herpetologist and wildlife biologist. He has a Ph.D. in evolutionary biology from the University of Sydney, Australia, a bachelor's degree from the University of Arizona, and a graduate certificate in science writing from the University of California, Santa Cruz. To find out what his latest project is, you can follow Michael on Twitter.</p>
 </body>
 </html>]]></description>
-      <source url="https://www.space.com">space.com</source>
+      <source url="https://www.space.com">Space</source>
       <guid isPermaLink="false">CBMivgFBVV95cUxOS0dOVjRiLUFKcWdwX0dJdnRYZkVjZ2ZPWjNkaWdlNTVFb1dTeTltaExxZ05oVmhCSEx2MVpodWZtVUYxSEVsczB4d00zc2FITklXYmplb3g3Z2Q0TGt5d0V0OTVIZGNGVVkyNDM3SXBYd0t4cEZVODJSS25VY2ZQcUJTeDF6UXZaRWdmLU96Q0MtT2FSSGxPRks3XzBtMEdpMmN0UzN3emJacHZDcEstVTZLT3JTT1g3T0k1YTRn</guid>
     </item>
     <item>
@@ -410,6 +518,29 @@ Members of the 20th and 21st class of astronauts, respectively, Wiseman logged a
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMigwFBVV95cUxQaTdlNkF0WkQ4VFRtQUxPeFNjM19YWXhUaFdRU0REVHBMd29XUmdndVZ2X0xxaU1qamlydEVTeFBqcElhbVkxRXpVd2ZGb1MzbERSUVdoRGVGaHkxd1FmdFdONUdIX1RkSkNXcWY2UEtlYUd3Y2I5c3pybjQxaTl2bHVPbw</guid>
+    </item>
+    <item>
+      <title>Artemis II crew to receive top US space medal for historic lunar journey - The Guardian</title>
+      <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+      <link>https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal</link>
+      <description><![CDATA[<img src="https://i.guim.co.uk/img/media/204f54fe96b9a20b5ff2ec283d776a874493da9e/490_0_4892_3915/master/4892.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=36d1b73c621e19c6e91146abcaada9bc" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<p>The crew of the historic Artemis II lunar flyby mission have earned the US’s top space medal, officials have announced.</p>
+<p>Cmdr Reid Wiseman, pilot Victor Glover, and mission specialists Christina Koch and Jeremy Hansen are set to receive the Congressional Space Medal of Honor on 28 August, the US space agency Nasa said.</p>
+<p>Nasa’s website indicates that only 30 astronauts have gained the honor – among them Neil Armstrong, the first person to walk on the moon, and John Glenn, who was first to orbit Earth and then served four terms in the US Senate.</p>
+<p>Wiseman, Glover, Koch and Hansen were selected for the medal, despite its name, by Donald Trump after the Nasa administrator, Jared Isaacman, recommended them to the president.</p>
+<p>The Artemis II crew broke Apollo 13’s record for farthest distance traveled from Earth during their 10-day mission, which began on 1 April. They reached 252,756 miles (406,771km) as they swung above the lunar surface, surpassing the 1970 record of 248,655 miles as part of US plans to again land on the moon – then eventually reach Mars.</p>
+<p>Furthermore, Hansen – who is from Canada – became the first non-US citizen to fly to the moon.</p>
+<p>“This was not easy,” Wiseman said to reporters after the Artemis II mission safely ended with a textbook splashdown in the Pacific Ocean. “Before you launch, it feels like it’s the greatest dream on Earth. And when you’re out there, you just want to get back to your families and your friends. It’s a special thing to be a human, and it’s a special thing to be on planet Earth.”</p>
+<p>The medal ceremony scheduled for Wiseman and his colleagues at the Johnson Space Center in Houston comes four months after Trump hosted the Artemis II crew at the White House. The occasion was marked in part by the president, who turned 80 in June, telling the astronauts: “I would have had no trouble making it – I’m physically very, very good.”</p>
+<p>Nasa listed an 11am start time for the ceremony, with a video live stream of the event available at www.nasa.gov/live.</p>
+<p>Trump has sought to embrace the Artemis II crew’s achievements despite his administration’s proposal to cut Nasa’s budget by 23%, including a 46% reduction for space science initiatives, for the 2027 fiscal year beginning on 1 October. A House commerce, justice and science subcommittee led by Trump’s Republican party responded by advancing its own Nasa budget proposal that would maintain the science projects the president has been aiming to eliminate.</p>
+<p>Beside Armstrong and Glenn, previous Congressional Space Medal of Honor recipients include astronauts who were killed in the Apollo I fire as well as the explosions of the Challenger and Columbia space shuttles.</p>
+<p>Douglas Hurley and Robert Behnken were the last astronauts to have been chosen for the medal before the Artemis II crew. Hurley and Behnken in 2020 became the first to launch into orbit on a commercial spacecraft, and they accepted the medal in 2023 during Joe Biden’s presidency.</p>
+</body>
+</html>]]></description>
+      <source url="https://www.theguardian.com">The Guardian</source>
+      <guid isPermaLink="false">CBMiigFBVV95cUxPc2tiUml1MTBWYmhRTFRsd3hKdktWcGJuQUJjZmtKRExMVHVUa3MxaHBlcDFvN0o5ZzVpSm9jbjNleVRsMGJxUkxyX2ZGRmczbnBidjhBZno3Mlh4MnBxd3JaampGaTRUSm05YXRianVvSFlNVktra3JvS2xkUWxjazE1Um5Bck5BZlE</guid>
     </item>
     <item>
       <title>NASA Welcomes Record-Setting Artemis II Moonfarers Back to Earth - NASA (.gov)</title>
@@ -1142,82 +1273,6 @@ connection, disable any ad blockers, or try using a different browser.</p>
       <guid isPermaLink="false">CBMiigFBVV95cUxOLWdEcHpac3VUbHJ0WTlIN1VkS2hhY2VLWnBDSjN0RW1mWFJZakdFT1NlV0xzbWVCY3RZVkt0Mk1GTmFfZnNJeDlHdks3Q1NzM2hRV1dLOHBHN1VZVVdOc1lhbGZla3luVDFsb3pwSVZ6bU1oUDZ1cnNPN3VvUUxieHBZVUdPMHJSeVE</guid>
     </item>
     <item>
-      <title>Artemis II Flight Day 6: Lunar Flyby Updates - NASA (.gov)</title>
-      <pubDate>Mon, 06 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/blogs/missions/2026/04/06/artemis-ii-flight-day-6-lunar-flyby-updates/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e009212orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<h1>Artemis II Flight Day 6: Lunar Flyby Updates</h1>
-<p>
-<strong>Live lunar flyby updates for NASA’s Artemis II mission will be published on this page. All times are Eastern.</strong>
-</p>
-<p>
-<strong>9:35 p.m.</strong>
-</p>
-<p>The Artemis II crew has completed the mission’s lunar observation period and is now beginning the return trip home. On Tuesday, April 7, Orion will exit the lunar sphere of influence at approximately 1:25 p.m., at a distance of 41,072 miles from the Moon.</p>
-<p>
-<strong>8:35 p.m. </strong>
-</p>
-<p>Artemis II is now entering a solar eclipse that will last for about an hour as Orion, the Moon and the Sun align. During this phase, the crew will see the Sun disappear behind a mostly darkened Moon.</p>
-<p>The crew will use the opportunity to study the solar corona — the Sun’s outermost atmosphere — as it glows around the lunar edge. They also will watch for flashes of light from meteoroids striking the surface, which could offer insight into potential hazards on the Moon.</p>
-<p>
-<strong>7:24 p.m.</strong>
-</p>
-<p>The Artemis II crew witnessed an Earthrise as Orion emerged from behind the Moon, moments before the Deep Space Network reacquired the spacecraft’s signal and restored communications.</p>
-<p>
-<strong>7:02 p.m. </strong>
-</p>
-<p>The Artemis II crew has reached the mission’s maximum distance from Earth at 252,756 miles, setting a new record for human spaceflight. This milestone places the crew 4,111 miles farther from Earth than the Apollo 13 mission in 1970.</p>
-<p>
-<strong>7:00 p.m. </strong>
-</p>
-<p>Orion has reached its closest approach to the Moon at about 4,067 miles above the lunar surface. At this point, the spacecraft is traveling about 60,863 miles an hour relative to Earth, but only 3,139 miles an hour relative to the Moon.</p>
-<p><strong>6:44 p.m. </strong> </p>
-<graphic alt="Victor Glover" src="https://www.nasa.gov/wp-content/uploads/2025/03/victor-glover.webp?w=150&amp;h=150&amp;crop=1"></graphic>
-<p>Victor Glover</p>
-<p>Artemis II Pilot</p>
-<p>The Orion spacecraft has entered a planned communications blackout as it passes behind the Moon. For about 40 minutes, the lunar surface blocks the radio signals from NASA’s Deep Space Network on Earth needed to stay in contact with the crew.</p>
-<p>Similar blackouts occurred during the Artemis I and Apollo missions and are expected when using an Earth-based communications system. Once Orion emerges from behind the Moon, the network will quickly reacquire the signal and restore communications with mission control.</p>
-<p><strong>6:41 p.m. </strong> </p>
-<p>As Orion traveled behind the Moon, the crew witnessed an “Earthset” — the moment Earth dropped below the lunar horizon — marking another milestone in the mission’s lunar flyby.</p>
-<p>The Earth will re-emerge at “Earthrise” from the opposite edge of the Moon in about 40 minutes.</p>
-<p>
-<strong>4:40 p.m.</strong>
-</p>
-<p>A lively stream of science observations from the crew throughout the flyby has been received with grins, nods, and lots of chatter in the Science Evaluation Room, where lunar scientists are supporting the observations in mission control. The crew reported color nuances, which will help enhance scientific understandings of the Moon. Shades of browns and blues that can be picked out with human eyes can help reveal the mineral composition of a feature and its age. As crew reports are received, the science team is updating the observation plan based on their follow up questions and sending up new guidance to the crew.</p>
-<p>
-<strong>2:45 p.m.</strong>
-</p>
-<p>Due to last approximately seven hours, the lunar observation period is the duration of time that the crew is close enough to the Moon to make impactful science observations (4,070 miles altitude at closest approach) and the spacecraft is oriented such that the windows are pointed at the Moon.</p>
-<p>At the beginning of the window, as Orion approaches the Moon on the near side, the side we can see from Earth, people in parts of the eastern hemisphere can view some of the same features the astronauts will observe. These include future CLPS landing site Reiner Gamma, a bright, mysterious swirl the origin of which scientists are still trying to understand, and Glushko, a bright, 27-mile-wide crater known for the white streaks that shoot out from it for up to 500 miles.</p>
-<p>
-<strong>1:56 p.m. </strong>
-</p>
-<p>The Artemis II crew of NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen have set the record for the farthest distance from Earth traveled by a human mission, surpassing the Apollo 13 record of 248,655 miles set in 1970.</p>
-<graphic alt="Jeremy Hansen" src="https://images-assets.nasa.gov/image/jsc2023e016440_alt2/jsc2023e016440_alt2~large.jpg?w=1440&amp;h=1920&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic>
-<p>Jeremy Hansen</p>
-<p>Canadian Space Agency (CSA) Astronaut and Artemis II Mission Specialist</p>
-<p>NASA Flight Director Brandon Lloyd, Capsule Communicator Amy Dill, and Command and Handling Data Officer Brandon Borter also marked a lighthearted milestone today by emailing the crew what is now assumed to be the longest person-to-person message ever sent in human history.</p>
-<graphic alt="Shortly after 2 p.m. EDT, the crew described two small, unnamed craters on the heavily pockmarked lunar surface. Calling down to Earth, they suggested provisional names for them. Just northwest of Orientale basin, highlighted above, is a crater they would like to name Integrity after their spacecraft and this historic mission. Just northeast of the Integrity crater, on the near and far side boundary, and sometimes visible from Earth, the crew suggested an unnamed crater be designated Carroll in honor of Reid Weisman’s wife, Carroll Taylor Wiseman, who passed away on May 17, 2020. After this mission is complete, the crater name proposals will be formally submitted to the International Astronomical Union, an organization that governs the naming of celestial bodies and their surface features." src="https://www.nasa.gov/wp-content/uploads/2026/04/image.png?w=2048"></graphic>
-<p>After breaking the record for human spaceflight, crew also took a moment to provisionally name a couple of craters on the Moon, noting they were able to see them with their naked eye.</p>
-<p>Just northwest of Orientale basin highlighted above is a crater they would like to name Integrity after their spacecraft and this historic mission. Just northeast of Integrity, on the near and far side boundary, and sometimes visible from Earth, the crew suggested Carroll crater in honor of Reid Wiseman’s late wife, Carroll Taylor Wiseman. After this mission is complete, the crater name proposals will be formally submitted to the International Astronomical Union, the organization that governs the naming of celestial bodies and their surface features.</p>
-<p><strong>1:30 p.m.</strong> </p>
-<p>NASA’s lunar science officer briefed the crew on their science objectives for the upcoming lunar observation period.</p>
-<p>On April 5, the science team sent the crew the final list of 30 lunar surface targets, including the Orientale basin, a nearly 600-mile-wide crater that straddles the Moon’s near and far sides. This 3.8-billion-year-old crater formed when a large object struck the lunar surface and retains clear evidence of that collision, including dramatic topography in its rings. The crew will study Orientale’s features up close and from multiple angles as they pass by.</p>
-<p>Hertzsprung basin also is on the crew’s list of targets. Northwest of Orientale, it is a nearly 400-mile-wide crater on the Moon’s far side. An older ringed basin, Hertzsprung offers a unique contrast to Orientale because its features have been degraded by subsequent impacts. By comparing the topography of the two craters, the crew’s observations will help scientists gain insight into how lunar features evolve over geologic timescales.</p>
-<p>
-<strong>1 p.m.</strong>
-</p>
-<p>NASA’s live coverage of the Artemis II lunar flyby is underway on NASA+, Amazon Prime, Apple TV, Hulu, Netflix, HBO Max, and Roku, alongside the agency’s 24/7 coverage on its YouTube channel. Learn how to stream NASA content through a variety of online platforms, including social media.</p>
-<p>Coverage will include live views of the Moon from cameras mounted on Orion’s solar arrays. Image and view quality may vary throughout the lunar observation period due to distance from Earth, system limitations, and bandwidth across NASA’s communications network.</p>
-<p><strong>Note:</strong> The spacecraft will enter a planned communications blackout from 6:44 to 7:25 p.m. EDT as Orion passes behind the Moon. Spacecraft camera views will not be available during this time, but NASA’s live coverage will continue. </p>
-<p>View the latest imagery from the Artemis II mission on our Artemis II Multimedia Resource Page. Please follow @NASAArtemis on X, Facebook, and Instagram for real-time updates. Live coverage of the mission is available on NASA’s YouTube channel.</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMilgFBVV95cUxOOUNVZFQ0TEVCTk5VT2dDZWN1d2NTMzdNRkxER2JwS0FIR0lWNnB1VTItUWRsQ2lmb1RMRGYzNzhkVnZDZTEwVF9KdERNaG93ZnBGbFBNQjdPLWppSzdDdkwyS2hpeFFkcmxHcnFMOFY3RmhzdHNKem9TTXJ4R2t4d0YtVHRkd1dYb3NFalpTdURzUG9EV1E</guid>
-    </item>
-    <item>
       <title>Liftoff! NASA Launches Astronauts on Historic Artemis Moon Mission - NASA (.gov)</title>
       <pubDate>Wed, 01 Apr 2026 07:00:00 GMT</pubDate>
       <link>https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/</link>
@@ -1243,335 +1298,6 @@ connection, disable any ad blockers, or try using a different browser.</p>
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMiogFBVV95cUxPYnVTME9aUzFweUZFcE1lN0h1cTJJMlkzWXUyLTZiOG1vVjhQMXVCZU40NEpVckptTkpnbGtDRzljV05VVEdrY0E1dkNKN3RWSm9KOUt6TXhBUHRzUU03aUh2cDVOWG9SdDZsM2FFRkhFUWpZYWZtQzJpNllWVXBUZEt0elItQ1VBX3I1Z01mNkNwNVVkQkkzQnQ3VkQ1ck0yZXc</guid>
-    </item>
-    <item>
-      <title>European Service Module team meets Artemis II crew - European Space Agency</title>
-      <pubDate>Fri, 17 Jul 2026 09:10:11 GMT</pubDate>
-      <link>https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew</link>
-      <description><![CDATA[<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/european_service_module_team_meets_artemis_ii_crew/27381768-1-eng-GB/European_Service_Module_team_meets_Artemis_II_crew_pillars.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>
-<i>From left to right, NASA astronauts Christina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.</i>
-</p>
-<p>The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission possible.</p>
-<p>The day included a visit to the Eagle mission control room, where ESA and Airbus engineers monitored the European Service Module around the clock throughout Artemis II. There, astronauts met some of the ESA specialists who had supported their flight from Earth.</p>
-<p>“Walking into this room and seeing it full of the engineers who were actually sitting on console during our mission monitoring things was awesome,” said Christina Koch later during the visit. “I could have stayed in here all day.”</p>
-<p>The astronauts and engineers shared their perspectives on key moments of the mission – the engineers following events from ESTEC, the astronauts experiencing them first-hand in deep space.</p>
-<p>They discussed the trans-lunar injection burn, performed by the European Service Module’s main engine around 25 hours after launch, which was so precise that two planned trajectory correction manoeuvres were no longer required.</p>
-<p>During the visit, NASA Orion Program Manager Howard Hu presented ESA with a Program Award acknowledging Europe’s important contribution to Artemis II. Several members of the European Service Module team also received certificates and an Artemis II patch flown on board Orion during the mission, in recognition of their contribution and dedication.</p>
-<p>The recognition reflected the vital role played by ESA’s European Service Module and by the teams who developed and monitored it throughout Artemis II. Built by European industry under ESA leadership and assembled by Airbus in Bremen, Germany, the module supplied air and water for the crew, generated electrical power through its four solar arrays, maintained thermal control and provided the propulsion needed to carry Orion over one million kilometres through deep space, around the Moon and safely back to Earth.</p>
-<p>During the mission, Artemis II pilot Victor Glover manually flew Orion using the European Service Module’s engines. At a press conference during the visit, he reflected on that experience: “The European Service Module flew like a dream … every space flyer dreams of flying a spaceship by hand in space. Thank you to the European Space Agency, to the Airbus team, and the Europeans that made it possible.”</p>
-</body>
-</html>]]></description>
-      <source url="https://www.esa.int">European Space Agency</source>
-      <guid isPermaLink="false">CBMiogFBVV95cUxQYkRRaEhSMnlBeHVJZTl6YzJHUHNySXpadDZTeFVmQmVMb091Ujc0eTZWbEF1bE9zX0xEbE4tTnFac1A5aktLdkpQZHVZLXpnV2RuSWROOXBqMGlWeUUyWVZ3WGZEVExQSkNzaWZXXzlXSmtfMGkwYjByeEhUckhuTFFMWjBBYkItWHB3N0otaHVRUUdZNnV3N2VHRzZfa1VCWWc</guid>
-    </item>
-    <item>
-      <title>NASA Sets Coverage for Artemis II Moon Mission - NASA (.gov)</title>
-      <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/missions/artemis/artemis-2/nasa-sets-coverage-for-artemis-ii-moon-mission/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/03/a2crew.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<graphic src="https://www.nasa.gov/wp-content/uploads/2026/03/a2crew.jpg?w=2048"></graphic>
-<p>
-<i>Editor’s note: NASA will continuously update this Artemis II briefings and mission events page throughout prelaunch, launch, and mission activities.</i>
-<i>All live downlink events listed below are filled.</i>
-</p>
-<p>NASA will provide live coverage of prelaunch, launch, and mission events for the agency’s upcoming Artemis II crewed test flight around the Moon. Launch is targeted for no earlier than 6:24 p.m. EDT Wednesday, April 1, with a two-hour launch window. Additional opportunities for launch run through Monday, April 6.</p>
-<p>Artemis II is NASA’s first crewed mission under the Artemis program and will launch from the agency’s Kennedy Space Center in Florida. It will send NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen on an approximately 10-day journey around the Moon. Launching on NASA’s SLS (Space Launch System) rocket, the agency will test the Orion spacecraft’s life support systems for the first time with humans aboard, helping lay the groundwork for future crewed Artemis missions.</p>
-<p>Briefings, events, and 24/7 mission coverage will be on the agency’s YouTube channel, and events will each have their own stream closer to their start time.</p>
-<p>Watch agency launch, lunar flyby, and splashdown coverage on NASA+ and Amazon Prime. Learn how to watch NASA content through a variety of online platforms, including social media.</p>
-<p>For information on obtaining feeds, email the NASA+ programming at team at: nasa-dl-nasaplus-programming@mail.nasa.gov.</p>
-<p>The deadline for media accreditation for in-person coverage of launch and mission events has passed. The agency’s media credentialing policy is available online. For questions about media accreditation at NASA Kennedy, please email: ksc-media-accreditat@mail.nasa.gov. For questions about media accreditation at the agency’s Johnson Space Center in Houston, please email: jsccommu@mail.nasa.gov.</p>
-<p>A limited number of seats inside the Kennedy auditorium will be available during prelaunch briefings to previously credentialed journalists on a first-come, first-served basis. To participate by telephone, media must RSVP no later than two hours before the start of each briefing to: ksc-newsroom@mail.nasa.gov.</p>
-<p>Beginning Thursday, April 2, briefings will occur from NASA Johnson. To participate by telephone in these briefings, media must RSVP no later than two hours before the start of each briefing to the Johnson newsroom at: jsccommu@mail.nasa.gov.</p>
-<p>The time of events is subject to change. All events are listed in Eastern Time.</p>
-<p>
-<strong>Friday, March 27</strong>
-</p>
-<p>2:15 p.m.: The Artemis II crew will arrive at Kennedy and answer questions from credentialed media in attendance. Agency leadership, including NASA Administrator Jared Isaacman, also will attend, along with CSA (Canadian Space Agency) President Lisa Campbell.</p>
-<p>Available for questions are:</p>
-<ul>
-<li>Reid Wiseman, commander, NASA astronaut</li>
-<li>Victor Glover, pilot, NASA astronaut,</li>
-<li>Christina Koch, mission specialist, NASA astronaut</li>
-<li>Jeremy Hansen, mission specialist, CSA astronaut</li>
-</ul>
-<p>
-<strong>Sunday, March 29</strong>
-</p>
-<p>11:30 a.m.: The Artemis II crew members will virtually answer reporters’ questions from their quarantine facility.</p>
-<p>2 p.m.: NASA will hold a status update on preparations for launch with the following participants:</p>
-<ul>
-<li>Lori Glaze, acting associate administrator, Exploration Systems Development Mission Directorate</li>
-<li>Shawn Quinn, program manager, Exploration Ground Systems</li>
-<li>Howard Hu, manager, Orion Program</li>
-<li>Chris Cianciola, deputy manager, SLS Program</li>
-</ul>
-<p>
-<strong>Monday, March 30</strong>
-</p>
-<p>5 p.m.: Following a key mission meeting, NASA will host a news conference to provide a status update on preparations for launch. NASA participants include:</p>
-<ul>
-<li>Associate Administrator Amit Kshatriya</li>
-<li>John Honeycutt, chair, Mission Management Team</li>
-<li>Charlie Blackwell-Thompson, launch director</li>
-<li>Emily Nelson, chief flight director</li>
-</ul>
-<p>
-<strong>Tuesday, March 31</strong>
-</p>
-<p>1 p.m.: NASA will hold a prelaunch news conference on countdown status with the following participants:</p>
-<ul>
-<li>Launch team representative</li>
-<li>Mark Burger, launch weather officer, 45th Weather Squadron Cape Canaveral Space Force Station</li>
-</ul>
-<p>
-<strong>Wednesday, April 1</strong>
-</p>
-<p>7:45 a.m.: Coverage of tanking operations to load propellant into the SLS rocket begins, including views of the rocket and audio from a commentator.</p>
-<p>12:50 p.m.: NASA+ coverage of launch begins. Coverage continues on YouTube after Orion’s solar array wings deploy in space.</p>
-<p>8 p.m.: NASA will hold a postlaunch news conference after the SLS rocket’s upper stage performs a burn to send Orion and its crew to high Earth orbit. The start time is subject to change, based on the exact liftoff time. This postlaunch news conference will include the following participants:</p>
-<ul>
-<li>Administrator Jared Isaacman</li>
-<li>Associate Administrator Amit Kshatriya</li>
-<li>Lori Glaze, acting associate administrator, Exploration Systems Development Mission Directorate</li>
-<li>Norm Knight, director, Flight Operations Directorate</li>
-</ul>
-<p>
-<strong>Mission Coverage</strong>
-</p>
-<p>NASA’s real-time coverage will continue throughout the mission on YouTube. The agency also will provide a separate live stream of views from the Orion spacecraft, as bandwidth allows.</p>
-<p>The agency will provide daily mission status briefings from NASA Johnson beginning April 2, except for April 6, due to lunar flyby activities. Times are subject to change based on the exact time of launch and mission operations.</p>
-<p>The crew will participate in live conversations throughout the mission, known as downlinks. NASA will provide the exact times of each of these downlink events in the Artemis blog and on this page.</p>
-<p>Times below are subject to change based on the exact time of launch and mission operations.</p>
-<p>
-<strong>Thursday, April 2</strong>
-</p>
-<p>7:49 p.m.: Planned translunar injection burn for five minutes and 49 seconds pending mission management team’s approval</p>
-<p>8:30 p.m.: Mission status media briefing after the translunar injection burn to send the crew in Orion toward the Moon.</p>
-<p>10:24 p.m.: Live downlink event</p>
-<p>
-<strong>Friday, April 3</strong>
-</p>
-<p>4:05 a.m.: Crew sleep begins</p>
-<p>12:35 p.m.: Flight Day 3 begins, Crew wakeup</p>
-<p>3:30 p.m.: Mission status briefing</p>
-<p>11:10 p.m.: Lunar Flyby Cabin Configuration</p>
-<p>
-<strong>Saturday, April 4</strong>
-</p>
-<p>1:10 a.m.: Live CSA downlink event</p>
-<p>4:05 a.m.: Crew sleep begins</p>
-<p>12:35 p.m.: Flight Day 4 begins, Crew wakeup</p>
-<p>TBD: Orion “selfie” from solar array wing</p>
-<p>4:50 p.m.: Live downlink event</p>
-<p>5:15 p.m.: Mission status briefing</p>
-<p>9:10 p.m.: Manual piloting detailed flight test objective</p>
-<p>9:40 p.m.: Lunar imaging for flyby operations</p>
-<p>
-<strong>Sunday, April 5</strong>
-</p>
-<p>12:25 a.m.: Live CSA downlink event</p>
-<p>3:20 a.m.: Crew sleep begins</p>
-<p>11:50 a.m.: Flight Day 5 begins, Crew wakeup</p>
-<p>2:20 p.m.: Orion Crew Survival System Suit detailed flight test objectives</p>
-<p>6:30 p.m.: Mission status briefing</p>
-<p>11:03 p.m.: Outbound trajectory correction-3 burn</p>
-<p>
-<strong>Monday, April 6</strong>
-</p>
-<p>12:41 a.m.: Orion enters lunar sphere of influence</p>
-<p>2:20 a.m.: Crew sleep begins</p>
-<p>10:50 a.m.: Flight Day 6 begins, Crew wake up</p>
-<p>1 p.m.: Lunar flyby coverage begins on NASA+, Amazon Prime, Apple TV, Hulu, Netflix, HBO Max, Roku, and the agency’s YouTube channel.</p>
-<p>1:56 p.m.: The crew will surpass the record for human’s farthest distance from Earth previously set by Apollo 13, at 248,655 miles from Earth.</p>
-<p>2:10 p.m.: Crew remarks about Apollo 13 distance record (audio only)</p>
-<p>2:15 p.m.: Crew configures Orion’s cabin for flyby operations</p>
-<p>2:45 p.m.: Lunar observation period (flyby) begins</p>
-<p>6:44 p.m.: Predicted loss of communications as crew heads behind the Moon (estimated 40-min.)</p>
-<p>7:00 p.m. Orion closest approach to the Moon</p>
-<p>7:02 p.m.: Orion reaches maximum distance from Earth</p>
-<p>7:21 p.m.: Earthrise</p>
-<p>7:25 p.m.: Predicted communications link reestablished as Orion emerges from behind the Moon</p>
-<p>8:35 p.m.: Orion enters period with Moon eclipsing the Sun</p>
-<p>9:20 p.m.: Lunar observation period (flyby) concludes</p>
-<p>9:32 p.m.: Solar eclipse period concludes</p>
-<p>10:50 p.m.: Live downlink event</p>
-<p><strong>Tuesday, April 7</strong> </p>
-<p>2:05 a.m.: Crew sleep begins</p>
-<p>11:35 a.m.: Flight Day 7 begins, Crew wakeup</p>
-<p>1:23 p.m.: Orion departs lunar sphere of influence</p>
-<p>2:40 p.m.: The Artemis II crew will speak with the astronauts aboard the International Space Station in an audio-only conversation.</p>
-<p>3 p.m.: Crew debrief with science officials about lunar flyby</p>
-<p>4:30 p.m.: Mission status briefing</p>
-<p>8:03 p.m.: Return trajectory correction-1 burn</p>
-<p>
-<strong>Wednesday, April 8</strong>
-</p>
-<p>3:05 a.m.: Crew sleep period begins</p>
-<p>11:35 a.m.: Flight Day 8 begins, Crew wakeup</p>
-<p>5 p.m.: Mission status briefing</p>
-<p>7:20 p.m.: Live CSA downlink event</p>
-<p>10:45 p.m.: In orbit crew news conference</p>
-<p>
-<strong>Thursday, April 9</strong>
-</p>
-<p>2:54 a.m.: Crew sleep begins</p>
-<p>11:35 a.m.: Flight Day 9, Crew wakeup</p>
-<p>3:30 p.m.: Mission status briefing</p>
-<p>7:50 p.m.: Live downlink event</p>
-<p>10:53 p.m.: Return trajectory correction-2 burn</p>
-<p>
-<strong>Friday, April 10</strong>
-</p>
-<p>3:05 a.m.: Crew sleep begins</p>
-<p>11:35 a.m.: Flight Day 10, Crew wakeup</p>
-<p>1:50 p.m.: Orion cabin configuration for re-entry begins</p>
-<p>2:53 p.m.: Return trajectory correction-3 burn</p>
-<p>6:30 p.m.: NASA+ coverage of the crew’s return to Earth begins</p>
-<p>7:33 p.m.: Orion crew module and service module separation</p>
-<p>7:37 p.m.: Crew module raise burn</p>
-<p>7:53 p.m.: Orion entry interface</p>
-<p>8:07 p.m.: Splashdown in the Pacific Ocean. NASA and U.S. Department of War personnel are expected to assist the crew out of Orion and fly them to a waiting recovery ship.</p>
-<p>10:30 p.m.: Post-splashdown news conference at NASA Johnson</p>
-<p>Details on the astronauts’ return to Houston will be shared later.</p>
-<p>
-<strong>NASA website launch, mission coverage</strong>
-</p>
-<p>NASA will provide updates during the launch countdown and throughout mission on the Artemis blog.</p>
-<p>Throughout the mission, the latest imagery will be available at: Artemis II Multimedia</p>
-<p>To track Orion in space, visit: nasa.gov/trackartemis</p>
-<p>
-<strong>Attend launch virtually</strong>
-</p>
-<p>Members of the public may register to attend this launch virtually. NASA’s virtual guest program for this mission includes curated launch resources, notifications about related opportunities or changes, and a stamp for the NASA virtual guest passport following launch.</p>
-<p>
-<strong>Audio-only launch coverage</strong>
-</p>
-<p>Media may listen to the audio-only coverage of the tanking and launch broadcast by dialing 256-715-9946, passcode 682 040 632. For those in Brevard County on the Space Coast, launch audio also will be available on Launch Information Service and Amateur Television System’s VHF radio frequency 146.940 MHz and KSC Amateur Radio Club’s UHF radio frequency 444.925 MHz, FM mode.</p>
-<p>As part of Golden Age of innovation and exploration, NASA will send Artemis astronauts on increasingly difficult missions to explore more of the Moon for scientific discovery, economic benefits, and to build on our foundation for the first crewed missions to Mars.</p>
-<p>To learn more about the Artemis program, visit:</p>
-<p>-end-</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMimwFBVV95cUxNbFV6M2VMcXNsZHIxa0JTaXlGMUZyRFJaT0VweUFzemlEVkhKM1pFSXI0ODE2V0k4czFtcHpqQUFjRzNteG9jMW1IVWlIazRPckRNSW5vMWtUbEZJc1FwNmhDaWVjVHBjVGo4dENqVC1HQXUwQlI1VXJfMXF1cC1EeW9RN1NvV1dfR3VjazYxLVFDdnJFXzJ0S2hfRQ</guid>
-    </item>
-    <item>
-      <title>NASA on Track for Future Missions with Initial Artemis II Assessments - NASA (.gov)</title>
-      <pubDate>Mon, 20 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/04/launch-11a3a5.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>Following NASA’s Artemis II mission successfully splashing down on Earth, engineers started diving into detailed analysis of data to assess how key systems and subsystems on the Orion spacecraft, SLS (Space Launch System) rocket, and systems at the launch pad at the agency’s Kennedy Space Center in Florida performed. The Artemis II test flight successfully began a new era of exploration, laying the groundwork for the third Artemis mission next year, lunar surface missions, a Moon base, and future missions to Mars.</p>
-<p>
-<strong>Orion spacecraft</strong>
-</p>
-<p>After its 694,481-mile journey around the Moon and back, the agency’s Orion spacecraft successfully reentered Earth’s atmosphere and splashed down off the coast of San Diego on April 10. The crew and spacecraft were safeguarded by Orion’s thermal protection system as they traveled nearly 35 times the speed of sound during reentry. Initial inspections of the system found it performed as expected, with no unusual conditions identified. Diver imagery of the spacecraft’s heat shield initially taken after splashdown and further inspections on the recovery ship found the char loss behavior observed on Artemis I was significantly reduced, both in terms of quantity and size. Performance also was consistent with arc jet facility ground testing performed after Artemis I.</p>
-<p>Airborne imagery of Orion’s crew module also was obtained during re-entry and will be reviewed in the coming weeks. This imagery will provide insight into the timing of when minimal char loss occurred as well as other heat shield data.</p>
-<graphic src="https://www.nasa.gov/wp-content/uploads/2026/04/luis.jpg?w=2048"></graphic>
-<p>The crew module is expected to return to NASA Kennedy this month for additional examination of the heat shield during Orion de-servicing in the Multi-Payload Processing Facility. Teams will conduct detailed inspections, retrieve post-flight data, remove reusable components such as avionics, and eliminate remaining hazards such as excess fuel and coolant.</p>
-<p>Over the summer, the heat shield will be transported to NASA’s Marshall Space Flight Center in Huntsville, Alabama, for sample extraction and internal x-ray scans to provide further insight into the system and material behavior.</p>
-<p>The ceramic tiles on the upper conical backshell of the crew module also performed as expected<i>.</i> Reflective thermal tape, which is expected to burn off upon re-entry, is still present in numerous locations. This reflective tape is used to help control vehicle temperatures while in space and serves no function for thermal protection upon re-entry.</p>
-<p>Orion splashed down with precision, just 2.9 miles from the targeted landing site. Initial assessments showed entry interface velocity was within one mile-per-hour of predictions.</p>
-<p>After splashdown, several Orion components were removed in San Diego for post flight analysis and future reuse prior to the spacecraft’s return to Kennedy. These items included seats, video processing units, crew module camera controllers, stowage containers and bags, and Orion Crew Survival System suit umbilicals.</p>
-<p>The team currently is assessing the hardware and gathering data to support the post flight investigation of the urine vent line issue during the Artemis II mission. Teams will work to identify root cause and initiate corrective action for Artemis III.</p>
-<p>
-<strong>America’s Moon rocket</strong>
-</p>
-<p>The SLS rocket that launched the Artemis II mission also performed well, meeting its mission objectives for the test flight. While engineers continue studying the data, an early assessment indicates the rocket accurately placed Orion where it needed to be in space. At main engine cutoff, when the core stage’s RS-25 liquid engines shutdown, the spacecraft was traveling at over 18,000 miles per hour, achieving its insertion velocity for orbit, and executing a precise bullseye for its intended location.</p>
-<p>
-<strong>Exploration Ground Systems</strong>
-</p>
-<p>Engineers conducted a detailed post-launch pad and mobile launcher assessment, following the launch of the Artemis II crew and rocket. Application of lessons learned from Artemis I to harden and reinforce ground support equipment at the pad proved successful as the mobile launcher and launch pad sustained minimal damage in the wake of the powerful booster ignition.</p>
-<p>In addition to performing washdowns of the mobile launcher and pad ground systems immediately following launch, some components were made more rigid, like elevator doors, while others were made more compliant, such as gaseous distribution panels in the base of the mobile launcher, modified to flex with the blast effects. Other components were protected with blast-resistant walls or covers. These allowed the pneumatics system, which involves air and gas, to remain operational postlaunch and the critical cooling and washdown water flows to proceed.</p>
-<p>Teams returned NASA’s mobile launcher that supported the integration and launch of the Artemis II rocket to NASA Kennedy’s Vehicle Assembly Building to undergo repairs and prepare for support of future Artemis missions.</p>
-<p>The agency’s recovery teams, alongside their military partners, successfully conducted recovery operations after the safe splashdown of the crew inside their spacecraft. Navy divers retrieved each crew member and brought them aboard USS John P. Murtha before helping to recover the Orion spacecraft and return to Naval Base San Diego.</p>
-<p>Using data from the first crewed mission under the Artemis program, NASA continues preparing the hardware and teams to launch and fly the Artemis III mission in 2027 ahead of subsequent missions to the Moon’s surface beginning in 2028.</p>
-<p>To learn more about NASA’s exploration of the Moon, Mars, and beyond, visit:</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMiogFBVV95cUxNTnVnZ0IxMThqVTEzS2x5OEZ3dS1SOXdDaHJNUVJTODZSY2h1VFhXN3FfcEt1dTlsaDR1SDdLckVFYWl2TFozVnF2V1ZtVjRLQnlYYlE1ZlBEMTdXSmN5NVYycWtMY3pxRnlGVGdYRGpvTHJLamlMSzJQbDByZ1lDSkx5OWEwcU5wT2dpb0JveGhsYnljcDJwQUQ5UUswbkR4dVE</guid>
-    </item>
-    <item>
-      <title>Artemis II Mission Milestones: An Image and Video Recap - NASA (.gov)</title>
-      <pubDate>Tue, 21 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/</link>
-      <description><![CDATA[<img src="https://images-assets.nasa.gov/image/art002e000192/art002e000192~large.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<graphic alt="017A5565.NEF" src="https://images-assets.nasa.gov/image/art002e000192/art002e000192~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic>
-<p>On April 1, 2026, Artemis II launched on a nearly 10-day voyage around the Moon, marking the first crewed flight of NASA’s Orion spacecraft. NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, splashed down on April 10 in the Pacific Ocean off the coast of San Diego.</p>
-<p>At their farthest point, the crew traveled 252,756 miles from Earth, setting a record for the greatest distance humans have traveled in space and observing the lunar surface like never before.</p>
-<p>Under Artemis, NASA will send astronauts on increasingly complex missions to explore the Moon for scientific discovery, economic benefit, and to prepare for future human missions to Mars.</p>
-<p>Relive exciting mission moments through the videos and images shared below.</p>
-<h3>Pre-Launch Preparation</h3>
-<p>To prepare for lunar exploration, the Artemis II crew trained in Iceland’s volcanic terrain.</p>
-<p>They practiced navigation and field geology skills in challenging conditions while working as a team. The astronauts collected rock samples using tools like hammers, scoops, and chisels, and provided feedback to instructors to refine future Artemis training sites.</p>
-<p>The crew trained extensively in NASA’s Orion Crew Survival System (OCSS), the bright orange spacesuit worn inside the Orion spacecraft during launch and re-entry.</p>
-<p>Each suit is custom-fitted and includes systems for air, water, food, and waste management. In emergencies, it can sustain life for up to six days.</p>
-<p>The crew practiced suit operations in simulated weightlessness and pressurized environments to confirm performance for deep space travel.</p>
-<p>During the mission, the crew reflected on what the Moon means to them personally and professionally, sharing thoughts shaped by years of training and preparation.</p>
-<h3>Launch</h3>
-<graphic src="https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604010230.jpg?w=1775"></graphic>
-<p>Enjoy launch views from cameras affixed to the SLS (Space Launch System) rocket. These cameras, developed by NASA, are called the Flight Imaging Launch Monitoring Real-time System (FILMRS). They survive some of the harshest environments of the avionics on the vehicle.</p>
-<h3>Mission to the Moon</h3>
-<p><strong>Flight Day Highlights</strong> </p>
-<p><strong>Return to Earth</strong> </p>
-<p>After splashdown in the Pacific Ocean, NASA and U.S. Navy teams recovered the Orion spacecraft and crew.</p>
-<p>Recovery teams secured the capsule, opened the hatch, and assisted the astronauts out. The crew was then flown by helicopter to the Navy recovery ship, while Orion was brought aboard for transport back to shore. </p>
-<h3>More Mission Moments</h3>
-<p>View more imagery on the Artemis II Multimedia Resource Page.</p>
-<p>The Universal Waste Management System, or space toilet, is a critical onboard system.</p>
-<p>During the mission, the crew worked through operational issues to maintain performance in microgravity.</p>
-<p>A historic first took place during the mission: a direct call between a deep space crew and astronauts aboard the International Space Station.</p>
-<p>Artemis II connected with Expedition 74 astronauts Chris Williams, Jack Hathaway, Jessica Meir, and ESA (European Space Agency) astronaut Sophie Adenot, marking the first ship-to-ship communication of its kind.</p>
-<graphic alt="IMG_0271.DNG" src="https://images-assets.nasa.gov/image/art002e009302/art002e009302~large.jpg?w=1920&amp;h=1440&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic>
-<p>Artemis II brought the crew to 252,756 miles from Earth at its farthest point and covered a total of 694,481 miles.</p>
-<p>The lunar flyby set a new human distance record, surpassing Apollo 13’s 1970 record. The crew observed the Moon from closer range than any humans before them during a crewed mission.</p>
-<p>With years of training and thousands of experts behind the mission, one unexpected outcome stood out: Moon joy.</p>
-<p>It captured the emotional weight of seeing the Moon up close and the significance of returning humans to deep space.</p>
-<p>Watch the official NASA broadcast as the Artemis II crew splashes down in the Pacific Ocean.</p>
-<p>The Artemis II astronauts returned to Ellington Airport in Houston following their historic mission around the Moon.</p>
-<p>The crew shared reflections on their journey, the challenges of deep space flight, and what comes next for Artemis.</p>
-<p>The Artemis II mission marks a major step forward in human exploration.</p>
-<p>The mission demonstrated deep space crew operations, tested Orion systems with astronauts aboard, and set the stage for future lunar missions.</p>
-<p>We are just getting started.</p>
-<h3>The Next Steps in Lunar Exploration</h3>
-<graphic alt="015A9732.NEF" src="https://images-assets.nasa.gov/image/art002e010208/art002e010208~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic>
-<p>NASA is preparing for future missions to the Moon’s South Pole.</p>
-<p>Work continues on next-generation spacesuits, lunar tools, and rovers at Johnson and its supporting training facilities. Listen as Apollo and Artemis astronauts, as well as subject matter experts, discuss the challenges of exploring the Moon in preparation for Mars</p>
-<p>Future Artemis missions will face challenges including harsh lighting conditions, lunar dust, and extreme temperatures as NASA builds toward sustained exploration of the Moon and eventual human missions to Mars.</p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMiqwFBVV95cUxPeEFxbGFSYmZCOW9sanNCMFhIdFlYa1hSeUUzbHhZSU5kaUZMd3RNbm1tWkF3QXdYWlVKUkFubG1TRkNfZHBVaHhzSHZ2a1k4ZlNXb0oxYm9tQ3V1c1UwRFdlMjhoVkVXT2pRaVRtRHpzYkNWODhaVGc2NUcyZi16UFRzX1JLaGJNZk4wQ19TU29NWnZwd1J5ZjNGa0xtVnhfR285VXhNbk9kdm8</guid>
-    </item>
-    <item>
-      <title>Artemis II Flight Day 9: Crew Prepares to Come Home - NASA (.gov)</title>
-      <pubDate>Thu, 09 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/blogs/missions/2026/04/09/artemis-ii-flight-day-9-crew-prepares-to-come-home/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/04/55193772552-b8cfb47b7e-o.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body><h1>Artemis II Flight Day 9: Crew Prepares to Come Home</h1><graphic alt="017A7339.NEF" src="https://images-assets.nasa.gov/image/art002e013367/art002e013367~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic><p><i>Editor’s Note: This blog was updated on April 9, 2026, to update the times for key splashdown milestones.</i></p><p>On their last full day in space, the Artemis II crew began the morning with “Lonesome Drifter” by Charley Crockett as they approached Earth at 147,337 miles.</p><p>NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen will continue preparing for their return to Earth set for Friday, April 10, including reviewing re-entry and splashdown procedures and conducting a return trajectory correction burn.</p><h3><strong>Cabin configuration for re-entry</strong></h3>
-<p>Koch and Hansen will begin by stowing equipment they have had out during the mission, removing cargo and locker netting, installing and adjusting crew seats to ensure all items are secured before their return to Earth. As part of the day’s activities, the crew will review the latest weather briefing, recovery force status, and entry timeline. Throughout the day, they also will work through post‑landing operations.</p><h3><strong>Another push home</strong></h3>
-<p>Orion’s thrusters are scheduled to ignite for the second return trajectory correction burn at 9:53 p.m. EDT to fine‑tune the spacecraft’s path toward Earth. The maneuver will further refine Orion’s trajectory and ensure the spacecraft remains aligned for atmospheric re-entry. During the burn, Hansen will review the procedure steps and monitor Orion’s guidance, navigation, and propulsion systems.</p><h3><strong>Preparing for splashdown</strong></h3>
-<p>As Artemis II nears its return to Earth, NASA teams on the ground are completing final preparations for Orion’s re-entry and splashdown around 8:07 p.m. (5:07 p.m. PDT) Friday, April 10, off the coast of San Diego.</p><p>The agency will continue to provide updates about the test flight during the daily mission briefing. Today’s mission status briefing is at 3:30 p.m. and will stream on NASA’s 24/7 coverage on the agency’s YouTube channel.</p><p>During re-entry, the service module will separate around 7:33 p.m., about 20 minutes before Orion reaches the upper atmosphere southeast of Hawaii. At 7:37 p.m., a final trajectory‑adjustment burn will fine‑tune the flight path before the spacecraft begins a series of roll maneuvers to safely distance itself from departing hardware. Orion will reach its maximum velocity — approximately 23,864 mph — just before entry interface.</p><p>As Orion descends through about 400,000 feet, the spacecraft will enter a planned six‑minute communications blackout at 7:53 p.m. as plasma forms around the capsule during peak heating. The crew is expected to experience up to 3.9 Gs in a nominal landing profile.</p><p>After emerging from blackout, Orion will jettison its forward bay cover, deploy its drogue parachutes near 22,000 feet at 8:03 p.m., and then unfurl its three main parachutes around 6,000 feet at 8:04 p.m. to slow the capsule for splashdown off the coast of San Diego.</p><p>Within two hours after splashdown, the crew will be extracted from Orion and flown to the USS John P. Murtha. Recovery teams will retrieve the crew using helicopters, and once aboard the ship, the astronauts will undergo post‑mission medical evaluations before returning to shore to board an aircraft bound for NASA’s Johnson Space Center in Houston.</p><graphic alt="U.S. Navy MH-60 Seahawks from Helicopter Sea Combat Squadron (HSC) 23 are seen arriving on the flight deck of USS John P. Murtha as they prepare to conduct air operations training as NASA, U.S. Navy, and U.S. Air Force teams prepare for the the return of the Artemis II crewmembers to Earth, Monday, April 6, 2026, in the Pacific Ocean off the coast of California. NASA’s Artemis II mission is taking NASA astronauts Reid Wiseman, commander; Victor Glover, pilot; Christina Koch, mission specialist; and CSA (Canadian Space Agency) astronaut Jeremy Hansen, mission specialist on a 10-day journey around the Moon and back aboard their Orion spacecraft. Wiseman, Glover, Koch, and Hansen are scheduled to splash down off the coast of San Diego at approximately 5:07 p.m. PDT (8:07 p.m. EDT) on Friday, April 10." src="https://www.nasa.gov/wp-content/uploads/2026/04/55194578884-1974fc12b8-o.jpg?w=2048"></graphic><p>Watch live return coverage on NASA+, Amazon Prime, Apple TV, Netflix, HBO Max, Discovery+, Peacock and Roku starting at 6:30 p.m. Learn how to stream NASA content through a variety of online platforms, including social media. Coverage will continue until NASA and Department of War personnel safely assist the crew out of Orion and transport them to the USS Murtha.</p><p>View the latest imagery from the Artemis II mission on our Artemis II Multimedia Resource Page. Please follow @NASAArtemis on X, Facebook, and Instagram for real-time updates. Live mission coverage is available on NASA’s YouTube channel.</p></body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMinwFBVV95cUxQNWJhX0Z6N3lDSGQyVkFoanQ3emE2b3NmVWZ6NWJzNEZYTXpXb0t5amlfYUl3cXYyZEVyWkpVcGJzbmk5Q2s4bmhBUkdKeng2ejd2ZmlaNW9DUE9iYnRjLVJXZGJFQTZrQ0x6c2dIakQ5eE5CRGpoMGdLdXNhTHpNX1hndWMzTzlJNmwzaHJhLWZZNV9uNVhuZWdzYWFEOEE</guid>
-    </item>
-    <item>
-      <title>Artemis II Flight Day 10: Crew Sets for Final Burn, Splashdown - NASA (.gov)</title>
-      <pubDate>Fri, 10 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/blogs/missions/2026/04/10/artemis-ii-flight-day-10-crew-sets-for-final-burn-splashdown/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/04/55194659885-32f13f28a3-o.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body><h1>Artemis II Flight Day 10: Crew Sets for Final Burn, Splashdown</h1><graphic alt="A wall in the Mission Control Center. The main central screen shows the Artemis II crew smiling and waving in the Orion capsule. A lit sign reads Mission Control Center above the screen. On either side, screens display various readouts." src="https://images-assets.nasa.gov/image/jsc2026e020504/jsc2026e020504~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"></graphic><p>The Artemis II crew — NASA astronauts Reid Wiseman, Victor Glover, Christina Koch and CSA (Canadian Space Agency) astronaut Jeremy Hansen — began the final phase of their journey home to the songs “Run to the Water” by Live, selected by the crew, and “Free” by Zac Brown Band, as they prepared for their third return trajectory correction burn and shifted into full re-entry and splashdown preparations. When they woke up, they were 61,326 miles from Earth.</p><p>Splashdown is targeted for <strong>8:07 p.m. EDT (5:07 p.m. PDT)</strong> off the coast of San Diego, where a combined NASA and U.S. military recovery team will be standing by to welcome the Artemis II crew home.</p><p>Watch live return coverage on NASA+, Amazon Prime, Apple TV, Netflix, HBO Max, Discovery+, Peacock and Roku starting at 6:30 p.m. Learn how to stream NASA content through a variety of online platforms, including social media.</p><h3><strong>Final return burn sets Orion for home</strong></h3>
-<p>The third return burn will occur at 2:53 p.m., refining Orion’s path for atmospheric entry and splashdown. During the maneuver, the spacecraft will make precise adjustments to stay on its targeted course home.</p><h3><strong>Artemis II splashdown timeline</strong></h3>
-<p>A carefully timed sequence will guide Orion through the final stages of descent:</p><ul><li><strong>7:33 p.m.:</strong>Orion’s crew module will separate from the service module, exposing its heat shield for the spacecraft’s return through Earth’s atmosphere, where it will encounter temperatures of about 3,000 degrees Fahrenheit.</li><li><strong>7:37 p.m.:</strong>Following separation, Orion will perform an 18 second crew module raise burn beginning to set the proper entry angle and align the heat shield for atmospheric interface.</li><li><strong>7:53 p.m.:</strong>When Orion reaches 400,000 feet above Earth’s surface while traveling nearly 35 times the speed of sound. The crew is expected to experience up to 3.9 Gs in the planned entry profile. This moment marks the spacecraft’s first contact with the upper atmosphere and the start of a planned six-minute communications blackout as plasma builds around the capsule.</li><li><strong>8:03 p.m.:</strong>Around 22,000 feet in altitude, the drogue parachutes will deploy, slowing and stabilizing the capsule as Orion nears splashdown.</li><li><strong>8:04 p.m.:</strong>At around 6,000 feet, the drogues will release, and the three main parachutes will deploy, reducing Orion’s speed to less than 136 mph.</li><li><strong>8:07 p.m.:</strong>Slowing to 20 mph, Orion will splash down in the Pacific Ocean off the coast of San Diego, completing the Artemis II crew’s return to Earth and a 694,481-mile journey.</li><li>From there, teams from NASA and the U.S. military will extract the crew from Orion and fly them via helicopter to the USS John P. Murtha.</li><li>Within two hours after splashdown, the crew will be extracted from Orion and flown to the USS Murtha. Recovery teams will retrieve the crew, assist them onto an inflatable raft, and then use helicopters to deliver them to the ship. Once aboard, the astronauts will undergo post‑mission medical evaluations before returning to shore where awaiting aircraft will take them to NASA’s Johnson Space Center in Houston.</li></ul><p>The Artemis II mission began with the successful liftoff of NASA’s SLS (Space Launch System) rocket on April 1 at 6:35 p.m. from Launch Pad 39B at Kennedy Space Center in Florida, sending the first humans toward the Moon since 1972.</p><p>During the mission, the astronauts completed a historic lunar flyby, marking humanity’s return to the vicinity of the Moon for the first time in more than 50 years. Throughout the flight, the crew and teams on the ground have evaluated Orion’s systems in the deep‑space environment, including a series of tests in which astronauts directly operated and interacted with the spacecraft.</p><p>View the latest imagery from the Artemis II mission on our Artemis II Multimedia Resource Page. Please follow @NASAArtemis on X, Facebook, and Instagram for real-time updates. Live mission coverage is available on NASA’s YouTube channel.</p></body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMirAFBVV95cUxON000SmtuOWc0SEwyR2tfdkNQNXpLRmJiVVVqeDBuTm96OWxzYVlHX1hqMXhGb3dFRjZOUjZuR2ZuNVZTeFFWdjZjcHhrU1VwU0NPZnVkN0pYNnVyS0JwREdtX0pmdmpjLUtpRG5zcmE3dld5UlR6dHQ1eWV2cDR6U2FtY09SbHhieG05RUc5MlJlc3NEdnkxM0tfZEJ3UnFTRXRqbDRkc2pzdFBK</guid>
     </item>
   </channel>
 </rss>
