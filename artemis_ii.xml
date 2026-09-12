@@ -31,25 +31,147 @@
       <guid isPermaLink="false">CBMilgFBVV95cUxNZDEzQkhTcVhWV09ZYkQxYTZnYjVTdVV0R2tqWGhub1JoSHFpNmVuN0dacnVtNGRKbjVLeUhnSDlGZkhiNi1iNG41dXE1RlIzM0w5MjYwUVBjY1EzaDBzbk1Kd0hidEdqVXVqUW1ka0J4Qk5HZlh6cWIzQkZsY19KS3ZCLTBHc2ltX09BNlctdV9lMTY0NUE</guid>
     </item>
     <item>
-      <title>Winners of NASA HRP’s Artemis II Data Methodology Challenge - NASA (.gov)</title>
-      <pubDate>Fri, 11 Sep 2026 15:00:42 GMT</pubDate>
-      <link>https://www.nasa.gov/hrp/winners-of-nasa-hrps-artemis-ii-data-methodology-challenge/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body><h2><strong>Winners of NASA HRP’s Artemis II Data Methodology Challenge</strong></h2>
-<graphic alt="The full Moon rises behind NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft, on Sunday, Feb. 1, 2026, at NASA’s Kennedy Space Center. The Artemis II test flight, which launched in April 20206, took three NASA astronauts and one CSA (Canadian Space Agency) astronaut, around the Moon and back to Earth. Photo Credit: (NASA/John Kraus)" src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg?w=2048"></graphic><p>NASA’s Human Research Program has selected 10 winning projects for the Artemis II Human Research Data Methodology Challenge, a public competition that sought better ways of drawing rigorous conclusions from the small, information-dense datasets that define human spaceflight research.</p><p>Each crew member on missions like Artemis II are measured across multiple physiological variables over time, and with only four people on board each mission, data is limited. The challenge asked entrants to design methodologies that extract trustworthy, decision-ready insight from exactly this kind of small-sample, high-dimensional data.</p><p>Below are the winners, listed by their final placing. Placings reflect not only the technical rigor of each methodology, but how directly each submission responded to the challenge and how well each submission’s approach matched the real needs of NASA’s Human Research Program. Where entries were closely matched, the edge went to entrants who engaged most fully with the problem and whose methods translate most readily to the Human Research Program’s work. Project approach summaries were pulled from submission materials.</p><h1><strong>Praniil Nagaraj (1st place)</strong></h1>
-<p><strong>Project Theme: </strong>Transfer-Calibrated Normative Modeling</p><p><strong>Affiliation: </strong>Purdue University</p><p><strong>Project Approach: </strong>“This project treats the Artemis II challenge – four astronauts measured across hundreds of features over time – as a high-resolution case series rather than a failed population study, applying a stack of proven small-sample, high-dimensional methods (variance-borrowing empirical-Bayes tests, exact permutation inference, shrinkage-based multivariate scoring, and Gaussian-process recovery modeling) on a common calibrated scale. We demonstrate it on real four-person spaceflight data from SpaceX’s Inspiration4 mission crew, recovering a coherent acute inflammatory signature and per-crew recovery trajectories – with automated quality control that catches assay drift rather than misreading it as biology.”</p><h1><strong><strong>Estrella (Star) Perez (2nd place)</strong></strong></h1>
-<p><strong>Estrella (Star) Perez (2nd place)</strong></p><p><strong>Project Theme: </strong>STELLAR (Systematic Trajectory Estimation via Layered Longitudinal Analysis and Regression)</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“STELLAR is a three-layer Bayesian pipeline designed to extract meaningful signal from the kind of data NASA’s Human Research Program collects on missions like Artemis II: small crews, high-dimensional measurements, multiple biological systems tracked together over time. It combines multi-omics factor analysis v2, Bayesian hierarchical modeling, and Gaussian Process regression, with two purpose-built diagnostic metrics: the Physiological Data Diversity Index (PDDI) and Physiological Complexity Index (PCI), to characterize dataset diversity and physiological complexity. The methodology is built specifically for the small-sample reality of human spaceflight research, where traditional statistical approaches often fall short.”</p><h1><strong><strong><strong>Waste Parrot Technologies (3rd place)</strong></strong></strong></h1>
-<strong>Waste Parrot Technologies (3rd place)</strong><p><i>Team member: Naseem Khan</i></p><p><strong>Project Theme: </strong>Unified Hierarchical Bayesian Spine</p><p><strong>Affiliation: </strong>Waste Parrot Technologies</p><p><strong>Project Approach:</strong> “Waste Parrot Technologies developed a unified hierarchical Bayesian framework for extracting reliable insight from small-sample, high-dimensional spaceflight health data. The approach condenses large numbers of correlated biomarkers into a small set of interpretable signals and models each astronaut individually rather than averaging across the crew, recovering patterns that conventional methods miss with only four subjects. We demonstrated it end-to-end on public proxy data for two Artemis II studies, Immune Biomarkers and ARCHeR, producing calibrated early-warning flags for unusual physiological readings, designed for real mission constraints such as far-side communication blackout.”</p><h1><strong><strong><strong><strong>OJ Ochiai (4th place)</strong></strong></strong></strong></h1>
-<strong>OJ Ochiai (4th place)</strong><p><strong>Project Theme: </strong>Bayesian N-of-1 with Dynamic Borrowing</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach:</strong> “This project applies Bayesian hierarchical N-of-1 modeling with dynamic borrowing to the Artemis II problem of extracting rigorous inference from only four astronauts across many measurements. Applied unchanged to SpaceX’s Inspiration4 mission (the only existing real n=4 spaceflight cohort), the model independently recovers textbook spaceflight physiology from serum and urinary biomarkers — demonstrating that a single small-sample framework can honestly quantify what four astronauts’ worth of high-dimensional data can, and cannot, support.”</p><h1><strong><strong><strong><strong><strong>Ismael AL-Hadhrami (5th place)</strong></strong></strong></strong></strong></h1>
-<strong>Ismael AL-Hadhrami (5th place)</strong><p><strong>Project Theme: </strong>Dynamic Empirical-Bayes Counterfactual</p><p><strong>Affiliation: </strong>University of Virginia</p><p><strong>Project Approach:</strong> “I developed a Dynamic Empirical-Bayes Bayesian Counterfactual Simulation Framework to analyze small-sample, high-dimensional astronaut health data from NASA’s Spaceflight Standard Measures program. The methodology leverages proxy cohorts, empirical priors, Bayesian borrowing, and robust longitudinal analysis to identify meaningful physiological changes while overcoming small sample sizes. This framework provides a scalable and interpretable approach for supporting evidence-based decisions in NASA’s Human Research Program.”</p><h1><strong><strong><strong><strong><strong><strong>Ivan Lavlinski (6th place)</strong></strong></strong></strong></strong></strong></h1>
-<strong>Ivan Lavlinski (6th place)</strong><p><strong>Project Theme: </strong>Bayesian State-Space Decision Layer</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“My project is a hierarchical Bayesian framework for tracking the health of the Artemis II crew, built for a hard case: only four astronauts, each measured across dozens of physiological systems, the exact setting where standard statistics break down. It combines 43 established methods, organized in four layers and drawing on twelve public datasets, into a single system a flight surgeon can act on. I tested the whole thing on real spaceflight data from SpaceX’s Inspiration4 mission, and it runs the same way whether the mission lasts ten days or the several months it takes to reach Mars.”</p><h1><strong><strong><strong><strong><strong><strong><strong>Aaron Krasinski (7th place)</strong></strong></strong></strong></strong></strong></strong></h1>
-<strong>Aaron Krasinski (7th place)</strong><p><strong>Project Theme:</strong> Mechanism-Constrained AI for Vision Risk (SANS)</p><p><strong>Affiliation: </strong>Massachusetts Institute of Technology</p><p><strong>Project Approach: </strong>“I designed a multi-task deep learning model that simultaneously predicts SANS from longitudinal bed rest MRI data and regresses six quantitative biomarkers characterizing glymphatic dysfunction. This kind of approach could let researchers take tools traditionally suited to large-sample data and use them to extract meaningful, biologically grounded insight into the pathology of conditions that affect only a small minority of the population, such as SANS.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong>Vision One (8th place)</strong></strong></strong></strong></strong></strong></strong></strong></h1>
-<strong>Vision One (8th place)</strong><p><i>Team members: Sushanta Khadka, Arpan Bom, Pranisha Karki</i></p><p><strong>Project Theme:</strong> Integrated Health Monitoring</p><p><strong>Affiliation: </strong>Vision One</p><p><strong>Project Approach: </strong>“Vision One developed an Integrated Bayesian Multi-Modal Longitudinal Physiological Analysis Framework to help NASA extract meaningful insights from the Artemis II human research dataset despite having only four astronauts. By combining physiological, cognitive, immune, sleep, activity, imaging, and environmental data into a unified analytical framework, our approach enables personalized health monitoring, early detection of fatigue and stress, and supports future Artemis, Gateway, lunar surface, and Mars exploration missions.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ashlei Lewis (9th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
-<strong>Ashlei Lewis (9th place)</strong><p><strong>Project Theme:</strong> Integrated Multi-Study Health Profiling</p><p><strong>Affiliation: </strong>Neuroviu</p><p><strong>Project Approach: </strong>“This project uses a hierarchical Bayesian multi-block factor analysis to model each Artemis II astronaut individually while leveraging reference data from the International Space Station, SpaceX’s Inspiration4 mission, and terrestrial analog missions to improve statistical reliability. The approach is designed for extremely small, high-dimensional datasets, enabling personalized mission-stress profiling, uncertainty estimation, and detection of integrated physiological and behavioral changes without relying on traditional group-based statistical tests. Validation on the PhysioNet MMASH dataset demonstrated a reproducible end-to-end pipeline suitable for deep-space human research.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Carm Hermosilla (10th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
-<strong>Carm Hermosilla (10th place)</strong><p><strong>Project Theme:</strong> Akasi (Interactive Data Interface)</p><p><strong>Affiliation: </strong>University of California, Irvine</p><p><strong>Project Approach: </strong>“Akasi is intended to be a visual aid to modeling &amp; analyzing, with interactive graphs via the Streamlit web app service. With preprocessing tools &amp; a solid framework, further physiological data can be incorporated smoothly into Akasi, with the intention to model &amp; analyze trends between different datasets.”</p><p>Videos detailing the winning methodologies can be found here.</p><p>Winners are also invited to attend the Human Research Program’s 2027 Investigators’ Workshop (2027 IWS), which will take place in late January 2027 in Galveston, Texas.</p><p><pre>____</pre></p><p><strong>NASA’s Human Research Program</strong></p><p>NASA’s Human Research Program pursues methods and technologies to support safe, productive human space travel. Through science conducted in laboratories, ground-based analogs, commercial missions, the International Space Station and Artemis missions, the program scrutinizes how spaceflight affects human bodies and behaviors. Such research drives the program’s quest to innovate ways that keep astronauts healthy and mission ready as human space exploration expands to the Moon, Mars, and beyond.</p></body>
+      <title>Artemis II Crew at NASA Marshall - NASA (.gov)</title>
+      <pubDate>Wed, 09 Sep 2026 16:36:21 GMT</pubDate>
+      <link>https://www.nasa.gov/image-article/artemis-ii-crew-at-nasa-marshall/</link>
+      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/09/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<p>The crew of NASA’s Artemis II mission – NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman and CSA (Canadian Space Agency) astronaut Jeremy Hansen – visited Huntsville, Alabama, Sept. 1, 2026, where they met with the NASA workforce at NASA’s Marshall Space Flight Center. The event gave the crew an opportunity to share firsthand experiences from their mission, reflect on their time in space, and connect with the workforce that supported the mission through an engaging question-and-answer session.</p>
+<p>
+<i>Image credit: NASA/Brandon Hancock</i>
+</p>
+</body>
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMijAFBVV95cUxQaEoxSzJoY0ZMQUozMmt0ek5DcUtKMlJsMXhsYXpuMkNuM05Sb2NSQ3NzUFVHelIxTzl6Q3RrQkcyN2p3Vk5YcGs2UXZnT3lHN2hSaXJENjBBenFaVEgyd3RfSEdaZUFTcXZDeHo2aDVWM09zb0VVSlVJeFNWelM3MXI0WS0xUG04UFNsag</guid>
+      <guid isPermaLink="false">CBMid0FVX3lxTE54UGhueEdYZVQzNzZ0SlczaHpIaWlsYU8tZkdOQVlpY016YXh4cXhyMlhIZ2ZyXy1OUktuaW5CQXBmWkdzdV9CaGJkcjVhQ2Y3SWVkZkxmZXRfZUFYWUk0OGtmTksxak1jMjU2QjF4a0E1Q2FJTzRz</guid>
+    </item>
+    <item>
+      <title>Artemis II astronauts receive nation’s highest space honor for their successful moonshot - AP News</title>
+      <pubDate>Fri, 28 Aug 2026 07:00:00 GMT</pubDate>
+      <link>https://apnews.com/article/artemis-ii-medal-of-honor-astronauts-moonshot-b20b75e7fc2586315812238e27c36e77</link>
+      <description><![CDATA[<img src="https://dims.apnews.com/dims4/default/40dc3b6/2147483647/strip/true/crop/7453x4966+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd4%2F00%2F530e06a3cf782aa48baf46af1c07%2F15c0fbd4aa7841038b988b561ddc99b4" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>Artemis II astronauts receive nation’s highest space honor for their successful moonshot</h1>
+<h2>Artemis II astronauts receive nation’s highest space honor for their successful moonshot</h2>
+<p>The Artemis II astronauts who flew around the moon earlier this year received the nation’s highest space honor on Friday.</p>
+<p>President Donald Trump presented the Congressional Space Medal of Honor to the three Americans and one Canadian whose April lunar flyby set a new distance record for humanity.</p>
+<p>NASA Administrator Jared Isaacman and other dignitaries took part in the packed ceremony at Houston’s Johnson Space Center, home to Mission Control. Trump used the occasion to announce the creation of a U.S. Space Academy for the Space Force as well as NASA and the commercial space community.</p>
+<p>“Space is the hot thing,” the president told the crowd, adding that the academy’s location has yet to be determined.</p>
+<p>Commander Reid Wiseman, pilot Victor Glover, Christina Koch and Canada’s Jeremy Hansen became the first astronauts to travel to the moon in more than half a century, coming within 4,067 miles (6,545 kilometers) while test-driving NASA’s new Orion capsule. They were the first to launch aboard NASA’s new moon rocket, a 30-story behemoth that had soared only once before from Florida’s Kennedy Space Center.</p>
+<p>While they didn’t stop at the moon, the four set the stage for next year’s Artemis III docking rehearsal in orbit around Earth. Artemis IV’s moon landing by two astronauts, near the lunar south pole, could follow as soon as 2028.</p>
+<p>Trump said Americans will land back on the moon before his term ends. Mars is next — “very shortly,” he said.</p>
+<p>The president called the newest recipients “four intrepid space heroes.” He pointed out that they did not do it alone, thanking all who contributed to the Artemis II mission.</p>
+<p>“There are no finer humans we could have sent as our ambassadors to the stars,” Isaacman added.</p>
+<p>Wiseman and his crew are in good company, with only 30 astronauts receiving the prestigious honor before them. Many of the recipients were honored posthumously following their tragic spaceflight-related deaths.</p>
+<p>Apollo 11 commander Neil Armstrong — whose phrase “That’s one step for man, one giant leap for mankind” gripped the world on July 20, 1969 — was the first to receive the Congressional Space Medal of Honor.</p>
+<p>President Jimmy Carter awarded six of these medals in 1978, which also went to Alan Shepard, the first American in space; John Glenn, the first American in orbit; and Apollo 8 commander Frank Borman, whose 1968 mission marked humanity’s first lunar voyage.</p>
+<p>The most recent recipients were Doug Hurley and Bob Behnken, the first astronauts to launch aboard a SpaceX rocket. Coming nine years after the space shuttle program’s close, their 2020 test flight to the International Space Station restored America’s ability to launch crews from home soil. President Joe Biden awarded them the medals in 2023.</p>
+<p>Dozens of astronauts participated in the ceremony, including Apollo 17 moonwalker Harrison Schmitt, who is now 91, and the four men assigned to NASA’s upcoming Artemis III mission.</p>
+<p>Schmitt noted that his mission — Apollo’s last moonshot — was the most productive lunar exploration yet.</p>
+<p>“Soon to be surpassed by Artemis,” he said of active astronauts standing behind him.</p>
+<p>NASA plans a sustainable moon base staffed by astronauts and robots near the lunar south pole, where permanently shadowed craters are thought to hold tons of frozen water that could be turned into rocket fuel and drinking water. China is eyeing the same region.</p>
+<p>“The second space race has begun,” said NASA Deputy Administrator Matthew Anderson.</p>
+<p>As the two-hour ceremony came to a close, the Artemis II astronauts presented Trump with his own blue flight jacket complete with space patches, a promise they made while visiting him in the Oval Office following their mission.</p>
+<p>The president then hustled over to Mission Control to call the three U.S. astronauts aboard the International Space Station. He informed them of the new U.S. Space Academy, then briefly handed the phone to two of their spouses for a quick hello.</p>
+<p>___</p>
+<p>The Associated Press Health and Science Department receives support from the Howard Hughes Medical Institute’s Department of Science Education and the Robert Wood Johnson Foundation. The AP is solely responsible for all content.</p>
+</body>
+</html>]]></description>
+      <source url="https://apnews.com">AP News</source>
+      <guid isPermaLink="false">CBMiqAFBVV95cUxOZ0o0bk9XM3JNdkI2UWNuck5adzRlTEo4UkdUN2xNdkF3TkdfM2hJUzV5SGJmeDBjTWlwOXBjbU0zdjNTYm92c215U3A0RFM2M0pHaklPX0NvTW5sQ1FJajNwd1R4ZTdpSmVENEVZWjc4cnh0cFpVNGxrWUZDNWwwYjRHUDk4Umd5aFlRM1Bkc1ZvOU1kTlh2OVVIR3p6ZTBiSmhMOHFhSHo</guid>
+    </item>
+    <item>
+      <title>Artemis II astronaut and SoCal native Victor Glover steps back from NASA, joins Cal Poly - Los Angeles Times</title>
+      <pubDate>Wed, 09 Sep 2026 14:00:00 GMT</pubDate>
+      <link>https://www.latimes.com/science/story/2026-09-09/artemis-ii-astronaut-victor-glover-steps-back-from-nasa-joins-cal-poly</link>
+      <description><![CDATA[<img src="https://ca-times.brightspotcdn.com/dims4/default/a8edb3e/2147483647/strip/true/crop/7462x3918+0+529/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F39%2F0a%2F7d6d5f544353b9681f9afb425e8a%2Fap26119678541699.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>Artemis II astronaut and SoCal native Victor Glover steps back from NASA, joins Cal Poly</h1>
+<graphic alt="A man with a half-smile." src="https://ca-times.brightspotcdn.com/dims4/default/befa2b3/2147483647/strip/true/crop/7462x4975+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F39%2F0a%2F7d6d5f544353b9681f9afb425e8a%2Fap26119678541699.jpg"></graphic>
+<ul>
+
+
+<li> <gn-popover class="ct-hidden absolute -translate-x-1/2 left-1/2 before:left-1/2 flex gap-2.5 font-cms-font-service-text font-medium text-xs leading-3.5 text-cms-color-overlay-text rounded-sm items-center mt-1.25 pt-1.75 pb-1.25 px-2.5 whitespace-nowrap" data-element="popover" data-id="audioPlayer">Click here to listen to this article</gn-popover></li>
+
+</ul>
+<p>Astronaut Victor Glover, a Southern California native who piloted NASA’s Artemis II mission around the moon this year, will step back from the space agency and begin a full-time leadership role at his alma mater, Cal Poly in San Luis Obispo, the university announced Wednesday.</p>
+<p>As the only pilot to have flown NASA’s moon-faring Orion capsule, Glover will support future lunar missions under the agency’s emeritus program. He plans to continue observing flight simulations as astronauts train to land on the moon and working with the teams who will support Artemis missions from the ground.</p>
+<p>“It was really important for us to be close to our kids and really focus on our family,” Glover said in an interview with The Times on Wednesday. “And I still get to do the things that really matter to me ... even here at NASA, my favorite days have been talking to the interns and being with the family members when their crewmember launches to space.”</p>
+<p>Cal Poly has always held a special place in Glover’s heart. He met his wife, Dionna, on campus while both were students. All four of his daughters have either graduated or are attending the university.</p>
+<p>Glover’s crewmate, Artemis II Cmdr. Reid Wiseman is also retreating from astronaut duties to join the emeritus program, NASA announced Wednesday. Artemis II mission specialist Jeremy Hansen said in July he would step back from the Canadian Space Agency this month.</p>
+<p>Out of the crew of four, that leaves only Artemis II mission specialist Christina Koch as a full-time astronaut.</p>
+<p>The $4.3-billion observatory will aid the search for “Earth twins” and explore the nature of dark matter and dark energy.</p>
+<p>In his new role, Glover will work closely will Cal Poly’s president to position the university as a “global leader in polytechnic education, research innovation and workforce production,” the news release said. He will also work on initiatives to “inspire the next generation of students” to pursue science, technology, engineering and math.</p>
+<p>After the success of Artemis II, Glover said he’s felt a responsibility to give back to the next generation of astronauts and students.</p>
+<p>“I would be derelict in my duty if we didn’t try to do the most good with this — I didn’t join the astronaut corps to be famous,” he said. “I don’t want to be on stage for the rest of my life. I want to take that energy and shine that light on these young people who want to be the leaders.”</p>
+<p>In June, Glover visited Cal Poly to speak to an audience of nearly 1,300 about his experience flying around the moon. In August, he made a surprise appearance at a fall semester welcome event in the university’s stadium.</p>
+<p>“I’ll tell you, that was actually a really tough week. It was emotional to move my youngest daughter into the dorms,” he said. “And when I walked out on the field, and everybody just started cheering, it just felt like being home.”</p>
+<p>Glover was born in Pomona and graduated from Ontario High School. During his upbringing, he lived “all over” Southern California’s urban sprawl, including Baldwin Village. He graduated Cal Poly in 1999 with a degree in engineering.</p>
+<p>After serving in the military for 15 years — including as a Navy test pilot — he was selected by NASA for its 21st class of astronauts in 2013.</p>
+<p>At the space agency, he piloted the first operational mission of SpaceX’s Crew Dragon capsule to the International Space Station in 2020. In April, he piloted NASA’s first mission to return humans to the moon in more than 50 years.</p>
+<p>Victor Glover, who grew up in Pomona, will pilot NASA’s first crewed flight to the moon since 1972. If successful, he’ll be the first Black person to reach the moon.</p>
+<p>While the Artemis II crew did not land on the lunar surface, the astronauts’ expressions of awe for the lunar surface and profound love for Earth captured the public’s attention.</p>
+<p>“Maybe the distance we are from you makes you think what we’re doing is special,” Glover said on Easter while on his way to the moon. “But we’re the same distance from you, and — I’m trying to tell you, just trust me — you are special. In all of this emptiness — this is a whole bunch of nothing, this thing we call the universe — you have this oasis, this beautiful place that we get to exist, together.”</p>
+</body>
+</html>]]></description>
+      <source url="https://www.latimes.com">Los Angeles Times</source>
+      <guid isPermaLink="false">CBMiuwFBVV95cUxQa29lRVpxYmlqajJDSTluVndCYzg2VnFWX0lFSV80Qm9ydDlvRUlCWFFLUk4tQXRmbG9JQ0w5aHlRQ1QteHlWZ3NXN1ozVVhYNkNwZXFUaEFLT1ZiVm85UlJFdlc4cVUwM0xYSVFpN29KY0dQN0ZtYl9UUzVFY0JCdEp5OUFJdE16Y0Q5c29tOFQ4a3hzZGdUX0VKOVI5eTllN3kyNXplVDE3SzJxVTJ4b0VKem1CSkZyRkJV</guid>
+    </item>
+    <item>
+      <title>Artemis II astronauts hang up spacesuits after historic moon trip - USA Today</title>
+      <pubDate>Fri, 11 Sep 2026 11:26:00 GMT</pubDate>
+      <link>https://www.usatoday.com/story/tech/space/2026/09/10/nasa-artemis-astronauts-glover-wiseman/91687874007/</link>
+      <description><![CDATA[<img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/10/PBRE/91688077007-20260713-t-125238-z-1265548543-rc-20-dma-6-pa-0-v-rtrmadp-3-spacemoonartemis.JPG?crop=5499,3093,x0,y287&width=3200&height=1800&format=pjpg&auto=webp" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>Artemis II astronauts hang up spacesuits after historic moon trip</h1>
+<h2>NASA's Reid Wiseman and Victor Glover are taking a step down at the space agency, five months after they flew on the trailblazing Artemis II moon mission.</h2>
+<ul>
+<li>Both astronauts will move to emeritus status, serving as consultants and mentors for NASA while pursuing other opportunities.</li>
+<li>Victor Glover has accepted a leadership position at his alma mater, California Polytechnic State University.</li>
+<li>A third Artemis II astronaut, Jeremy Hansen of the Canadian Space Agency, also previously announced he was stepping back from his full-time role.</li>
+</ul>
+<p>Two NASA astronauts who in April flew on the historic Artemis II mission around the moon are hanging up their spacesuits.</p>
+<p>Reid Wiseman, the mission's commander; and Victor Glover, the mission's pilot, are both transitioning to other roles both within and outside NASA, the agency announced.</p>
+<p>But it appears that for both of them, their spacefaring days are behind them.</p>
+<p>The news comes about five months after Wiseman and Glover were part of a four-person crew that rode a NASA spacecraft on a 10-day journey toward the moon. The mission marked a landmark moment in U.S. spaceflight, becoming not just the first crewed moon mission in half-a-century, but taking the astronauts farther from Earth than anyone had ever been.</p>
+<p>“I’ve had the privilege of knowing Reid and Victor for years, and both exemplify the leadership, character, and commitment that define NASA at its best.” NASA Administrator Jared Isaacman said in a statement. “Together, they took on one of the most challenging missions in human spaceflight and helped return America to the lunar environment."</p>
+<p>Here's what to know about Wiseman and Glover, as well as what could be next for the two astronauts.</p>
+<h2>2 NASA astronauts step down after Artemis II</h2>
+<p>Glover and Wiseman will both transition to emeritus status at NASA's Johnson Space Center in Houston, the space agency announced in a Sept. 9 press release.</p>
+<p>Instead of being an official retirement, the role means Glover and Wiseman will serve in more of a consultant capacity for NASA by "donating their time to train and mentor the current workforce," the agency said. The move simultaneously allows each of them "to pursue other opportunities," NASA added.</p>
+<p>In a statement, Isaacman indicated that Glover and Wiseman's knowledge and expertise will help as NASA prepares for future Artemis missions, including another vital test flight in 2027 and a potential crewed landing in 2028.</p>
+<p>"I’m grateful they will continue sharing what they learned with our astronauts, flight controllers, and engineers as we prepare for Artemis III in 2027 and the missions that follow,” Isaacman said.</p>
+<h2>Who is Victor Glover?</h2>
+<p>A Navy aviator and test pilot, Victor Glover, 50, served as the pilot for the Artemis II mission.</p>
+<p>Glover, selected as a NASA astronaut in 2013, was also the pilot for the Crew-1 mission to the International Space Station. Launching in November 2020, the six-month mission was the first to the orbital outpost after the Dragon crew capsule was certified for spaceflight under a partnership between NASA and SpaceX.</p>
+<p>Glover, a native of Pomona, California, holds several master's degrees and is married with four daughters.</p>
+<h2>Who is Reid Wiseman?</h2>
+<p>Reid Wiseman served as the commander of the Artemis II mission.</p>
+<p>A decorated veteran Navy aviator, 50-year-old Reid Wiseman served on two deployments to the Middle East and trained as a test pilot before he was selected as a NASA astronaut in 2009.</p>
+<p>Wiseman has been to space one other time. In 2014, Wiseman spent about six months at the International Space Station, where he completed two spacewalks and helped the crew set a station record by completing 82 hours of research in a single week.</p>
+<p>Wiseman, a Baltimore native, is a single father of two children, having lost his wife Carroll Taylor Wiseman in 2020 to cancer.</p>
+<h2>What was the Artemis II mission?</h2>
+<p>In April, Wiseman and Glover joined NASA astronaut Christina Koch and the Canadian Space Agency's Jeremy Hansen on the Artemis II mission.</p>
+<p>The second mission under NASA's multibillion-dollar Artemis program, Artemis II marked the first time humans flew near the moon in more than 50 years and set the stage for a potential crewed landing as early as 2028.</p>
+<p>The four astronauts rode in NASA's Orion spacecraft, which hitched a ride to space atop NASA's powerful 322-foot Space Launch System rocket during an April 1 launch from the Kennedy Space Center in Florida. During the 10-day spaceflight, the Orion vehicle carried the astronauts around the moon and back to Earth without landing on the lunar surface.</p>
+<p>Along the way, Wiseman, Glover, Koch and Hansen surpassed a record set during the infamous Apollo 13 mission in 1970 – traveling a historic 252,756 miles from Earth. They also bore witness to sights of the moon's far side never before seen by human eyes while traveling as close as 4,067 miles above the surface during a lunar flyby.</p>
+<p>Three of the astronauts also made individual history. Hansen became the first Canadian selected for a moon mission, while Koch became the first woman and Glover the first Black man.</p>
+<h2>Jeremy Hansen also ended astronaut career</h2>
+<p>Glover and Wiseman are now the latest astronauts who flew on the Artemis II mission to take a step down.</p>
+<p>In a July 6, post on Facebook, Hansen said that he would step back from a full-time astronaut role in September. Hansen said he will also transition to being a reservist member of the Royal Canadian Air Force.</p>
+<p>But the move, Hansen said, is “far from a departure.” Instead, he said the move is meant “to leave the door open for creative, ongoing ways to support and enable the vital work happening in Canada with respect to space.”</p>
+<h2>What's next for Victor Glover, Reid Wiseman?</h2>
+<p>Glover has already announced on social media that he has accepted a full-time administrative leadership position at his alma mater, California Polytechnic State University in San Luis Obispo.</p>
+<p>“As I grow into this new role, NASA and spaceflight remain a meaningful part of my journey of service,” Glover said in a statement. “I’m excited to keep uplifting my friends and cheering them on as they reach for the moon."</p>
+<p>While Wiseman has not said anything publicly about what specifically could be next for him, he said in a statement that he is "thrilled to continue serving future missions."</p>
+<p>“There is no better place to work, and there are no better people to work with, than those in this agency,” Wiseman said. “NASA gave me tremendous responsibility, supported me through two space missions, and my time as chief astronaut, and was always there for my family when we needed it most."</p>
+<p>
+<i>Eric Lagatta is the Space Connect reporter for the USA TODAY Network. Reach him at elagatta@usatodayco.com</i>
+</p>
+</body>
+</html>]]></description>
+      <source url="https://www.usatoday.com">USA Today</source>
+      <guid isPermaLink="false">CBMipwFBVV95cUxPUHBReEswekpVNFhNcWI3bWZqQUdnRVFFdlVmRHpsbXZYeDJNTEJ0aERrNEk5NDJEVlJiMHpYMnpGdlN1UkVqYWlWSVlTTkkyYTRCd2J1ME5CMEliVFRjUkJacll5RTdlU0tJWmlCb3dzX0VEMXJUMWRGUU9WckpXck1sSkRoWUpLUk56cVV4MkhiRW13R0dtZHg0UFVoeW9KRnNIaHJRTQ</guid>
     </item>
     <item>
       <title>Artemis II crew will lose communication with mission control during reentry. Here's why - ABC News - Breaking News, Latest News and Videos</title>
@@ -90,109 +212,41 @@
       <guid isPermaLink="false">CBMinwFBVV95cUxPN2EtVkVIcVFxMTNxYldYYnNkYnpTY1RPYkU2bER6RWQzZW9KX0FHRzhpMllNQjhPcmR1TzZNX251Qkw3Vkl6c3cxcGF6akVPd3FKY3VpZ3dNc1lOMEpSMC1GZnR6dkdqQ0hXYlNTU2Jnc0FJRFVrS3pNZ2J5Y2ZlS01IUlFGSFBWaUFncno4M1hPX0JNODd0X1dQcjMxMDjSAaQBQVVfeXFMTnRxR1ZXZjViUk53a1Fpdm1OSjh6Ukd2dmREaVNRZ1RWY2RSbkY0NzVKa2NKSGpqZVRJcjdLaXdRVnJrTmgwVkR6YnB0VHJOejFZU0dLNUdxd3JBT3NMWXpRWV9EZWxxeXEySXQwelREZDRLZm51YU1vb01RRnVTcno1d21sT2RrSzduMktRa1pwRHdVeFIwSHA0NXlxaUlib0paS0E</guid>
     </item>
     <item>
-      <title>What to know about NASA's Artemis II moon mission including how to watch, who are the astronauts - ABC News - Breaking News, Latest News and Videos</title>
-      <pubDate>Thu, 10 Sep 2026 12:49:05 GMT</pubDate>
-      <link>https://abcnews.com/Technology/nasas-artemis-ii-moon-mission-including-watch-astronauts/story?id=131536973</link>
-      <description><![CDATA[<img src="https://i.abcnewsfe.com/a/83b76d63-66e9-4fc7-aa5f-4e247cc5fc3b/artemis-2-ap-gmh-260330_1774877723283_hpMain_16x9.jpg?w=1600" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+      <title>Around the Moon and Beyond: A Conversation with NASA’s Artemis II Commander Reid Wiseman - Inside Outer Space</title>
+      <pubDate>Thu, 10 Sep 2026 15:57:59 GMT</pubDate>
+      <link>https://www.leonarddavid.com/around-the-moon-and-beyond-a-conversation-with-nasas-artemis-ii-commander-reid-wiseman/</link>
+      <description><![CDATA[<html>
 <body>
-<h1>What to know about NASA's Artemis II moon mission including how to watch, who are the astronauts</h1>
-<p>The mission will send four astronauts on a 10-day trip around the moon.</p>
-<p>As early as Wednesday, Artemis II will make history, taking astronauts around the moon for the first time in more than 50 years.</p>
-<p>The four-person crew will launch from NASA's Kennedy Space Center on Merritt Island, Florida, for a 10-day journey.</p>
-<p>The trip will pave the way for future Artemis missions that could eventually see astronauts set foot on the moon and the building of a permanent lunar base.</p>
-<p>Here's what you need to know about the upcoming Artemis II mission, including how long it will take, who the astronauts are and how to watch.</p>
-<p>
-<strong>How long will the mission take?</strong>
-</p>
-<p>Artemis II will take the four astronauts on a 685,000 mile, 10-day journey around the moon, also known as a lunar fly-by.</p>
-<p>April 1 is the first launch opportunity date with a window between 6:24 p.m. ET and 8:24 p.m. ET and potential backup dates between April 2 and April 6.</p>
-<p>The weather forecast on Wednesday shows an 80% chance of favorable weather conditions, according to NASA. Primary weather concerns include cloud coverage and potential for high winds on the ground.</p>
-<graphic src="https://i.abcnewsfe.com/a/c9bb13a3-8ed4-4805-a82d-1aeb2a75a9f7/artemis-3-ht-gmh-260330_1774877724279_hpMain.jpg"></graphic>
-<p>Day 1 will be the launch with Day 2 through Day 4 being outbound transit, or the spacecraft heading towards the moon.</p>
-<p>Day 5 will be the lunar flyby. The spacecraft will pass within approximately 4,700 miles beyond the far side of the moon. This would be further than any humans have ever traveled in deep space.</p>
-<p>Meanwhile, Day 6 through Day 10 will see the return of the astronauts and re-entry into Earth's atmosphere.</p>
-<p>
-<strong>Who are the astronauts who will be onboard?</strong>
-</p>
-<p>The Artemis II crew will be made up of four astronauts: Victor Glover, Christina Hammock Koch and Reid Wiseman of NASA and Jeremy Hansen of the Canadian Space Agency.</p>
-<p>Koch will be the first woman and Glover will be the first person of color to travel to the moon.</p>
-<graphic src="https://i.abcnewsfe.com/a/9bae657a-2f8e-4a08-9b62-ad6a90251b6c/artemis-4-epa-gmh-260330_1774878296733_hpMain.jpg"></graphic>
-<p>Wiseman is mission commander, responsible for the overall execution, safety and success of the mission.</p>
-<p>Glover is the pilot, with responsibility for operating the spacecraft. Koch and Hansen are mission specialists, responsible for conducting scientific experiments, operating specialized equipment and performing spacewalks.</p>
-<p>
-<strong>How are the astronauts getting to space?</strong>
-</p>
-<p>Astronauts will be using NASA's newest spacecraft, Orion, for the lunar flyby.</p>
-<p>This is the first crewed Orion mission. An uncrewed Orion was tested during Artemis I in November 2022, sending the spacecraft as close as 60 miles from the moon, and then 40,000 miles above the moon when orbiting over its dark side.</p>
-<p>Orion will ascend atop the Space Launch System rocket. According to NASA, this is currently the only rocket that can send Orion, astronauts and cargo directly to the moon in a single launch.</p>
-<graphic src="https://i.abcnewsfe.com/a/3e5fad60-bda1-4853-b812-44cde4090359/artemis-1-ht-gmh-260330_1774877723867_hpMain.jpg"></graphic>
-<p>
-<strong>How to watch the Artemis II mission</strong>
-</p>
-<p>ABC News will have live coverage of NASA's Artemis II mission, including a live blog for the duration of the mission, and major milestones such as the launch and splashdown broadcast on ABC News Live and streaming on Disney+ and Hulu.</p>
-<p>NASA will begin streaming live views from the launch pad in its YouTube channel, which will continue through launch.</p>
-<p>The launch can also be viewed on NASA's social media platforms include Facebook, twitch and X as well as NASA+, the agency's streaming service.</p>
-<p>NASA's YouTube channel will also offer continuous live low-resolution video from cameras onboard the Orion spacecraft.</p>
+<graphic src="https://www.LeonardDavid.com/wp-content/uploads/2026/09/Wiseman-final-350x229.jpg"></graphic>
+<p>Reid Wiseman, commander of NASA’s Artemis II mission, speaking at the National Book Festival.Image credit: Library of Congress/Shawn Miller</p>
+<p>Reid Wiseman, commander of NASA’s Artemis II mission in April, led humanity’s first crewed voyage beyond low Earth orbit in 53 years — a nearly 10-day journey that looped around the moon and back. He told a standing room only audience at the National Book Festival on August 22 about what it looked and like inside the spacecraft.</p>
+<p>For the video, go to:</p>
+
 </body>
 </html>]]></description>
-      <source url="https://abcnews.com">ABC News - Breaking News, Latest News and Videos</source>
-      <guid isPermaLink="false">CBMiqgFBVV95cUxQLTExWmUxaHJxUUdNZUZNY0N1UGNBVFgzd21LQWRCNTg0MUlqeXBBMUNDY3IwSGw3MFVOdFRhMG5OUkFEZFJDMTRyXzM3RGVYRGpGbDktcUo2TDl5X0ExLUUxeEFSS0p2a2VUOGQydmhjWnZmV0FxQTFCeFJTejVqbUxjNWt6bkVma1ZnNHBRdDQ0LTlwQWFLNTY1b21mTmZwYlVtUFdvTzA3Z9IBrwFBVV95cUxNS3ViVmV3Q1pZbDE2M0RLdmM3YUVsRlh5a0otMUFtVXBPR1NmLWlYOTNCZ3lndE1KbU5lbEhMUzZjSTdnN3FWVU9EYlhrMGpjM0dIXzVEVzdxRlZjX3dWMzRjUG9jYjB0UnpWT0tlTjUweFl6OG5TTU1FdWI3NDhZclA0cVl5cDdBakctQXdIdjZsWWRJZDZYWmd4REx6NXoxTS0xbjZ2VTdqb0pLMU44</guid>
+      <source url="https://www.leonarddavid.com">Inside Outer Space</source>
+      <guid isPermaLink="false">CBMitwFBVV95cUxQd05ZTW5sdVEyckNqeFZEV203dmRRQzA4MEwyeVIwU25mRElUMWowTVFXYlhfMTMtZnctSFBaSkEwR3FwNVVadnpIQU96eldYTzNEY3RBbWpTeVFFQndCOURxQ183cWhwZGhrT0cxazJhVDF0bUdadUNfSWJBaWotdTBIbFdGY1ZCaDlWdVZ5alFWb29zS3dlWnR6cUlSazIxYU5DQjRSeTJaNEtaX0JqMDh3U2l4cGc</guid>
     </item>
     <item>
-      <title>Artemis II Crew at NASA Marshall - NASA (.gov)</title>
-      <pubDate>Wed, 09 Sep 2026 16:36:21 GMT</pubDate>
-      <link>https://www.nasa.gov/image-article/artemis-ii-crew-at-nasa-marshall/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/09/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>The crew of NASA’s Artemis II mission – NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman and CSA (Canadian Space Agency) astronaut Jeremy Hansen – visited Huntsville, Alabama, Sept. 1, 2026, where they met with the NASA workforce at NASA’s Marshall Space Flight Center. The event gave the crew an opportunity to share firsthand experiences from their mission, reflect on their time in space, and connect with the workforce that supported the mission through an engaging question-and-answer session.</p>
-<p>
-<i>Image credit: NASA/Brandon Hancock</i>
-</p>
-</body>
+      <title>Winners of NASA HRP’s Artemis II Data Methodology Challenge - NASA (.gov)</title>
+      <pubDate>Fri, 11 Sep 2026 15:00:42 GMT</pubDate>
+      <link>https://www.nasa.gov/hrp/winners-of-nasa-hrps-artemis-ii-data-methodology-challenge/</link>
+      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body><h2><strong>Winners of NASA HRP’s Artemis II Data Methodology Challenge</strong></h2>
+<graphic alt="The full Moon rises behind NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft, on Sunday, Feb. 1, 2026, at NASA’s Kennedy Space Center. The Artemis II test flight, which launched in April 20206, took three NASA astronauts and one CSA (Canadian Space Agency) astronaut, around the Moon and back to Earth. Photo Credit: (NASA/John Kraus)" src="https://www.nasa.gov/wp-content/uploads/2026/08/nhq20260201-admin-0014orig.jpg?w=2048"></graphic><p>NASA’s Human Research Program has selected 10 winning projects for the Artemis II Human Research Data Methodology Challenge, a public competition that sought better ways of drawing rigorous conclusions from the small, information-dense datasets that define human spaceflight research.</p><p>Each crew member on missions like Artemis II are measured across multiple physiological variables over time, and with only four people on board each mission, data is limited. The challenge asked entrants to design methodologies that extract trustworthy, decision-ready insight from exactly this kind of small-sample, high-dimensional data.</p><p>Below are the winners, listed by their final placing. Placings reflect not only the technical rigor of each methodology, but how directly each submission responded to the challenge and how well each submission’s approach matched the real needs of NASA’s Human Research Program. Where entries were closely matched, the edge went to entrants who engaged most fully with the problem and whose methods translate most readily to the Human Research Program’s work. Project approach summaries were pulled from submission materials.</p><h1><strong>Praniil Nagaraj (1st place)</strong></h1>
+<p><strong>Project Theme: </strong>Transfer-Calibrated Normative Modeling</p><p><strong>Affiliation: </strong>Purdue University</p><p><strong>Project Approach: </strong>“This project treats the Artemis II challenge – four astronauts measured across hundreds of features over time – as a high-resolution case series rather than a failed population study, applying a stack of proven small-sample, high-dimensional methods (variance-borrowing empirical-Bayes tests, exact permutation inference, shrinkage-based multivariate scoring, and Gaussian-process recovery modeling) on a common calibrated scale. We demonstrate it on real four-person spaceflight data from SpaceX’s Inspiration4 mission crew, recovering a coherent acute inflammatory signature and per-crew recovery trajectories – with automated quality control that catches assay drift rather than misreading it as biology.”</p><h1><strong><strong>Estrella (Star) Perez (2nd place)</strong></strong></h1>
+<p><strong>Estrella (Star) Perez (2nd place)</strong></p><p><strong>Project Theme: </strong>STELLAR (Systematic Trajectory Estimation via Layered Longitudinal Analysis and Regression)</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“STELLAR is a three-layer Bayesian pipeline designed to extract meaningful signal from the kind of data NASA’s Human Research Program collects on missions like Artemis II: small crews, high-dimensional measurements, multiple biological systems tracked together over time. It combines multi-omics factor analysis v2, Bayesian hierarchical modeling, and Gaussian Process regression, with two purpose-built diagnostic metrics: the Physiological Data Diversity Index (PDDI) and Physiological Complexity Index (PCI), to characterize dataset diversity and physiological complexity. The methodology is built specifically for the small-sample reality of human spaceflight research, where traditional statistical approaches often fall short.”</p><h1><strong><strong><strong>Waste Parrot Technologies (3rd place)</strong></strong></strong></h1>
+<strong>Waste Parrot Technologies (3rd place)</strong><p><i>Team member: Naseem Khan</i></p><p><strong>Project Theme: </strong>Unified Hierarchical Bayesian Spine</p><p><strong>Affiliation: </strong>Waste Parrot Technologies</p><p><strong>Project Approach:</strong> “Waste Parrot Technologies developed a unified hierarchical Bayesian framework for extracting reliable insight from small-sample, high-dimensional spaceflight health data. The approach condenses large numbers of correlated biomarkers into a small set of interpretable signals and models each astronaut individually rather than averaging across the crew, recovering patterns that conventional methods miss with only four subjects. We demonstrated it end-to-end on public proxy data for two Artemis II studies, Immune Biomarkers and ARCHeR, producing calibrated early-warning flags for unusual physiological readings, designed for real mission constraints such as far-side communication blackout.”</p><h1><strong><strong><strong><strong>OJ Ochiai (4th place)</strong></strong></strong></strong></h1>
+<strong>OJ Ochiai (4th place)</strong><p><strong>Project Theme: </strong>Bayesian N-of-1 with Dynamic Borrowing</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach:</strong> “This project applies Bayesian hierarchical N-of-1 modeling with dynamic borrowing to the Artemis II problem of extracting rigorous inference from only four astronauts across many measurements. Applied unchanged to SpaceX’s Inspiration4 mission (the only existing real n=4 spaceflight cohort), the model independently recovers textbook spaceflight physiology from serum and urinary biomarkers — demonstrating that a single small-sample framework can honestly quantify what four astronauts’ worth of high-dimensional data can, and cannot, support.”</p><h1><strong><strong><strong><strong><strong>Ismael AL-Hadhrami (5th place)</strong></strong></strong></strong></strong></h1>
+<strong>Ismael AL-Hadhrami (5th place)</strong><p><strong>Project Theme: </strong>Dynamic Empirical-Bayes Counterfactual</p><p><strong>Affiliation: </strong>University of Virginia</p><p><strong>Project Approach:</strong> “I developed a Dynamic Empirical-Bayes Bayesian Counterfactual Simulation Framework to analyze small-sample, high-dimensional astronaut health data from NASA’s Spaceflight Standard Measures program. The methodology leverages proxy cohorts, empirical priors, Bayesian borrowing, and robust longitudinal analysis to identify meaningful physiological changes while overcoming small sample sizes. This framework provides a scalable and interpretable approach for supporting evidence-based decisions in NASA’s Human Research Program.”</p><h1><strong><strong><strong><strong><strong><strong>Ivan Lavlinski (6th place)</strong></strong></strong></strong></strong></strong></h1>
+<strong>Ivan Lavlinski (6th place)</strong><p><strong>Project Theme: </strong>Bayesian State-Space Decision Layer</p><p><strong>Affiliation: </strong>Independent Researcher</p><p><strong>Project Approach: </strong>“My project is a hierarchical Bayesian framework for tracking the health of the Artemis II crew, built for a hard case: only four astronauts, each measured across dozens of physiological systems, the exact setting where standard statistics break down. It combines 43 established methods, organized in four layers and drawing on twelve public datasets, into a single system a flight surgeon can act on. I tested the whole thing on real spaceflight data from SpaceX’s Inspiration4 mission, and it runs the same way whether the mission lasts ten days or the several months it takes to reach Mars.”</p><h1><strong><strong><strong><strong><strong><strong><strong>Aaron Krasinski (7th place)</strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Aaron Krasinski (7th place)</strong><p><strong>Project Theme:</strong> Mechanism-Constrained AI for Vision Risk (SANS)</p><p><strong>Affiliation: </strong>Massachusetts Institute of Technology</p><p><strong>Project Approach: </strong>“I designed a multi-task deep learning model that simultaneously predicts SANS from longitudinal bed rest MRI data and regresses six quantitative biomarkers characterizing glymphatic dysfunction. This kind of approach could let researchers take tools traditionally suited to large-sample data and use them to extract meaningful, biologically grounded insight into the pathology of conditions that affect only a small minority of the population, such as SANS.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong>Vision One (8th place)</strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Vision One (8th place)</strong><p><i>Team members: Sushanta Khadka, Arpan Bom, Pranisha Karki</i></p><p><strong>Project Theme:</strong> Integrated Health Monitoring</p><p><strong>Affiliation: </strong>Vision One</p><p><strong>Project Approach: </strong>“Vision One developed an Integrated Bayesian Multi-Modal Longitudinal Physiological Analysis Framework to help NASA extract meaningful insights from the Artemis II human research dataset despite having only four astronauts. By combining physiological, cognitive, immune, sleep, activity, imaging, and environmental data into a unified analytical framework, our approach enables personalized health monitoring, early detection of fatigue and stress, and supports future Artemis, Gateway, lunar surface, and Mars exploration missions.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ashlei Lewis (9th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Ashlei Lewis (9th place)</strong><p><strong>Project Theme:</strong> Integrated Multi-Study Health Profiling</p><p><strong>Affiliation: </strong>Neuroviu</p><p><strong>Project Approach: </strong>“This project uses a hierarchical Bayesian multi-block factor analysis to model each Artemis II astronaut individually while leveraging reference data from the International Space Station, SpaceX’s Inspiration4 mission, and terrestrial analog missions to improve statistical reliability. The approach is designed for extremely small, high-dimensional datasets, enabling personalized mission-stress profiling, uncertainty estimation, and detection of integrated physiological and behavioral changes without relying on traditional group-based statistical tests. Validation on the PhysioNet MMASH dataset demonstrated a reproducible end-to-end pipeline suitable for deep-space human research.”</p><h1><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Carm Hermosilla (10th place)</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></h1>
+<strong>Carm Hermosilla (10th place)</strong><p><strong>Project Theme:</strong> Akasi (Interactive Data Interface)</p><p><strong>Affiliation: </strong>University of California, Irvine</p><p><strong>Project Approach: </strong>“Akasi is intended to be a visual aid to modeling &amp; analyzing, with interactive graphs via the Streamlit web app service. With preprocessing tools &amp; a solid framework, further physiological data can be incorporated smoothly into Akasi, with the intention to model &amp; analyze trends between different datasets.”</p><p>Videos detailing the winning methodologies can be found here.</p><p>Winners are also invited to attend the Human Research Program’s 2027 Investigators’ Workshop (2027 IWS), which will take place in late January 2027 in Galveston, Texas.</p><p><pre>____</pre></p><p><strong>NASA’s Human Research Program</strong></p><p>NASA’s Human Research Program pursues methods and technologies to support safe, productive human space travel. Through science conducted in laboratories, ground-based analogs, commercial missions, the International Space Station and Artemis missions, the program scrutinizes how spaceflight affects human bodies and behaviors. Such research drives the program’s quest to innovate ways that keep astronauts healthy and mission ready as human space exploration expands to the Moon, Mars, and beyond.</p></body>
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMid0FVX3lxTE54UGhueEdYZVQzNzZ0SlczaHpIaWlsYU8tZkdOQVlpY016YXh4cXhyMlhIZ2ZyXy1OUktuaW5CQXBmWkdzdV9CaGJkcjVhQ2Y3SWVkZkxmZXRfZUFYWUk0OGtmTksxak1jMjU2QjF4a0E1Q2FJTzRz</guid>
-    </item>
-    <item>
-      <title>Trump establishes US space academy as Artemis II crew receives Space Medal of Honor - ABC News - Breaking News, Latest News and Videos</title>
-      <pubDate>Thu, 10 Sep 2026 19:37:09 GMT</pubDate>
-      <link>https://abcnews.com/US/artemis-ii-crew-receivecongressional-space-medal-honor-friday/story?id=136026865</link>
-      <description><![CDATA[<img src="https://i.abcnewsfe.com/a/a399eb17-ed78-4dd8-a8db-7729a4c7c98f/donald-trump-12-gty-gmh-260828_1787937444902_hpMain_16x9.jpg?w=1600" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<h1>Trump establishes US space academy as Artemis II crew receives Space Medal of Honor</h1>
-<p>Reid Wiseman, Victor Glover, Christina Koch and Jeremy Hansen were honored.</p>
-<p>President Donald Trump on Friday bestowed the Congressional Space Medal of Honor on the Artemis II crew, marking their historic achievement during a ceremony at Johnson Space Center in Houston.</p>
-<p>The crew -- NASA astronauts Reid Wiseman, Victor Glover and Christina Koch and Canadian Space Agency astronaut Jeremy Hansen -- traveled farther into deep space than anyone else in history during their trip around the Moon in April. What they learned during their test flight will help NASA return astronauts to the lunar surface as early as 2028.</p>
-<p>"We gather here on these storied grounds to celebrate the immense courage and service of four intrepid space heroes whose sense of daring and adventure led them further from Earth than anyone has ever traveled before," Trump said.</p>
-<graphic src="https://i.abcnewsfe.com/a/ebc1f0ee-2f32-4a17-9800-c77cd4c73a26/artemis-1-ap-gmh-260828_1787936240350_hpMain.jpg"></graphic>
-<p>Joined at the event by NASA Administrator Jared Isaacman, the president told a story about being in an important meeting with "the biggest people in the country, maybe some of the biggest people in the world" when someone asked to watch the Artemis II mission.</p>
-<p>"You would, really? Right in the middle of our meeting. You want to watch?" Trump recalled saying at the time. He said they had a television set pulled up for the group to watch, adding that "everybody was spellbound."</p>
-<p>The president used Friday's occasion to sign an executive order establishing the U.S. Space Academy, a national academy similar to the service academies for the armed forces, such as West Point and the Air Force Academy.</p>
-<graphic src="https://i.abcnewsfe.com/a/a399eb17-ed78-4dd8-a8db-7729a4c7c98f/donald-trump-12-gty-gmh-260828_1787937444902_hpMain.jpg"></graphic>
-<p>"It will serve both the United States Space Force as well as NASA and the civilian spaceflight industry, and it'll attract, train and graduate the very best of our nation," Trump said.</p>
-<p>A location for the new academy will be chosen shortly, according to the president.</p>
-<p>During the ceremony, the president personally placed the medal around the necks of each astronaut as they were recognized for their work during the mission.</p>
-<graphic src="https://i.abcnewsfe.com/a/0cbd4389-2ccf-4e14-b713-0cecd4ec4f5d/donald-trump-11-rt-gmh-260828_1787937443543_hpMain.jpg"></graphic>
-<p>After receiving his medal, an emotional Wiseman, the commander of the Artemis II mission, spoke about the scale of the joint effort the mission required.</p>
-<p>"We wear these four medals, and we are going to wear them with pride. But please know, it is not pride for ourselves that we feel, and I truly mean that," he said. "It is pride for the grit that our families had when we left this planet. It is pride for that team, this NASA team, that sent us on this mission. And it is pride for the international community that stood alongside us, got this vehicle ready, operated and cheered us on."</p>
-<graphic src="https://i.abcnewsfe.com/a/d07f59fb-babb-4f60-9b7d-c58ddf28d89e/donald-trump-13-gty-gmh-260828_1787937444007_hpMain.jpg"></graphic>
-<p>Glover, the Artemis II pilot, then presented Trump with an official NASA blue flight jacket, saying the crew wanted to make good on its promise to him when they were in the Oval Office.</p>
-<p>"To the Artemis crew II, you stand here incredibly deserving of this recognition. Thank you for showing us the moon again, for showing the world your humanity and for passing your knowledge and the baton to the astronauts who will follow in your very accomplished footsteps. There are no finer humans we could have sent as our ambassadors to the stars," NASA's Isaacman said during the event.</p>
-<graphic alt="PHOTO: President Donald Trump awards the Congressional Space Medal of Honor to Jeremy Hansen of the Canadian Space Agency during a ceremony honoring Artemis II crew members at NASA's Johnson Space Center, August 28, 2026 in Houston, Texas. " src="https://i.abcnewsfe.com/a/5014e44a-8e19-4010-974c-a4aec17b56e3/donald-trump-10-gty-gmh-260828_1787936931830_hpMain.jpg"></graphic>
-<p>With NASA's astronaut corps seated on stage, Apollo 17 astronaut and former Sen. Harrison Schmitt, a Republican from New Mexico, kicked off the event by speaking about his 1972 mission -- the last mission of the Apollo program.</p>
-<p>"Apollo 17's success, as the success of all the other missions was owed to the patriotic dedication, the courage, the competence of young men and women, young men and women, who designed and built and managed and trained and planned each of the Mercury, Gemini and Apollo missions. It was an extraordinary privilege for me to be part of that."</p>
-<graphic src="https://i.abcnewsfe.com/a/2270c009-1090-4a77-83e6-29c3c8777523/donald-trump-9-rt-gmh-260828_1787936932262_hpMain.jpg"></graphic>
-<p>NASA Deputy Administrator Matt Anderson said Apollo pioneers like Schmitt "handed the baton" to the men and women working on the space shuttle program, which built the International Space Station.</p>
-<p>"Early this year, the Artemis II crew added their names to that history. They carried humanity around the world, around the moon, for the first time in more than 50 years. Demonstrated that America is ready to return and paved the way for those who will follow," Anderson said.</p>
-<p>He also spoke about what's at stake for NASA and the U.S. space program in the years to come.</p>
-<p>"The second space race has begun, and right now, America is on the shot clock. Our national security, the prestige of our nation and the dreams of millions of Americans are riding on our ability to get the job done."</p>
-<graphic src="https://i.abcnewsfe.com/a/652713d7-7fcd-4a5e-921f-69c8307c4253/donald-trump-19-rt-gmh-260828_1787940588202_hpMain.jpg"></graphic>
-<p>Congress authorized the granting of the Congressional Space Medal of Honor in 1969, proclaiming that "The President may award, and present in the name of Congress, a medal of appropriate design, which shall be known as the Congressional Space Medal of Honor, to any astronaut who in the performance of his duties has distinguished himself by exceptionally meritorious efforts and contributions to the welfare of the Nation and of mankind."</p>
-<p>Since then, only 34 astronauts have received the honor, including the Artemis II crew. The first recipients of the award in 1978 included Neil Armstrong, Frank Borman, Pete Conrad, John Glenn, Virgil "Gus" Grissom and Alan Shepard.</p>
-</body>
-</html>]]></description>
-      <source url="https://abcnews.com">ABC News - Breaking News, Latest News and Videos</source>
-      <guid isPermaLink="false">CBMipgFBVV95cUxQNGVuSno3dW1WaWV3b1pKMGtIak1XZXFhS3NfOW5HdXozN0VzcDhSNGVMNWNLQVprMUhraW5xY3NsM0xMVGNyWHJ6YURKU01rNFdhTkhwcUlRcER2TWZKV19WNnJ3N0hyZjhJTzdfbjZPMUxXSjhCMmJlSi1TZ2VJV2g4d2VPN0doNEFVRTF6bW5XM0JsYVRROFM0aG04T2RQaWRvb0ZR0gGrAUFVX3lxTFBjR3p4ci1zZ3FqZ3k3Smh3akZ0bEVKc2tvclA1UGFiRnRmUlZmcExzeEY1b3BoRHFuSWRmemgyVDdrRXBjX2FDbGNoZ1BiamZqNmp5TU9CckJWRW4xMFZsR3lYalUxWWpmeWpzY2xvTmE4cDV1MjNDYzh5R3RKLTE1amM3YzEybldhcV9ybExxQ28xaHQyTVZ0TFVMMzNrT0Y5VmJEeXAzc0JCOA</guid>
+      <guid isPermaLink="false">CBMijAFBVV95cUxQaEoxSzJoY0ZMQUozMmt0ek5DcUtKMlJsMXhsYXpuMkNuM05Sb2NSQ3NzUFVHelIxTzl6Q3RrQkcyN2p3Vk5YcGs2UXZnT3lHN2hSaXJENjBBenFaVEgyd3RfSEdaZUFTcXZDeHo2aDVWM09zb0VVSlVJeFNWelM3MXI0WS0xUG04UFNsag</guid>
     </item>
     <item>
       <title>President Honors NASA’s Artemis II Crew with Highest US Space Award - NASA (.gov)</title>
@@ -223,22 +277,6 @@
       <guid isPermaLink="false">CBMiowFBVV95cUxQZ0l3SzgwQVRoRlIzWHgwZWZUeUk1dnp2N3RCYV9jU3JwMVd2TWpzMW9SaWd3NWU3aDVUOWZGUUNRYkZrRGFCcUZ2NlcwYmtucVlJcml6YWVoVGUtdU9pZ2h5UzJlZnFWNGM5Y1FhaVR5cjJfVU5NOUI1ajgxMk5wbG81RDdnQUNOWUpUU2tmcHlpZGZVVGRMSGYtWVFOb3hWNUhv</guid>
     </item>
     <item>
-      <title>Around the Moon and Beyond: A Conversation with NASA’s Artemis II Commander Reid Wiseman - Inside Outer Space</title>
-      <pubDate>Thu, 10 Sep 2026 15:57:59 GMT</pubDate>
-      <link>https://www.leonarddavid.com/around-the-moon-and-beyond-a-conversation-with-nasas-artemis-ii-commander-reid-wiseman/</link>
-      <description><![CDATA[<html>
-<body>
-<graphic src="https://www.LeonardDavid.com/wp-content/uploads/2026/09/Wiseman-final-350x229.jpg"></graphic>
-<p>Reid Wiseman, commander of NASA’s Artemis II mission, speaking at the National Book Festival.Image credit: Library of Congress/Shawn Miller</p>
-<p>Reid Wiseman, commander of NASA’s Artemis II mission in April, led humanity’s first crewed voyage beyond low Earth orbit in 53 years — a nearly 10-day journey that looped around the moon and back. He told a standing room only audience at the National Book Festival on August 22 about what it looked and like inside the spacecraft.</p>
-<p>For the video, go to:</p>
-
-</body>
-</html>]]></description>
-      <source url="https://www.leonarddavid.com">Inside Outer Space</source>
-      <guid isPermaLink="false">CBMitwFBVV95cUxQd05ZTW5sdVEyckNqeFZEV203dmRRQzA4MEwyeVIwU25mRElUMWowTVFXYlhfMTMtZnctSFBaSkEwR3FwNVVadnpIQU96eldYTzNEY3RBbWpTeVFFQndCOURxQ183cWhwZGhrT0cxazJhVDF0bUdadUNfSWJBaWotdTBIbFdGY1ZCaDlWdVZ5alFWb29zS3dlWnR6cUlSazIxYU5DQjRSeTJaNEtaX0JqMDh3U2l4cGc</guid>
-    </item>
-    <item>
       <title>NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor - NASA (.gov)</title>
       <pubDate>Fri, 21 Aug 2026 07:00:00 GMT</pubDate>
       <link>https://www.nasa.gov/news-release/nasas-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor/</link>
@@ -256,49 +294,6 @@
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMiqgFBVV95cUxQTENWcEdmdFlBaktIRE1uMHp4VlF4RGdKLVRIWThITDNkUl80SUkzLUc1a3ljTGlSTlNyLVc1NjVhUVY3TnJOeTVWMnFDNlFDbjVqT2tWcUlPU3E3ZW9Wc0tzX0VlUTk1TUoyVlhRVTJ6TTZVUzg1c1pueXMxenNaSXB0NXZqZEh5S1lJenpQTE5sSnpDaGkyU01jd0wtMkdDY1otb1V5MU53Zw</guid>
-    </item>
-    <item>
-      <title>Victor Glover, Artemis II astronaut, joins Cal Poly in leadership role - USA Today</title>
-      <pubDate>Wed, 09 Sep 2026 18:14:00 GMT</pubDate>
-      <link>https://www.usatoday.com/story/news/state/california/2026/09/09/victor-glover-artemis-ii-astronaut-joins-cal-poly-in-leadership-role/91674955007/</link>
-      <description><![CDATA[<img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/28/USAT/91511808007-getty-images-2292470343.jpg?crop=4789,2694,x0,y249&width=3200&height=1801&format=pjpg&auto=webp" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<h1>Victor Glover, Artemis II astronaut, joins Cal Poly in leadership role</h1>
-<p>From piloting NASA’s Artemis II mission around the Moon to retelling his tales to the world, California native and astronaut Victor Glover announced that he will be hanging up his boots after accepting a full-time administrative leadership position at his alma mater, California Polytechnic State University, San Luis Obispo.</p>
-<p>In this new role, Glover will focus on building the university's partnerships, philanthropy, and long-term strategies, hoping to elevate the Cal Poly and Cal Poly Maritime Academy campuses into global leaders "in polytechnic education, research innovation and workforce production."</p>
-<p>"There are a lot of neat opportunities as we work to, you know, grow our science and industrial base, our partnerships with other universities, and our partnerships with corporate America," Glover said in an interview with USA TODAY.</p>
-<p>"What's really cool is I get to do that for Cal Poly, and I'm also in this emeritus program, which allows people with unique experiences to continue to serve NASA in a different capacity."</p>
-<p>Specifically, NASA allows individuals like Glover and Reid Wiseman, commander of the 2026 Artemis II lunar flyby mission, to step down from their roles with the agency while continuing to support the country's space program by training and mentoring the next generation of scientists.</p>
-<p>“As I grow into this new role, NASA and spaceflight remain a meaningful part of my journey of service,” Glover told NASA in an interview about his new position. “I’m excited to keep uplifting my friends and cheering them on as they reach for the Moon. Together, we’ll keep pushing boundaries and inspiring the next giant leap.”</p>
-<p>In this new role, Glover will be spending much of his time guiding the university's president, provost, college deans, and other university leaders to develop and expand the university’s leadership in engineering, applied computing, aerospace, aviation, maritime, artificial intelligence, cybersecurity, autonomous systems, and national defense.</p>
-<p>However, between these meetings, Glover shared his desire to stand in front of an auditorium and teach the next generation by recounting his nearly 14 years as an active astronaut and 28-year career in the United States Navy.</p>
-<p>Many may assume that Glover would want to focus his lessons on space and putting a person on the Moon; but he told USA TODAY that, "at the end of the day, I probably would love to teach a course on communication."</p>
-<p>"That's something that I think young technical professionals need to really get as good at as the technical skills to be a tech leader, to be a science leader. And to be a public servant, I think communication is one of the most important roles that we get to serve in," Glover said.</p>
-<p>He highlighted how his ability to communicate efficiently was a pivotal skill throughout his career, from his time in the military to NASA.</p>
-<p>"In the early 2000s, when I was a test pilot, I was a project officer as well. So it wasn't just about flying test missions. I was part of a team with some really challenging goals that, you know, ended with making sure our service members stayed safe in combat and during training. And so we had to come together and tackle these really big problems," Glover said.</p>
-<p>"I wasn't the most technical person on the team, but I really brought the teamwork and the leadership and the communication to the front and made sure that that was something that we were constantly thinking about."</p>
-<h2>Why did Glover choose to return to Cal Poly?</h2>
-<p>Although one might assume it would be a no-brainer to accept an administrative role at a top university, Glover shared how important his time at Cal Poly was to his life trajectory.</p>
-<p>Not only did Glover receive the foundational education that would one day lead him to becoming a historic figure, but it's also where he met his wife, Dionna Odom Glover, of 30 years at Cal Poly.</p>
-<p>"We spent a lot of time driving up and down the coast, tutoring for a program called MESA, Mathematics, Engineering, and Science Achievement. And so we spent so much time together doing that job and also sitting in the university union there, right outside the Chumash Auditorium on campus. And we would just talk," Glover said.</p>
-<p>At Cal Poly, Glover's career goal also changed drastically. Initially, he planned to pursue a career in "conceptual automotive design," but one of his college mentors, a Navy reservist, convinced Glover to enlist in the military.</p>
-<p>With his father's support, Glover changed his military aspiration of becoming a Navy SEAL and traded it for a lifetime in the skies and in space.</p>
-<p>"My dad said to me in 1997, with an engineering degree from Cal Poly and wings of gold, you never know, you might mess around and become an astronaut," Glover said.</p>
-<p>"So the lesson is, listen to your parents, kids."</p>
-<p>"But it was really my dad's suggestion. And I took a huge leap of faith there. And I took a leap of faith to apply to be an astronaut," he added.</p>
-<p>Years later, on June 15, 2025, Glover returned to Cal Poly to accept an honorary Doctor of Science degree from the College of Engineering.</p>
-<p>Through his life experience, Glover learned the value of one phrase, "we are a team," and hopes to teach students and leaders at Cal Poly the importance of that idea, and hopefully teach people around the world the importance of working together for a better tomorrow.</p>
-<p>"You know, when you get to see your home from far away, you know, that saying, absence makes the heart grow fonder. It's so true. And that distance also can make the heart grow fonder. And so seeing our planet from the space station helped me appreciate how connected this system was, how we, you know, Earth is one system that works together," Glover said.</p>
-<p>"It's truly a system. But then seeing it from the moon hanging there in the blackness of space with the Milky Way as the background just really hit home that we are on a spaceship and that we are in this really beautiful oasis on this crude ship that we call Earth, and that we're a crew, like the country, the planet, humanity."</p>
-<p>
-<i>USA TODAY video producer Kat Filardi contributed to this article.</i>
-</p>
-<p><i>Noe Padilla is a Northern California Reporter for USA Today. Contact him at  npadilla@usatodayco.com, follow him on X @1NoePadilla or on Bluesky @noepadilla.bsky.social</i>. </p>
-
-</body>
-</html>]]></description>
-      <source url="https://www.usatoday.com">USA Today</source>
-      <guid isPermaLink="false">CBMi3gFBVV95cUxNTnZoMmgwRml2WVA3NUV0Z2liM3RjQUpXZkEtbENUc2FsOHdMajgwUWdjTHJ1YUU5VndrU25Cb2dyVUE0dWxkLXNuV1VGS2VQLTRmdkFBbjNiNXFSUmpKdThvWE9QbVAwcHhVUlZqWTFORVFfRWdidnhIMHJWeVYyVVBvby1wcUtGa0gzZmZPQl8yR1NINHUyV1o4bllGMXFJdUtSeUxNOWNXNS1QbjE5SW42QmRKdkdFeXdZTi1neFdtTDhBLW9KbE5NNmxDVThWc0t3RVlPdkd0a0s5TUE</guid>
     </item>
     <item>
       <title>Artemis II pilot thanks NASA for letting him fly Orion by hand: 'I'm still blown away by that trust' - Space</title>
@@ -353,13 +348,13 @@
       <guid isPermaLink="false">CBMi3AFBVV95cUxPTWpxZ0duTDFZSTI3U1lnU0R6M0JuNk8zMkx2YkFXeWgyZlJoTHlPUExEclhRQ1dNRTBiTk9MZXI1c0dOS0RDeC1lUEVneW1YREV4QmlCSkEtaGRrdmVORVgxSnBudDR5dTR3R19wSWM2TzU0UDVvRkJReEZDMVpQQ2ZmZUVZQ0c5Q3JJa0dka0wtQkI1U2xwNkloTV9uLTNTVFd6LUg1T2RWNFVfd01wR0VZdjNfOEh3R3ZrQmpsSjhRSkJXWTFKR0J3bFhZUlpWS3Bmc3NndmZuek9a</guid>
     </item>
     <item>
-      <title>Reid Wiseman, Maryland native who led Artemis II mission, retires to NASA emeritus status - cbsnews.com</title>
+      <title>Reid Wiseman, Maryland native who led Artemis II mission, retires to NASA emeritus status - CBS News</title>
       <pubDate>Thu, 10 Sep 2026 17:14:00 GMT</pubDate>
       <link>https://www.cbsnews.com/baltimore/news/reid-wiseman-astronaut-retires-nasa-emeritus-baltimore-maryland/</link>
       <description><![CDATA[<img src="https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/02/a382ffc7-96c2-44fe-896a-a2cb4659c3d1/thumbnail/1200x630/26d7c115c86ddd4419915c73e4d33c1d/untitled-design-2026-04-01t215927-218.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
 <body><p>Astronaut Reid Wiseman, a Baltimore County native, is retiring from his current role with the National Aeronautics and Space Administration (NASA) and transitioning to the agency's emeritus status, NASA officials announced Thursday.</p><p>Wiseman notably</p>of NASA's recent , leading a four-person crew on a 10-day journey around the moon before splashing down off the coast of San Diego. They made history by flying farther in space than anyone had before.<p>"There is no better place to work, and there are no better people to work with, than those in this agency," Wiseman said in a statement with Thursday's announcement. "NASA gave me tremendous responsibility, supported me through two space missions, and my time as chief astronaut, and was always there for my family when we needed it most. I'm thrilled to continue serving future missions and programs through the emeritus program."</p><p>NASA said Wiseman's fellow Artemis crew member, Victor Glover, is also transitioning to an emeritus role this month.</p><p>"I've had the privilege of knowing Reid and Victor for years, and both exemplify the leadership, character, and commitment that define NASA at its best." said NASA Administrator Jared Isaacman. "Reid commanded Artemis II after previously spending 165 days aboard the International Space Station, while Victor brought his experience as a naval aviator, test pilot, and Crew-1 astronaut to his role as pilot. Together, they took on one of the most challenging missions in human spaceflight and helped return America to the lunar environment."</p><h2>What is NASA emeritus status?</h2><p>The agency said Wiseman and Glover will have emeritus status at the Johnson Space Center in Houston.</p><p>In an emeritus role, "individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their time to train and mentor the current workforce," according to the news release.</p><p>"This allows the agency to maintain access to top talent in a specialized consultant role, while simultaneously providing the individual with the flexibility to pursue other opportunities," the release added.</p><p>Wiseman will specifically share his expertise for NASA's upcoming Artemis III mission, and Glover will support aerospace, leadership and public service projects within and outside the agency.</p><p>"As Reid and Victor transition to emeritus status, I'm grateful they will continue sharing what they learned with our astronauts, flight controllers, and engineers as we prepare for Artemis III in 2027 and the missions that follow," Isaacman said.</p><h2>Who is Reid Wiseman?</h2><p>Wiseman grew up in Cockeysville and graduated from Dulaney High School in Timonium before earning a Bachelor of Science from Rensselaer Polytechnic Institute in New York and then a Master of Science in Systems Engineering from the Johns Hopkins University in Baltimore.</p><p>The Baltimore County Council</p>following the successful Artemis mission.<p>"The really important thing for me on this mission was to try to connect with all of humanity on Earth," he said at the time. "Our mission is Artemis II, but on our patch, we made it look like 'ALL,' Artemis II, because we really wanted to go for all and by all."</p><p>The 27-year Navy veteran made two deployments to the Middle East and was at sea when he was chosen for astronaut training. He was selected by NASA in 2009 and served as flight engineer on board the International Space Station for Expedition 41 from May through November 2014.</p><p>"During the 165-day mission, Reid and his crewmates completed over 300 scientific experiments in areas such as human physiology, medicine, physical science, Earth science and astrophysics," his bio says. "This was Reid's first spaceflight, which also included almost 13 hours as lead spacewalker during two trips outside the orbital complex. Reid also fostered a strong social media presence throughout his mission by sharing the raw emotions of spaceflight as seen through the eyes of a rookie flier."</p><p>Wiseman later served as chief of the astronaut office from 2020 through 2022.</p><p>He and his late wife, Carroll, have two children and he "considers his time as an only parent as his greatest challenge and the most rewarding phase of his life," according to his bio.</p></body>
 </html>]]></description>
-      <source url="https://www.cbsnews.com">cbsnews.com</source>
+      <source url="https://www.cbsnews.com">CBS News</source>
       <guid isPermaLink="false">CBMipgFBVV95cUxOWmxlMFJoeUgxM3pvQUUxWXdhODBkQzFBU2hPVW9tM3pZSHVvdDVwOXU3aExfb3o3OUJmRXVPMkktNk1ta3lmcWxLd2tpT1FKMmtpUDNHS25qT3Q2bVg4R2M3LXdfMmFhVzZnRkZTcnR1al9TZFoxRjFFR295YXRHUHZpTmszcF9NZi1EalhvNlE0TjRBSW5PVWFaalNvWnBTOHUxWXZ3</guid>
     </item>
     <item>
@@ -371,6 +366,49 @@
 </html>]]></description>
       <source url="https://www.usatoday.com">USA Today</source>
       <guid isPermaLink="false">CBMivAFBVV95cUxNRF9NWDgtdElxWTdUU0wwMGRMYWR0VU5CX3Y3TW0waEUySTktUWg3LXpKeGI3N2tTNXFpWk1UZDRlZ2lHWk9WRm1FUEsyWElKOHJNRHF2Q29vbWF6a0NTS1lvNkNjOWpyLVRUQmtlSVkxT2wxaHk3NXl6Q1Z2bmZWeEs0a2NJVExEb01rU2lXdF9rUkE0X2l5ZTlYR0s2c1d4UjdJUzZiTjAxa3BfNXF1cFlVREdBTEZsWVFudw</guid>
+    </item>
+    <item>
+      <title>Victor Glover, Artemis II astronaut, joins Cal Poly in leadership role - USA Today</title>
+      <pubDate>Wed, 09 Sep 2026 23:04:00 GMT</pubDate>
+      <link>https://www.usatoday.com/story/news/state/california/2026/09/09/victor-glover-artemis-ii-astronaut-joins-cal-poly-in-leadership-role/91674955007/</link>
+      <description><![CDATA[<img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/28/USAT/91511808007-getty-images-2292470343.jpg?crop=4789,2694,x0,y249&width=3200&height=1801&format=pjpg&auto=webp" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<h1>Victor Glover, Artemis II astronaut, joins Cal Poly in leadership role</h1>
+<p>From piloting NASA’s Artemis II mission around the Moon to retelling his tales to the world, California native and astronaut Victor Glover announced that he will be hanging up his boots after accepting a full-time administrative leadership position at his alma mater, California Polytechnic State University, San Luis Obispo.</p>
+<p>In this new role, Glover will focus on building the university's partnerships, philanthropy, and long-term strategies, hoping to elevate the Cal Poly and Cal Poly Maritime Academy campuses into global leaders "in polytechnic education, research innovation and workforce production."</p>
+<p>"There are a lot of neat opportunities as we work to, you know, grow our science and industrial base, our partnerships with other universities, and our partnerships with corporate America," Glover said in an interview with USA TODAY.</p>
+<p>"What's really cool is I get to do that for Cal Poly, and I'm also in this emeritus program, which allows people with unique experiences to continue to serve NASA in a different capacity."</p>
+<p>Specifically, NASA allows individuals like Glover and Reid Wiseman, commander of the 2026 Artemis II lunar flyby mission, to step down from their roles with the agency while continuing to support the country's space program by training and mentoring the next generation of scientists.</p>
+<p>“As I grow into this new role, NASA and spaceflight remain a meaningful part of my journey of service,” Glover told NASA in an interview about his new position. “I’m excited to keep uplifting my friends and cheering them on as they reach for the Moon. Together, we’ll keep pushing boundaries and inspiring the next giant leap.”</p>
+<p>In this new role, Glover will be spending much of his time guiding the university's president, provost, college deans, and other university leaders to develop and expand the university’s leadership in engineering, applied computing, aerospace, aviation, maritime, artificial intelligence, cybersecurity, autonomous systems, and national defense.</p>
+<p>However, between these meetings, Glover shared his desire to stand in front of an auditorium and teach the next generation by recounting his nearly 14 years as an active astronaut and 28-year career in the United States Navy.</p>
+<p>Many may assume that Glover would want to focus his lessons on space and putting a person on the Moon; but he told USA TODAY that, "at the end of the day, I probably would love to teach a course on communication."</p>
+<p>"That's something that I think young technical professionals need to really get as good at as the technical skills to be a tech leader, to be a science leader. And to be a public servant, I think communication is one of the most important roles that we get to serve in," Glover said.</p>
+<p>He highlighted how his ability to communicate efficiently was a pivotal skill throughout his career, from his time in the military to NASA.</p>
+<p>"In the early 2000s, when I was a test pilot, I was a project officer as well. So it wasn't just about flying test missions. I was part of a team with some really challenging goals that, you know, ended with making sure our service members stayed safe in combat and during training. And so we had to come together and tackle these really big problems," Glover said.</p>
+<p>"I wasn't the most technical person on the team, but I really brought the teamwork and the leadership and the communication to the front and made sure that that was something that we were constantly thinking about."</p>
+<h2>Why did Glover choose to return to Cal Poly?</h2>
+<p>Although one might assume it would be a no-brainer to accept an administrative role at a top university, Glover shared how important his time at Cal Poly was to his life trajectory.</p>
+<p>Not only did Glover receive the foundational education that would one day lead him to becoming a historic figure, but it's also where he met his wife, Dionna Odom Glover, of 30 years at Cal Poly.</p>
+<p>"We spent a lot of time driving up and down the coast, tutoring for a program called MESA, Mathematics, Engineering, and Science Achievement. And so we spent so much time together doing that job and also sitting in the university union there, right outside the Chumash Auditorium on campus. And we would just talk," Glover said.</p>
+<p>At Cal Poly, Glover's career goal also changed drastically. Initially, he planned to pursue a career in "conceptual automotive design," but one of his college mentors, a Navy reservist, convinced Glover to enlist in the military.</p>
+<p>With his father's support, Glover changed his military aspiration of becoming a Navy SEAL and traded it for a lifetime in the skies and in space.</p>
+<p>"My dad said to me in 1997, with an engineering degree from Cal Poly and wings of gold, you never know, you might mess around and become an astronaut," Glover said.</p>
+<p>"So the lesson is, listen to your parents, kids."</p>
+<p>"But it was really my dad's suggestion. And I took a huge leap of faith there. And I took a leap of faith to apply to be an astronaut," he added.</p>
+<p>Years later, on June 15, 2025, Glover returned to Cal Poly to accept an honorary Doctor of Science degree from the College of Engineering.</p>
+<p>Through his life experience, Glover learned the value of one phrase, "we are a team," and hopes to teach students and leaders at Cal Poly the importance of that idea, and hopefully teach people around the world the importance of working together for a better tomorrow.</p>
+<p>"You know, when you get to see your home from far away, you know, that saying, absence makes the heart grow fonder. It's so true. And that distance also can make the heart grow fonder. And so seeing our planet from the space station helped me appreciate how connected this system was, how we, you know, Earth is one system that works together," Glover said.</p>
+<p>"It's truly a system. But then seeing it from the moon hanging there in the blackness of space with the Milky Way as the background just really hit home that we are on a spaceship and that we are in this really beautiful oasis on this crude ship that we call Earth, and that we're a crew, like the country, the planet, humanity."</p>
+<p>
+<i>USA TODAY video producer Kat Filardi contributed to this article.</i>
+</p>
+<p><i>Noe Padilla is a Northern California Reporter for USA Today. Contact him at  npadilla@usatodayco.com, follow him on X @1NoePadilla or on Bluesky @noepadilla.bsky.social</i>. </p>
+
+</body>
+</html>]]></description>
+      <source url="https://www.usatoday.com">USA Today</source>
+      <guid isPermaLink="false">CBMi3gFBVV95cUxNTnZoMmgwRml2WVA3NUV0Z2liM3RjQUpXZkEtbENUc2FsOHdMajgwUWdjTHJ1YUU5VndrU25Cb2dyVUE0dWxkLXNuV1VGS2VQLTRmdkFBbjNiNXFSUmpKdThvWE9QbVAwcHhVUlZqWTFORVFfRWdidnhIMHJWeVYyVVBvby1wcUtGa0gzZmZPQl8yR1NINHUyV1o4bllGMXFJdUtSeUxNOWNXNS1QbjE5SW42QmRKdkdFeXdZTi1neFdtTDhBLW9KbE5NNmxDVThWc0t3RVlPdkd0a0s5TUE</guid>
     </item>
     <item>
       <title>President Trump gives Artemis II moon astronauts the Congressional Space Medal of Honor - Space</title>
@@ -407,73 +445,33 @@
       <guid isPermaLink="false">CBMivgFBVV95cUxOS0dOVjRiLUFKcWdwX0dJdnRYZkVjZ2ZPWjNkaWdlNTVFb1dTeTltaExxZ05oVmhCSEx2MVpodWZtVUYxSEVsczB4d00zc2FITklXYmplb3g3Z2Q0TGt5d0V0OTVIZGNGVVkyNDM3SXBYd0t4cEZVODJSS25VY2ZQcUJTeDF6UXZaRWdmLU96Q0MtT2FSSGxPRks3XzBtMEdpMmN0UzN3emJacHZDcEstVTZLT3JTT1g3T0k1YTRn</guid>
     </item>
     <item>
-      <title>Artemis II astronauts receive nation’s highest space honor for their successful moonshot - AP News</title>
-      <pubDate>Fri, 28 Aug 2026 07:00:00 GMT</pubDate>
-      <link>https://apnews.com/article/artemis-ii-medal-of-honor-astronauts-moonshot-b20b75e7fc2586315812238e27c36e77</link>
-      <description><![CDATA[<img src="https://dims.apnews.com/dims4/default/40dc3b6/2147483647/strip/true/crop/7453x4966+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd4%2F00%2F530e06a3cf782aa48baf46af1c07%2F15c0fbd4aa7841038b988b561ddc99b4" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+      <title>Two Artemis II crew are hanging up their astronaut suits at NASA after historic mission - The Independent</title>
+      <pubDate>Wed, 09 Sep 2026 16:21:00 GMT</pubDate>
+      <link>https://www.independent.co.uk/space/artemis-2-crew-astronauts-reid-wiseman-victor-glover-b3047442.html</link>
+      <description><![CDATA[<img src="https://static.independent.co.uk/2026/09/09/16/07/GettyImages-2269801959.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
 <body>
-<h1>Artemis II astronauts receive nation’s highest space honor for their successful moonshot</h1>
-<h2>Artemis II astronauts receive nation’s highest space honor for their successful moonshot</h2>
-<p>The Artemis II astronauts who flew around the moon earlier this year received the nation’s highest space honor on Friday.</p>
-<p>President Donald Trump presented the Congressional Space Medal of Honor to the three Americans and one Canadian whose April lunar flyby set a new distance record for humanity.</p>
-<p>NASA Administrator Jared Isaacman and other dignitaries took part in the packed ceremony at Houston’s Johnson Space Center, home to Mission Control. Trump used the occasion to announce the creation of a U.S. Space Academy for the Space Force as well as NASA and the commercial space community.</p>
-<p>“Space is the hot thing,” the president told the crowd, adding that the academy’s location has yet to be determined.</p>
-<p>Commander Reid Wiseman, pilot Victor Glover, Christina Koch and Canada’s Jeremy Hansen became the first astronauts to travel to the moon in more than half a century, coming within 4,067 miles (6,545 kilometers) while test-driving NASA’s new Orion capsule. They were the first to launch aboard NASA’s new moon rocket, a 30-story behemoth that had soared only once before from Florida’s Kennedy Space Center.</p>
-<p>While they didn’t stop at the moon, the four set the stage for next year’s Artemis III docking rehearsal in orbit around Earth. Artemis IV’s moon landing by two astronauts, near the lunar south pole, could follow as soon as 2028.</p>
-<p>Trump said Americans will land back on the moon before his term ends. Mars is next — “very shortly,” he said.</p>
-<p>The president called the newest recipients “four intrepid space heroes.” He pointed out that they did not do it alone, thanking all who contributed to the Artemis II mission.</p>
-<p>“There are no finer humans we could have sent as our ambassadors to the stars,” Isaacman added.</p>
-<p>Wiseman and his crew are in good company, with only 30 astronauts receiving the prestigious honor before them. Many of the recipients were honored posthumously following their tragic spaceflight-related deaths.</p>
-<p>Apollo 11 commander Neil Armstrong — whose phrase “That’s one step for man, one giant leap for mankind” gripped the world on July 20, 1969 — was the first to receive the Congressional Space Medal of Honor.</p>
-<p>President Jimmy Carter awarded six of these medals in 1978, which also went to Alan Shepard, the first American in space; John Glenn, the first American in orbit; and Apollo 8 commander Frank Borman, whose 1968 mission marked humanity’s first lunar voyage.</p>
-<p>The most recent recipients were Doug Hurley and Bob Behnken, the first astronauts to launch aboard a SpaceX rocket. Coming nine years after the space shuttle program’s close, their 2020 test flight to the International Space Station restored America’s ability to launch crews from home soil. President Joe Biden awarded them the medals in 2023.</p>
-<p>Dozens of astronauts participated in the ceremony, including Apollo 17 moonwalker Harrison Schmitt, who is now 91, and the four men assigned to NASA’s upcoming Artemis III mission.</p>
-<p>Schmitt noted that his mission — Apollo’s last moonshot — was the most productive lunar exploration yet.</p>
-<p>“Soon to be surpassed by Artemis,” he said of active astronauts standing behind him.</p>
-<p>NASA plans a sustainable moon base staffed by astronauts and robots near the lunar south pole, where permanently shadowed craters are thought to hold tons of frozen water that could be turned into rocket fuel and drinking water. China is eyeing the same region.</p>
-<p>“The second space race has begun,” said NASA Deputy Administrator Matthew Anderson.</p>
-<p>As the two-hour ceremony came to a close, the Artemis II astronauts presented Trump with his own blue flight jacket complete with space patches, a promise they made while visiting him in the Oval Office following their mission.</p>
-<p>The president then hustled over to Mission Control to call the three U.S. astronauts aboard the International Space Station. He informed them of the new U.S. Space Academy, then briefly handed the phone to two of their spouses for a quick hello.</p>
-<p>___</p>
-<p>The Associated Press Health and Science Department receives support from the Howard Hughes Medical Institute’s Department of Science Education and the Robert Wood Johnson Foundation. The AP is solely responsible for all content.</p>
+<p>Two NASA astronauts who guided the Artemis II lunar mission earlier this year are retiring from active spaceflight.</p>
+<p>NASA announced Wednesday that commander Reid Wiseman and pilot Victor Glover will step down from active duty to become emeritus astronauts, supporting the lunar exploration program moving forward.</p>
+<p>Glover has taken a leadership role at his alma mater, California Polytechnic State University, while Wiseman’s future plans remain undisclosed. The pair flew around the moon in April alongside two crewmates, setting a new human distance record.</p>
+<p>Artemis II crewmate Jeremy Hansen retired from the Canadian Space Agency in July, leaving Christina Koch as the only active astronaut from the mission.</p>
+<graphic alt="Artemis II Pilot Victor Glover (left) and Commander Reid Wiseman, participate in a Congressional Space Medal of Honor ceremony at NASA's Johnson Space Center" src="https://static.independent.co.uk/2026/09/09/16/NASA_Artemis_Astronauts_59159.jpg"></graphic>
+<p>In their emeritus roles, Wiseman and Glover will voluntarily mentor NASA personnel and pass along knowledge for future lunar missions, a novel strategy for applying flight expertise.</p>
+<p>"Together, they took on one of the most challenging missions in human spaceflight and helped return America to the lunar environment," NASA Administrator Jared Isaacman said in a statement. "I’m grateful they will continue sharing what they learned."</p>
+<p>Cal Poly stated Glover will shape long-term strategy and inspire students in science and engineering. His role in San Luis Obispo began Sept. 1, coinciding with his Navy retirement.</p>
+<p>In an interview with <i>The Associated Press</i>, Glover emphasized, "this is not a leaving ... for me, this is opening the aperture, not closing it down."</p>
+<p>"I want to keep talking about how faith and science work together in my life," Glover remarked. "That’s not NASA’s mission, but I can still help NASA from the sidelines."</p>
+<graphic alt="With Artemis II crewmate Jeremy Hansen retiring from the Canadian Space Agency in July, Christina Koch is left as the only active astronaut from the mission" src="https://static.independent.co.uk/2026/09/09/16/42/GettyImages-1255959843.jpg"></graphic>
+<p>Rather than waiting to command a moon landing, Glover chose to leave spaceflight behind to focus on youth outreach and spend time with his wife and four daughters—three of whom attend Cal Poly, where his eldest graduated.</p>
+<p>Wiseman’s transition takes effect this month. Selected as an astronaut in 2009, the retired Navy captain spent over five months aboard the International Space Station in 2014 and later served as chief astronaut.</p>
+<p>After graduating Cal Poly in 1999, Glover served as a Navy test pilot before NASA selected him in 2013. He piloted SpaceX’s second operational crew flight, spending nearly six months on the space station in 2020 and 2021.</p>
+<p>Glover’s eloquent observations stood out during the lunar journey.</p>
+<p>Describing Earth as an oasis amidst "a whole bunch of nothing, this thing we call the universe," he reflected: "This is an opportunity for us to remember where we are, who we are, and that we are the same thing and that we’ve got to get through this together."</p>
+<p>Wiseman also shared a poignant moment when the crew asked to name a lunar crater after his late wife, Carroll, who died of cancer in 2020.</p>
+<p>Last month, President Donald Trump presented the Artemis II crew with the Congressional Space Medal of Honor at NASA’s Johnson Space Center in Houston.</p>
 </body>
 </html>]]></description>
-      <source url="https://apnews.com">AP News</source>
-      <guid isPermaLink="false">CBMiqAFBVV95cUxOZ0o0bk9XM3JNdkI2UWNuck5adzRlTEo4UkdUN2xNdkF3TkdfM2hJUzV5SGJmeDBjTWlwOXBjbU0zdjNTYm92c215U3A0RFM2M0pHaklPX0NvTW5sQ1FJajNwd1R4ZTdpSmVENEVZWjc4cnh0cFpVNGxrWUZDNWwwYjRHUDk4Umd5aFlRM1Bkc1ZvOU1kTlh2OVVIR3p6ZTBiSmhMOHFhSHo</guid>
-    </item>
-    <item>
-      <title>Artemis II moonshot commander and pilot hang up their astronaut suits at NASA - 23ABC News Bakersfield</title>
-      <pubDate>Thu, 10 Sep 2026 17:40:45 GMT</pubDate>
-      <link>https://www.turnto23.com/videos/video-kero/artemis-ii-moonshot-commander-and-pilot-hang-up-their-astronaut-suits-at-nasa</link>
-      <description><![CDATA[<img src="https://ewscripps.brightspotcdn.com/dims4/default/33d429a/2147483647/strip/true/crop/1280x672+0+24/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcf.cdn.uplynk.com%2Fause1%2Fslices%2Fd84%2Fe63aadb6928b4cd6ab0dec6fb3cddabd%2Fd84d89acb58b4512b1feeea280447e95%2Fposter_435a3cf9a53b4ecbbdef8824f88f3a93.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body><h1>Artemis II moonshot commander and pilot hang up their astronaut suits at NASA</h1><p>Live Stream Schedule</p>
-</body>
-</html>]]></description>
-      <source url="https://www.turnto23.com">23ABC News Bakersfield</source>
-      <guid isPermaLink="false">CBMivAFBVV95cUxQcGc3V0NxMkYzdTQ2bUtRTGdRZXREQ2t2ZnlzbGlFRFZLeVFiSm5Kc1hkV0QzWlRrekJpMmVtdzF1WklqZlNEVXpDQWNBUHhUNGNwZWFkN0pSMUx0cXpzdHZTRHYzWnQ2MzREN2VpbjFCak5jZzZoLUlmVEFjdnNBdDk1NVdxZ0RHNlZrdTdibmVuQjdCOTdDUk45N2xIakJxS0NxS2hJNUYzTjRlSmpSV1dJdUdfemFoMGZZSQ</guid>
-    </item>
-    <item>
-      <title>Artemis II crew to receive top US space medal for historic lunar journey - The Guardian</title>
-      <pubDate>Mon, 24 Aug 2026 07:00:00 GMT</pubDate>
-      <link>https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal</link>
-      <description><![CDATA[<img src="https://i.guim.co.uk/img/media/204f54fe96b9a20b5ff2ec283d776a874493da9e/490_0_4892_3915/master/4892.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=36d1b73c621e19c6e91146abcaada9bc" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>The crew of the historic Artemis II lunar flyby mission have earned the US’s top space medal, officials have announced.</p>
-<p>Cmdr Reid Wiseman, pilot Victor Glover, and mission specialists Christina Koch and Jeremy Hansen are set to receive the Congressional Space Medal of Honor on 28 August, the US space agency Nasa said.</p>
-<p>Nasa’s website indicates that only 30 astronauts have gained the honor – among them Neil Armstrong, the first person to walk on the moon, and John Glenn, who was first to orbit Earth and then served four terms in the US Senate.</p>
-<p>Wiseman, Glover, Koch and Hansen were selected for the medal, despite its name, by Donald Trump after the Nasa administrator, Jared Isaacman, recommended them to the president.</p>
-<p>The Artemis II crew broke Apollo 13’s record for farthest distance traveled from Earth during their 10-day mission, which began on 1 April. They reached 252,756 miles (406,771km) as they swung above the lunar surface, surpassing the 1970 record of 248,655 miles as part of US plans to again land on the moon – then eventually reach Mars.</p>
-<p>Furthermore, Hansen – who is from Canada – became the first non-US citizen to fly to the moon.</p>
-<p>“This was not easy,” Wiseman said to reporters after the Artemis II mission safely ended with a textbook splashdown in the Pacific Ocean. “Before you launch, it feels like it’s the greatest dream on Earth. And when you’re out there, you just want to get back to your families and your friends. It’s a special thing to be a human, and it’s a special thing to be on planet Earth.”</p>
-<p>The medal ceremony scheduled for Wiseman and his colleagues at the Johnson Space Center in Houston comes four months after Trump hosted the Artemis II crew at the White House. The occasion was marked in part by the president, who turned 80 in June, telling the astronauts: “I would have had no trouble making it – I’m physically very, very good.”</p>
-<p>Nasa listed an 11am start time for the ceremony, with a video live stream of the event available at www.nasa.gov/live.</p>
-<p>Trump has sought to embrace the Artemis II crew’s achievements despite his administration’s proposal to cut Nasa’s budget by 23%, including a 46% reduction for space science initiatives, for the 2027 fiscal year beginning on 1 October. A House commerce, justice and science subcommittee led by Trump’s Republican party responded by advancing its own Nasa budget proposal that would maintain the science projects the president has been aiming to eliminate.</p>
-<p>Beside Armstrong and Glenn, previous Congressional Space Medal of Honor recipients include astronauts who were killed in the Apollo I fire as well as the explosions of the Challenger and Columbia space shuttles.</p>
-<p>Douglas Hurley and Robert Behnken were the last astronauts to have been chosen for the medal before the Artemis II crew. Hurley and Behnken in 2020 became the first to launch into orbit on a commercial spacecraft, and they accepted the medal in 2023 during Joe Biden’s presidency.</p>
-</body>
-</html>]]></description>
-      <source url="https://www.theguardian.com">The Guardian</source>
-      <guid isPermaLink="false">CBMiigFBVV95cUxPc2tiUml1MTBWYmhRTFRsd3hKdktWcGJuQUJjZmtKRExMVHVUa3MxaHBlcDFvN0o5ZzVpSm9jbjNleVRsMGJxUkxyX2ZGRmczbnBidjhBZno3Mlh4MnBxd3JaampGaTRUSm05YXRianVvSFlNVktra3JvS2xkUWxjazE1Um5Bck5BZlE</guid>
+      <source url="https://www.independent.co.uk">The Independent</source>
+      <guid isPermaLink="false">CBMipAFBVV95cUxOSTJsUFczRkw4RkwxbGktUGJydGF6dzFVSnRFVlFDcGlmUDJSS2Y3QjhOTWY4SjJ6MUpYdFRtNzgzWmJNZDVGV0g4T2JqSHZfczgza19Zd2c5WnNRN2dFbWhTWm1vWjRDMUllR0RKQnd5cGZkUVUzNjI2ZkZnNllKaW8tZHdWQjRsSXR0TkxMN2pxLXYwaGx4ZUtRcWNnRkVsZTdkdA</guid>
     </item>
     <item>
       <title>Artemis II astronauts visit ESA - European Space Agency</title>
@@ -573,6 +571,29 @@
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMioAFBVV95cUxOV2RGSWhYOFhoamwzb3VsTTJnZlgtMWhvQlhpalVXZHlhNmh6Vk10aEVZZXpuTDRaSi1EbExLc2tNdW9YREs3MlFXd0oxSExpMjhwZjloTE1JaWYwV2oxX1ZPVm9Hdlc2elVXNnp2ajA1NklGY0IwT2ItLXl4d2szRU5QZ2ZjaXZiUlcwTVJqWlVXZnhBODhOV1IwLWItWnk1</guid>
+    </item>
+    <item>
+      <title>Artemis II crew to receive top US space medal for historic lunar journey - The Guardian</title>
+      <pubDate>Sun, 23 Aug 2026 07:00:00 GMT</pubDate>
+      <link>https://www.theguardian.com/science/2026/aug/23/artemis-ii-crew-top-us-space-medal</link>
+      <description><![CDATA[<img src="https://i.guim.co.uk/img/media/204f54fe96b9a20b5ff2ec283d776a874493da9e/490_0_4892_3915/master/4892.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=36d1b73c621e19c6e91146abcaada9bc" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
+<body>
+<p>The crew of the historic Artemis II lunar flyby mission have earned the US’s top space medal, officials have announced.</p>
+<p>Cmdr Reid Wiseman, pilot Victor Glover, and mission specialists Christina Koch and Jeremy Hansen are set to receive the Congressional Space Medal of Honor on 28 August, the US space agency Nasa said.</p>
+<p>Nasa’s website indicates that only 30 astronauts have gained the honor – among them Neil Armstrong, the first person to walk on the moon, and John Glenn, who was first to orbit Earth and then served four terms in the US Senate.</p>
+<p>Wiseman, Glover, Koch and Hansen were selected for the medal, despite its name, by Donald Trump after the Nasa administrator, Jared Isaacman, recommended them to the president.</p>
+<p>The Artemis II crew broke Apollo 13’s record for farthest distance traveled from Earth during their 10-day mission, which began on 1 April. They reached 252,756 miles (406,771km) as they swung above the lunar surface, surpassing the 1970 record of 248,655 miles as part of US plans to again land on the moon – then eventually reach Mars.</p>
+<p>Furthermore, Hansen – who is from Canada – became the first non-US citizen to fly to the moon.</p>
+<p>“This was not easy,” Wiseman said to reporters after the Artemis II mission safely ended with a textbook splashdown in the Pacific Ocean. “Before you launch, it feels like it’s the greatest dream on Earth. And when you’re out there, you just want to get back to your families and your friends. It’s a special thing to be a human, and it’s a special thing to be on planet Earth.”</p>
+<p>The medal ceremony scheduled for Wiseman and his colleagues at the Johnson Space Center in Houston comes four months after Trump hosted the Artemis II crew at the White House. The occasion was marked in part by the president, who turned 80 in June, telling the astronauts: “I would have had no trouble making it – I’m physically very, very good.”</p>
+<p>Nasa listed an 11am start time for the ceremony, with a video live stream of the event available at www.nasa.gov/live.</p>
+<p>Trump has sought to embrace the Artemis II crew’s achievements despite his administration’s proposal to cut Nasa’s budget by 23%, including a 46% reduction for space science initiatives, for the 2027 fiscal year beginning on 1 October. A House commerce, justice and science subcommittee led by Trump’s Republican party responded by advancing its own Nasa budget proposal that would maintain the science projects the president has been aiming to eliminate.</p>
+<p>Beside Armstrong and Glenn, previous Congressional Space Medal of Honor recipients include astronauts who were killed in the Apollo I fire as well as the explosions of the Challenger and Columbia space shuttles.</p>
+<p>Douglas Hurley and Robert Behnken were the last astronauts to have been chosen for the medal before the Artemis II crew. Hurley and Behnken in 2020 became the first to launch into orbit on a commercial spacecraft, and they accepted the medal in 2023 during Joe Biden’s presidency.</p>
+</body>
+</html>]]></description>
+      <source url="https://www.theguardian.com">The Guardian</source>
+      <guid isPermaLink="false">CBMiigFBVV95cUxPc2tiUml1MTBWYmhRTFRsd3hKdktWcGJuQUJjZmtKRExMVHVUa3MxaHBlcDFvN0o5ZzVpSm9jbjNleVRsMGJxUkxyX2ZGRmczbnBidjhBZno3Mlh4MnBxd3JaampGaTRUSm05YXRianVvSFlNVktra3JvS2xkUWxjazE1Um5Bck5BZlE</guid>
     </item>
     <item>
       <title>Here’s what’s next for the Artemis II astronauts - Nature</title>
@@ -1271,33 +1292,6 @@ connection, disable any ad blockers, or try using a different browser.</p>
 </html>]]></description>
       <source url="https://www.nasa.gov">NASA (.gov)</source>
       <guid isPermaLink="false">CBMiigFBVV95cUxOLWdEcHpac3VUbHJ0WTlIN1VkS2hhY2VLWnBDSjN0RW1mWFJZakdFT1NlV0xzbWVCY3RZVkt0Mk1GTmFfZnNJeDlHdks3Q1NzM2hRV1dLOHBHN1VZVVdOc1lhbGZla3luVDFsb3pwSVZ6bU1oUDZ1cnNPN3VvUUxieHBZVUdPMHJSeVE</guid>
-    </item>
-    <item>
-      <title>Liftoff! NASA Launches Astronauts on Historic Artemis Moon Mission - NASA (.gov)</title>
-      <pubDate>Wed, 01 Apr 2026 07:00:00 GMT</pubDate>
-      <link>https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/</link>
-      <description><![CDATA[<img src="https://www.nasa.gov/wp-content/uploads/2026/04/launch.jpg" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em;" /><html>
-<body>
-<p>Spurred by American ingenuity, astronauts on NASA’s Artemis II mission are in flight, preparing for the first crewed lunar flyby in more than 50 years.</p>
-<p>NASA’s SLS (Space Launch System) rocket lifted off from Launch Pad 39B at the agency’s Kennedy Space Center in Florida at 6:35 p.m. EDT Wednesday, sending four astronauts aboard the Orion spacecraft on a planned test flight around the Moon and back.</p>
-<p>“Today’s launch marks a defining moment for our nation and for all who believe in exploration. Artemis II builds on the vision set by President Donald J. Trump, returning humanity to the Moon for the first time in more than 50 years and opening the next chapter of lunar exploration beyond Apollo. Aboard Orion are four remarkable explorers preparing for the first crewed flight of this rocket and spacecraft, a true test mission that will carry them farther and faster than any humans in a generation,” said NASA Administrator Jared Isaacman. “Artemis II is the start of something bigger than any one mission. It marks our return to the Moon, not just to visit, but to eventually stay on our Moon Base, and lays the foundation for the next giant leaps ahead.”</p>
-<p>The successful launch is the beginning of an approximately 10-day mission for NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen. As the first crewed mission of NASA’s Artemis program, among its objectives, the flight will demonstrate life support systems for the first time with crew and lay the foundation for an enduring presence on the Moon ahead of future missions to Mars.</p>
-<p>After reaching space, Orion deployed its solar array wings, enabling the spacecraft to receive energy from the Sun, while the crew and engineers on the ground immediately began transitioning the spacecraft from launch to flight operations to start checking out key systems.</p>
-<p>“Artemis II is a test flight, and the test has just begun. The team that built this vehicle, repaired it, and prepared it for flight has given our crew the machine they need to go prove what it can do,” said NASA Associate Administrator Amit Kshatriya. “Over the next 10 days, Reid, Victor, Christina, and Jeremy will put Orion through its paces so the crews who follow them can go to the Moon’s surface with confidence. We are one mission into a long campaign, and the work ahead of us is greater than the work behind us.”</p>
-<p>About 49 minutes into the test flight, the SLS rocket’s upper stage fired to put Orion into an elliptical orbit around Earth. A second planned burn by the stage will propel Orion, which the crew named “Integrity,” into a high Earth orbit extending about 46,000 miles beyond Earth. After the burn, Orion will separate from the stage, flying free on its own.</p>
-<p>In several hours, a ring on the rocket’s upper stage, which will be a safe distance away from the spacecraft, will deploy four CubeSats – small satellites from Argentina’s Comisión Nacional de Actividades Espaciales, German Aerospace Center, Korea AeroSpace Administration, and Saudi Space Agency – to perform scientific investigations and technology demonstrations.</p>
-<p>The spacecraft will remain in high Earth orbit for about a day, where the crew will conduct a manual pilot demonstration to test Orion’s handling capabilities. The astronauts, with Mission Control Center teams at NASA’s Johnson Space Center in Houston, will continue checking spacecraft systems.</p>
-<p>If all systems remain healthy, mission controllers will give Orion’s European-built service module a command to conduct the translunar injection burn on Thursday, April 2. This move is an approximately six-minute firing to send the spacecraft on a trajectory that will simultaneously carry crew around the Moon, while also harnessing lunar gravity to slingshot them back to Earth.</p>
-<p>During a planned multi-hour lunar flyby on Monday, April 6, the astronauts will take photographs and provide observations of the Moon’s surface as the first people to lay eyes on some areas of the far side. Although the lunar far side will only be partially illuminated during the flyby, the conditions should create shadows that stretch across the surface, enhancing relief and revealing depth, ridges, slopes and crater rims that are often difficult to detect under full illumination. Crew observations and other human health scientific investigations during the mission, such as AVATAR, will inform science during future Moon missions.</p>
-<p>Following a successful lunar flyby, the astronauts will return to Earth and splash down in the Pacific Ocean.</p>
-<p>As part of Golden Age of innovation and exploration, NASA will send Artemis astronauts on increasingly difficult missions to explore more of the Moon for scientific discovery, economic benefits, and to build on our foundation for the first crewed missions to Mars.</p>
-<p>Follow the latest mission progress, including more images from the test flight, visit:</p>
-<p>-end-</p>
-<p>Bethany Stevens / Rachel KraftHeadquarters, Washington202-358-1100bethany.c.stevens@nasa.gov / rachel.h.kraft@nasa.gov  </p>
-</body>
-</html>]]></description>
-      <source url="https://www.nasa.gov">NASA (.gov)</source>
-      <guid isPermaLink="false">CBMiogFBVV95cUxPYnVTME9aUzFweUZFcE1lN0h1cTJJMlkzWXUyLTZiOG1vVjhQMXVCZU40NEpVckptTkpnbGtDRzljV05VVEdrY0E1dkNKN3RWSm9KOUt6TXhBUHRzUU03aUh2cDVOWG9SdDZsM2FFRkhFUWpZYWZtQzJpNllWVXBUZEt0elItQ1VBX3I1Z01mNkNwNVVkQkkzQnQ3VkQ1ck0yZXc</guid>
     </item>
   </channel>
 </rss>
